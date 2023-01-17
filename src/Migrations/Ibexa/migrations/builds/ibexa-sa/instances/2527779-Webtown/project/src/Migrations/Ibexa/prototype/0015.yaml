@@ -1,0 +1,52 @@
+-
+    type: content_type
+    mode: update
+    match:
+        field: content_type_identifier
+        value: folder
+    metadata:
+        contentTypeGroups: null
+        mainTranslation: null
+        remoteId: null
+        urlAliasSchema: null
+        nameSchema: null
+        container: null
+        translations: {  }
+    fields:
+        -
+            identifier: image
+            type: ezimageasset
+            position: 5
+            translations:
+                eng-GB:
+                    name: Image
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: null
+            validatorConfiguration: null
+            thumbnail: true
+        -
+            identifier: tags
+            type: ibexa_taxonomy_entry_assignment
+            position: 10
+            translations:
+                eng-GB:
+                    name: Tags
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                taxonomy_entries: { }
+                taxonomy: null
+            fieldSettings:
+                taxonomy: tags
+            validatorConfiguration: { }
+    actions: {  }

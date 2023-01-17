@@ -1,0 +1,100 @@
+
+-
+    name: ref_user_group__members
+    value: 11
+
+-
+    name: ref_user_group__anonymous_users
+    value: 42
+
+-
+    name: ref_user_group__shop_users
+    value: 56
+
+-
+    name: ref_user_group__private_customer
+    value: 57
+
+-
+    name: ref_user_group__business_customer
+    value: 58
+
+-
+    name: components_location_id
+    value: 60
+
+-
+    name: textmodule_location_id
+    value: 62
+
+-
+    name: basket_location_id
+    value: 63
+
+-
+    name: checkout_location_id
+    value: 64
+
+-
+    name: contact_location_id
+    value: 65
+
+-
+    name: customercenter_location_id
+    value: 66
+
+-
+    name: email_location_id
+    value: 67
+
+-
+    name: footer_location_id
+    value: 68
+
+-
+    name: forms_location_id
+    value: 69
+
+-
+    name: misc_location_id
+    value: 70
+
+-
+    name: orderhistory_location_id
+    value: 71
+
+-
+    name: user_location_id
+    value: 72
+
+-
+    name: product_catalog_location_id
+    value: 126
+
+-
+    name: taxonomy_folder_location_id
+    value: 127
+
+-
+    name: taxonomy_tag_folder_location_id
+    value: 128
+
+-
+    name: ref__product_catalog_root
+    value: 130
+
+-
+    name: ref__corporate_account__sales_reps_user_group__location_id
+    value: 134
+
+-
+    name: ref__corporate_account__content_id
+    value: 134
+
+-
+    name: ref__role__company_admin__role_id
+    value: 18
+
+-
+    name: ref__role__company_buyer__role_id
+    value: 19

@@ -1,0 +1,168 @@
+-
+    type: product_price
+    mode: create
+    product_code: VIT13649130
+    amount: 82.94
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: BGS11000
+    amount: 47.28
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: BGS120001
+    amount: 103.68
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: SER927429
+    amount: 68.84
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: BGS12000
+    amount: 75.48
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: VIT9740024
+    amount: 9.95
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: PAIN2394729
+    amount: 995.32
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: VIT1273698
+    amount: 72.16
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: CRM2974299
+    amount: 269.56
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: SOAP287859
+    amount: 177.40
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: BGS14500
+    amount: 55.57
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: MASK238462
+    amount: 82.86
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: BGS139799
+    amount: 12.77
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: MASK288367
+    amount: 46.70
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: PAIN654226
+    amount: 18.41
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: PAIN234767882
+    amount: 14.93
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: PAIN23334
+    amount: 473.60
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: PAIN238746
+    amount: 52.25
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: CRM437615348
+    amount: 63.03
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: BGS10000
+    amount: 10.41
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: VIT9298422
+    amount: 72.66
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: VIT1987612
+    amount: 78.79
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: SER23984729
+    amount: 7.55
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: BGS13000
+    amount: 43.25
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: BGS12004
+    amount: 58.05
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: SOAP1938793
+    amount: 266.25
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: SOAP81739
+    amount: 641.98
+    currency_code: GBP
+-
+    type: product_price
+    mode: create
+    product_code: CRM2837648
+    amount: 11.61
+    currency_code: GBP

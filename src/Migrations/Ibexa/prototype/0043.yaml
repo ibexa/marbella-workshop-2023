@@ -1,0 +1,16 @@
+-
+    type: role
+    mode: create
+    metadata:
+        identifier: 'Editor (Experience)'
+    policies:
+        -
+            module: content
+            function: read
+            limitations:
+                -
+                    identifier: Section
+                    values: [experience]
+    actions:
+        - action: assign_role_to_user_group
+          remote_id: 3c160cca19fb135f83bd02d911f04db2

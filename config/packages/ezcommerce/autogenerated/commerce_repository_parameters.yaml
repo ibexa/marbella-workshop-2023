@@ -1,0 +1,6 @@
+parameters:
+    ibexa.commerce.site_access.config.core.default.product_catalog_content_type_id: 47
+    ibexa.commerce.site_access.config.core.default.user_group_location: 57
+    ibexa.commerce.site_access.config.core.default.user_group_location.business: 59
+    ibexa.commerce.site_access.config.core.default.user_group_location.private: 58
+    ibexa.commerce.site_access.config.tools.default.translationFolderId: 62

@@ -1,0 +1,42 @@
+-
+    type: role
+    mode: update
+    match:
+        field: identifier
+        value: Anonymous
+    metadata:
+        identifier: Anonymous
+    policies:
+        mode: replace
+        list:
+            -
+                module: content
+                function: read
+                limitations:
+                    - { identifier: Section, values: [standard, media, form] }
+            -
+                module: user
+                function: login
+                limitations:
+                    - { identifier: SiteAccess, values: [site] }
+            -
+                module: content
+                function: view_embed
+                limitations:
+                    - { identifier: Class, values: [file, image] }
+            -
+                module: content
+                function: read
+                limitations:
+                    - { identifier: Section, values: [taxonomy] }
+            -
+                module: taxonomy
+                function: read
+                limitations:
+                    - { identifier: Taxonomy, values: [tags] }
+            -
+                module: product
+                function: view
+            -
+                module: product_type
+                function: view

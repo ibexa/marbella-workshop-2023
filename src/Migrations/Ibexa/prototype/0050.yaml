@@ -1,0 +1,36 @@
+-
+    type: segment_group
+    mode: create
+    name: 'Customers'
+    identifier: customers
+    references:
+        -
+            name: ref__segment_group_customers
+            type: segment_group_id
+
+-
+    type: segment
+    mode: create
+    name: 'B2B'
+    identifier: b2b
+    group:
+        id: reference:ref__segment_group_customers
+    references: { }
+
+-
+    type: segment
+    mode: create
+    name: 'B2C'
+    identifier: b2c
+    group:
+        id: reference:ref__segment_group_customers
+    references: { }
+
+-
+    type: segment
+    mode: create
+    name: 'VIP'
+    identifier: vip
+    group:
+        id: reference:ref__segment_group_customers
+    references: { }

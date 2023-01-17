@@ -1,0 +1,57 @@
+ibexa:
+    system:
+        default:
+            universal_discovery_widget_module:
+                configuration:
+                    hero_image:
+                        allowed_content_types: ['image']
+                        selected_items_limit: 1
+                        multiple: false
+                        active_tab: 'browse'
+                        visible_tabs: ['browse', 'create']
+                        starting_location_id: 51
+                        content_on_the_fly:
+                            allowed_content_types: ['image']
+                    hero_location:
+                        selected_items_limit: 1
+                        multiple: false
+                        active_tab: 'browse'
+                    teaser_location:
+                        selected_items_limit: 1
+                        multiple: false
+                        active_tab: 'browse'
+                    teaser_2_image:
+                        allowed_content_types: ['image']
+                        selected_items_limit: 1
+                        multiple: false
+                        active_tab: 'browse'
+                        visible_tabs: ['browse', 'create']
+                        starting_location_id: 51
+                        content_on_the_fly:
+                            allowed_content_types: ['image']
+                    teaser_2_location:
+                        selected_items_limit: 1
+                        multiple: false
+                        active_tab: 'browse'
+                    video_2_thumbnail:
+                        allowed_content_types: ['image']
+                        selected_items_limit: 1
+                        multiple: false
+                        active_tab: 'browse'
+                        visible_tabs: ['browse', 'create']
+                        starting_location_id: 51
+                        content_on_the_fly:
+                            allowed_content_types: ['image']
+                    tabcordion:
+                        allowed_content_types: ['article']
+                        multiple: true
+                        active_tab: 'browse'
+                        starting_location_id: 2
+                    carousel:
+                        allowed_content_types: ['article','image']
+                        multiple: true
+                        active_tab: 'browse'
+                        visible_tabs: ['browse', 'create']
+                        starting_location_id: 2
+                        content_on_the_fly:
+                            allowed_content_types: ['image']

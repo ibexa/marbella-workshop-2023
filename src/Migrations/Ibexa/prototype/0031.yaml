@@ -1,0 +1,85 @@
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: inspiration_category
+        contentTypeGroups:
+            - Experience
+        mainTranslation: eng-GB
+        nameSchema: '<name>'
+        urlAliasSchema: ''
+        container: true
+        remoteId: null
+        translations:
+            eng-GB:
+                name: 'Inspiration category'
+                description: ''
+    fields:
+        -
+            identifier: name
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: Name
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: teaser_text
+            type: eztext
+            position: 2
+            translations:
+                eng-GB:
+                    name: 'Teaser Text'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings:
+                textRows: 10
+            validatorConfiguration: {  }
+        -
+            identifier: teaser_image
+            type: ezimage
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Teaser Image'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: null
+            validatorConfiguration: null
+        -
+            identifier: category_icon
+            type: ezimageasset
+            position: 4
+            translations:
+                eng-GB:
+                    name: 'Category Icon'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }

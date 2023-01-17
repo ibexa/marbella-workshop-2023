@@ -1,0 +1,9 @@
+-
+    type: currency
+    mode: update
+    criteria:
+        type: field_value
+        field: code
+        value: EUR
+        operator: '='
+    enabled: true

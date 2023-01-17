@@ -1,0 +1,21 @@
+-
+    type: user
+    mode: create
+    metadata:
+        login: stefan
+        email: stefan.meier@example.com
+        password: publish
+        enabled: true
+        mainLanguage: eng-GB
+        contentType: user
+    groups:
+        - userGroupEditorsGerman
+    fields:
+        -
+            fieldDefIdentifier: first_name
+            fieldTypeIdentifier: ezstring
+            value: Stefan
+        -
+            fieldDefIdentifier: last_name
+            fieldTypeIdentifier: ezstring
+            value: Meier

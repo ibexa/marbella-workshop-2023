@@ -1,0 +1,43 @@
+-
+    type: content_type
+    mode: update
+    match:
+        field: content_type_identifier
+        value: user
+    metadata:
+        contentTypeGroups: null
+        mainTranslation: null
+        remoteId: null
+        urlAliasSchema: null
+        nameSchema: null
+        container: null
+        translations: {  }
+    fields:
+        -
+            identifier: user_account
+            type: ezuser
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'User Account'
+                    description: ''
+            required: true
+            searchable: null
+            infoCollector: null
+            translatable: false
+            category: null
+            defaultValue: null
+            fieldSettings:
+                PasswordTTL: null
+                PasswordTTLWarning: null
+                RequireUniqueEmail: true
+                UsernamePattern: '^[^@]+$'
+            validatorConfiguration:
+                PasswordValueValidator:
+                    requireAtLeastOneUpperCaseCharacter: null
+                    requireAtLeastOneLowerCaseCharacter: null
+                    requireAtLeastOneNumericCharacter: null
+                    requireAtLeastOneNonAlphanumericCharacter: null
+                    requireNewPassword: null
+                    minLength: 7
+    actions: {  }

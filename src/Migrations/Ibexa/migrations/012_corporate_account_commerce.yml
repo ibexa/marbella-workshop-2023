@@ -1,0 +1,33 @@
+-   type: reference
+    mode: load
+    filename: references/corporate_account_references.yml
+
+-   type: role
+    mode: update
+    match:
+        field: identifier
+        value: 'Ecommerce anonymous'
+    actions:
+        -   action: assign_role_to_user_group
+            value:
+                id: 'reference:ref__corporate_account__content_id'
+
+-   type: role
+    mode: update
+    match:
+        field: identifier
+        value: 'Ecommerce checkout'
+    actions:
+        -   action: assign_role_to_user_group
+            value:
+                id: 'reference:ref__corporate_account__content_id'
+
+-   type: role
+    mode: update
+    match:
+        field: identifier
+        value: 'Ecommerce registered users'
+    actions:
+        -   action: assign_role_to_user_group
+            value:
+                id: 'reference:ref__corporate_account__content_id'

@@ -1,0 +1,100 @@
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: project_information
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: null
+        section: 1
+    location:
+        locationRemoteId: d41d8cd98f00b204e9800998ecf8427e
+        hidden: null
+        sortField: null
+        sortOrder: null
+        priority: null
+        parentLocationId: 2
+    fields:
+        -
+            fieldDefIdentifier: company
+            language: null
+            value: 'Ibexa Nordics AS'
+        -
+            fieldDefIdentifier: info
+            language: null
+            value: 'Ibexa has offices around the world. Contact the Ibexa team near you or fill in the form and we will be in touch right away.'
+        -
+            fieldDefIdentifier: description
+            language: null
+            value: 'Discover the Ibexa Digital Experience Platform (DXP), designed to help B2B companies succeed in their transformation by building memorable experiences. Faster.'
+        -
+            fieldDefIdentifier: address
+            language: null
+            value: 'Solligata 2, 0254 Oslo, Norway'
+        -
+            fieldDefIdentifier: email
+            language: null
+            value: 'info@ibexa.co'
+        -
+            fieldDefIdentifier: phone
+            language: null
+            value: '+47 35 58 70 20'
+        -
+            fieldDefIdentifier: favicon
+            language: null
+            value: 'https://www.ibexa.co/favicon-32x32.png'
+        -
+            fieldDefIdentifier: copyright
+            language: null
+            value:  '© 2021 Ibexa Nordics AS. All rights reserved.'
+        -
+            fieldDefIdentifier: privacy
+            language: null
+            value: '/privacy-policy'
+        -
+            fieldDefIdentifier: terms
+            language: null
+            value: '/terms-and-conditions'
+        -
+            fieldDefIdentifier: contact
+            language: null
+            value: '/contact-us'
+        -
+            fieldDefIdentifier: privacy
+            language: null
+            value: '/privacy-policy'
+        -
+            fieldDefIdentifier: top_action
+            language: null
+            value: '/callback'
+        -
+            fieldDefIdentifier: widget_action
+            language: null
+            value: '/contact-us'
+        -
+            fieldDefIdentifier: facebook
+            language: null
+            value: 'https://facebook.com/ibexa.co'
+        -
+            fieldDefIdentifier: youtube
+            language: null
+            value: 'https://youtube.com/c/ibexa'
+        -
+            fieldDefIdentifier: instagram
+            language: null
+            value: 'https://www.linkedin.com/company/ibexa/'
+        -
+            fieldDefIdentifier: twitter
+            language: null
+            value: 'https://twitter.com/Ibexa_co'
+        -
+            fieldDefIdentifier: linkedin
+            language: null
+            value: 'https://www.linkedin.com/company/ibexa/'
+        -
+            fieldDefIdentifier: xing
+            language: null
+            value: 'https://www.xing.com/pages/ibexa'

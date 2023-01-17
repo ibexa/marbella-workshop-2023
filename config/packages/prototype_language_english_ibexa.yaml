@@ -1,0 +1,27 @@
+ibexa:
+    siteaccess:
+        list:
+            - en
+            - admin_en
+        groups:
+            site_group:
+                - en
+            admin_group:
+                - admin_en
+
+    system:
+        site_group:
+            translation_siteaccesses:
+                - en
+
+        en:
+            languages: [eng-GB]
+
+        admin_en:
+            languages: [eng-GB]
+            user_preferences:
+                additional_translations: [ 'en_GB' ]
+        admin_group:
+            page_builder:
+                siteaccess_list:
+                    - en

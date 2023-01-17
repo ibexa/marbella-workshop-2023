@@ -1,0 +1,43 @@
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: landing_page
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: null
+        publicationDate: null
+        remoteId: siteFactorySiteSkeletonDark
+        alwaysAvailable: null
+        section: null
+    location:
+        locationRemoteId: siteFactorySiteSkeletonDark
+        hidden: null
+        sortField: null
+        sortOrder: null
+        priority: null
+        parentLocationRemoteId: 9658f6deaeef9fc27300df5d5f566b37
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: null
+            value: Dark
+        -
+            fieldDefIdentifier: description
+            languageCode: null
+            value: Dark
+        -
+            fieldDefIdentifier: page
+            languageCode: null
+            value: |-
+                {
+                    "layout":"default",
+                    "zones":[
+                        {
+                            "id":"b-294fbffd-744a-6ac6-3f29-5ba47db36471",
+                            "name":"default",
+                            "blocks":[
+                            ]
+                        }
+                    ]
+                }

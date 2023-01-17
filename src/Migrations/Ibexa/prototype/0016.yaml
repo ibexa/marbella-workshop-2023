@@ -1,0 +1,70 @@
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: header_link
+        contentTypeGroups:
+            - Prototype
+        mainTranslation: eng-GB
+        nameSchema: '<title>'
+        urlAliasSchema: ''
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: 'Header link'
+                description: ''
+    fields:
+        -
+            identifier: title
+            type: ezstring
+            position: 10
+            translations:
+                eng-GB:
+                    name: Title
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: url
+            type: ezurl
+            position: 20
+            translations:
+                eng-GB:
+                    name: URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: null
+        -
+            identifier: Relation
+            type: ezobjectrelationlist
+            position: 30
+            translations:
+                eng-GB:
+                    name: Relation
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                RelationListValueValidator:
+                    selectionLimit: 1

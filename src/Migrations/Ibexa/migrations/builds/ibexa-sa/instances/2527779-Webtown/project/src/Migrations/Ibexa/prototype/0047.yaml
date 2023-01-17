@@ -1,0 +1,69 @@
+-
+    type: role
+    mode: create
+    metadata:
+        identifier: 'Editor (German)'
+    policies:
+        -
+            module: user
+            function: login
+            limitations:
+                -
+                    identifier: SiteAccess
+                    values: [de, admin_de]
+        -
+            module: content
+            function: versionread
+            limitations:
+                -
+                    identifier: Section
+                    values: [Standard, Media, Form]
+        -
+            module: content
+            function: read
+            limitations:
+                -   identifier: Section
+                    values: [ Standard, Media, Form ]
+        -
+            module: content
+            function: view_embed
+            limitations:
+                -
+                    identifier: Class
+                    values: [image, file, video, pdf]
+        -
+            module: content
+            function: create
+            limitations:
+                -
+                    identifier: Language
+                    values: [ger-DE]
+        -
+            module: content
+            function: translations
+        -
+            module: content
+            function: edit
+            limitations:
+                -
+                    identifier: Language
+                    values: [ger-DE]
+        -
+            module: content
+            function: remove
+            limitations:
+                -
+                    identifier: Language
+                    values: [ger-DE]
+        -
+            module: content
+            function: publish
+            limitations:
+                -
+                    identifier: Language
+                    values: [ger-DE]
+    actions:
+        -
+            action: assign_role_to_user_group
+            value:
+                remote_id: userGroupEditorsGerman

@@ -1,0 +1,43 @@
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: landing_page
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: null
+        publicationDate: null
+        remoteId: experienceHome
+        alwaysAvailable: true
+        section: 1 #change to identifier after branch was merged: https://github.com/ibexa/migrations/tree/section_id_resolver
+    location:
+        hidden: false
+        sortField: !php/const eZ\Publish\API\Repository\Values\Content\Location::SORT_FIELD_PATH
+        sortOrder: ASC
+        priority: 0
+        locationRemoteId: ~
+        parentLocationId: 2
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ibexa Experience'
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value: 'Ibexa Experience'
+        -
+            fieldDefIdentifier: page
+            languageCode: eng-GB
+            value: |-
+                {
+                    "layout":"default",
+                    "zones":[
+                        {
+                            "id":"b-294fbffd-744a-6ac6-3f29-5ba47db36474",
+                            "name":"default",
+                            "blocks":[
+                            ]
+                        }
+                    ]
+                }

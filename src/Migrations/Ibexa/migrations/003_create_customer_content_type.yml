@@ -1,0 +1,295 @@
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: customer
+        mainTranslation: eng-GB
+        urlAliasSchema: null
+        nameSchema: '<first_name> <last_name>'
+        container: false
+        defaultAlwaysAvailable: true
+        defaultSortField: 1
+        defaultSortOrder: 1
+        contentTypeGroups:
+            - Users
+        translations:
+            eng-GB:
+                name: Customer
+    fields:
+        -
+            identifier: first_name
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'First name'
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: 255
+                    minStringLength: null
+        -
+            identifier: last_name
+            type: ezstring
+            position: 2
+            translations:
+                eng-GB:
+                    name: 'Last name'
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: 255
+                    minStringLength: null
+        -
+            identifier: user_account
+            type: ezuser
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'User account'
+            required: true
+            searchable: false
+            infoCollector: false
+            translatable: false
+            category: ''
+            defaultValue: null
+            fieldSettings:
+                PasswordTTL: 0
+                PasswordTTLWarning: 0
+                RequireUniqueEmail: false
+                UsernamePattern: '^[^@]+$'
+            validatorConfiguration:
+                PasswordValueValidator:
+                    requireAtLeastOneUpperCaseCharacter: true
+                    requireAtLeastOneLowerCaseCharacter: true
+                    requireAtLeastOneNumericCharacter: true
+                    requireAtLeastOneNonAlphanumericCharacter: false
+                    requireNewPassword: false
+                    minLength: 10
+        -
+            identifier: signature
+            type: eztext
+            position: 4
+            translations:
+                eng-GB:
+                    name: Signature
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings:
+                textRows: 10
+            validatorConfiguration: {  }
+        -
+            identifier: image
+            type: ezimage
+            position: 5
+            translations:
+                eng-GB:
+                    name: Image
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                FileSizeValidator:
+                    maxFileSize: 10
+                AlternativeTextValidator:
+                    required: false
+            thumbnail: false
+        -
+            identifier: name
+            type: ezstring
+            position: 50
+            translations:
+                eng-GB:
+                    name: Name
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: salutation
+            type: sesselection
+            position: 51
+            translations:
+                eng-GB:
+                    name: Salutation
+                    description: 'Salutation of the shop user'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: customer_number
+            type: ezstring
+            position: 52
+            translations:
+                eng-GB:
+                    name: 'Customer number'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: contact_number
+            type: ezstring
+            position: 53
+            translations:
+                eng-GB:
+                    name: 'Contact number'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: customer_profile_data
+            type: sesprofiledata
+            position: 54
+            translations:
+                eng-GB:
+                    name: 'Customer profile data'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: budget_order
+            type: ezfloat
+            position: 55
+            translations:
+                eng-GB:
+                    name: 'Budget per order'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                FloatValueValidator:
+                    minFloatValue: null
+                    maxFloatValue: null
+        -
+            identifier: budget_month
+            type: ezfloat
+            position: 56
+            translations:
+                eng-GB:
+                    name: 'Budget per month'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: false
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                FloatValueValidator:
+                    minFloatValue: null
+                    maxFloatValue: null
+        -
+            identifier: ses_customer_group
+            type: sesselection
+            position: 57
+            translations:
+                eng-GB:
+                    name: 'Customer group'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: ses_hastopay_vat
+            type: ezboolean
+            position: 58
+            translations:
+                eng-GB:
+                    name: 'Customer has to pay VAT'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: content
+            defaultValue: true
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: ses_display_vat
+            type: ezboolean
+            position: 59
+            translations:
+                eng-GB:
+                    name: 'Display VAT'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: content
+            defaultValue: true
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+    references:
+        -
+            name: ref__customer__content_type_id
+            type: content_type_id

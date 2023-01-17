@@ -1,0 +1,219 @@
+-   type: reference
+    mode: load
+    filename: references/corporate_account_references.yml
+
+-   type: content_type
+    mode: create
+    metadata:
+        identifier: corporate_account_application
+        contentTypeGroups:
+            - corporate_account
+        mainTranslation: eng-GB
+        nameSchema: '<name>'
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: Corporate Account Application
+    fields:
+        -   identifier: name
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'Name'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'company'
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: vat
+            type: ezstring
+            position: 2
+            translations:
+                eng-GB:
+                    name: 'Tax ID'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'company'
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: address
+            type: ibexa_address
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Address'
+                    description: ''
+            required: true
+            searchable: false
+            infoCollector: false
+            translatable: false
+            category: 'company'
+            fieldSettings:
+                type: billing
+        -   identifier: website
+            type: ezstring
+            position: 4
+            translations:
+                eng-GB:
+                    name: 'Website'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'company'
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: first_name
+            type: ezstring
+            position: 11
+            translations:
+                eng-GB:
+                    name: 'First name'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'member'
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: last_name
+            type: ezstring
+            position: 12
+            translations:
+                eng-GB:
+                    name: 'Last name'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'member'
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: phone_number
+            type: ezstring
+            position: 13
+            translations:
+                eng-GB:
+                    name: 'Phone number'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'member'
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: user
+            type: ezemail
+            position: 14
+            translations:
+                eng-GB:
+                    name: 'Email'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'member'
+            defaultValue: ''
+            fieldSettings: { }
+
+-   type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        alwaysAvailable: true
+        section:
+            identifier: corporate_account
+    location:
+        parentLocationId: 1
+        locationRemoteId: corporate_account_applications_folder
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_PUBLISHED
+        sortOrder: DESC
+        priority: 0
+    fields:
+        -   fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Corporate Account Applications
+    references:
+        -
+            name: ref_content_id__corporate_account_applications_folder
+            type: content_id
+        -
+            name: ref_location_id__corporate_account_applications_folder
+            type: location_id
+        -
+            name: ref_path__corporate_account_applications_folder
+            type: path
+
+-   type: role
+    mode: update
+    match:
+        field: identifier
+        value: 'Anonymous'
+    policies:
+        mode: append
+        list:
+            -
+                module: content
+                function: create
+                limitations:
+                    -
+                        identifier: Class
+                        values: [corporate_account_application]
+                    -
+                        identifier: ParentClass
+                        values: [folder]
+                    -
+                        identifier: Subtree
+                        values: ['reference:ref_path__corporate_account_applications_folder']
+                    -
+                        identifier: ChangeOwner
+                        values: [!php/const Ibexa\Contracts\Core\Repository\Values\User\Limitation\ChangeOwnerLimitation::LIMITATION_VALUE_SELF]
+            -
+                module: content
+                function: read
+                limitations:
+                    -
+                        identifier: Class
+                        values: [folder]
+                    -
+                        identifier: Node
+                        values: ['reference:ref_location_id__corporate_account_applications_folder']

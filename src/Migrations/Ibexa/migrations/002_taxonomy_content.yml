@@ -1,0 +1,125 @@
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section:
+            identifier: taxonomy
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 1
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Taxonomy
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+
+    references:
+        -
+            name: taxonomy_folder_location_id
+            type: location_id
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        alwaysAvailable: true
+        section:
+            identifier: taxonomy
+    location:
+        locationRemoteId: taxonomy_tags_folder
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:taxonomy_folder_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Tags
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+    references:
+        -
+            name: taxonomy_tag_folder_location_id
+            type: location_id
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: tag
+        mainTranslation: eng-GB
+        alwaysAvailable: true
+        section:
+            identifier: taxonomy
+    location:
+        locationRemoteId: taxonomy_tags_root
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:taxonomy_tag_folder_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Root
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: root
+        -
+            fieldDefIdentifier: parent
+            languageCode: eng-GB
+            value:
+                tag: ~

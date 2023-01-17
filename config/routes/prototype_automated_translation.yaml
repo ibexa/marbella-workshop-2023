@@ -1,0 +1,2 @@
+ibexa.prototype_automated_translation:
+    resource: '@IbexaPrototypeAutomatedTranslationBundle/Resources/config/routing.yaml'

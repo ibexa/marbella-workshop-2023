@@ -1,0 +1,6 @@
+ibexa:
+    system:
+        default:
+            workflows:
+                # @todo create workflows. Can be done even on non-existing ContentTypes. These can be created later using migrations.
+                # Side effect: You can't see `Workflows` tab in AdminUI as it throws exception when the ContentType doesn't exist

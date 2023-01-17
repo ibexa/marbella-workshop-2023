@@ -1,0 +1,38 @@
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: null
+        publicationDate: null
+        remoteId: 1ea3e4bc0aebb484fd6299340c9eedf6
+        alwaysAvailable: true
+        section: 3
+    location:
+        locationRemoteId: 05a3ebb35a6e4189d6c92791e0744811
+        hidden: false
+        sortField: null
+        sortOrder: null
+        priority: 0
+        parentLocationId: 51
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Logo
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: public/bundles/ibexaprototypecontentstructure/assets/images/logo.png
+                fileName: logo.png
+                alternativeText: 'Ibexa Logo'

@@ -1,0 +1,25 @@
+ibexa:
+    system:
+        default:
+            image_variations:
+                cta_view:
+                    reference: null
+                    filters:
+                        - {name: geometry/scalewidth, params: [245]}
+                slider:
+                    reference: null
+                    filters:
+                        - { name: geometry/scalewidth, params: [1920] }
+                flipbox:
+                    reference: null
+                    filters:
+                        - { name: geometry/scaleheight, params: [250] }
+                card:
+                    reference: null
+                    filters:
+                        - { name: geometry/scalewidth, params: [350] }
+                        - { name: geometry/crop, params: [350, 250, 0, 0] }
+                teaser_image_wide:
+                    reference: null
+                    filters:
+                        - { name: geometry/scaleheight, params: [300] }

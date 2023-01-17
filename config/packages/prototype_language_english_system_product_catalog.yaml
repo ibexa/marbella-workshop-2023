@@ -1,0 +1,14 @@
+ibexa:
+    system:
+        en:
+            product_catalog:
+                currencies:
+                    - GBP
+                regions:
+                    - united_kingdom
+        admin_en:
+            product_catalog:
+                currencies:
+                    - GBP
+                regions:
+                    - united_kingdom

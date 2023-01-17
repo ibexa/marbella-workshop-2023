@@ -1,0 +1,21 @@
+-
+    type: user
+    mode: create
+    metadata:
+        login: john
+        email: john.smith@example.com
+        password: publish
+        enabled: true
+        mainLanguage: eng-GB
+        contentType: user
+    groups:
+        - userGroupEditorsEnglish
+    fields:
+        -
+            fieldDefIdentifier: first_name
+            fieldTypeIdentifier: ezstring
+            value: John
+        -
+            fieldDefIdentifier: last_name
+            fieldTypeIdentifier: ezstring
+            value: Smith

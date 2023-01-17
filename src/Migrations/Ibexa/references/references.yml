@@ -1,0 +1,20 @@
+
+-
+    name: ref_user_group__members
+    value: 11
+
+-
+    name: ref_user_group__anonymous_users
+    value: 42
+
+-
+    name: ref_user_group__shop_users
+    value: 56
+
+-
+    name: ref_user_group__private_customer
+    value: 57
+
+-
+    name: ref_user_group__business_customer
+    value: 58

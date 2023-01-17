@@ -1,0 +1,11 @@
+ibexa:
+    repositories:
+        default:
+            product_catalog:
+                regions:
+                    united_kingdom:
+                        vat_categories:
+                            standard: 20
+                            reduced: 5
+                            zero: 0
+                            none: ~

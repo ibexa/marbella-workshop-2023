@@ -1,0 +1,2654 @@
+-
+    type: content
+    mode: update
+    match:
+        field: content_remote_id
+        value: 1ea3e4bc0aebb484fd6299340c9eedf6
+    metadata:
+        initialLanguageCode: eng-GB
+        creatorId: 14
+        remoteId: 1ea3e4bc0aebb484fd6299340c9eedf6
+        alwaysAvailable: true
+        mainLanguageCode: eng-GB
+        modificationDate: '2022-02-02T12:55:16+00:00'
+        publishedDate: '2022-01-30T14:15:59+00:00'
+        name: Logo
+        ownerId: 14
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Logo
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/4a9059fbe361-helse-logo-horizontal.png
+                alternativeText: 'Helse Logo'
+                fileName: 4a9059fbe361-helse-logo-horizontal.png
+                additionalData: {  }
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-30T20:32:13+00:00'
+        publicationDate: '2022-01-30T20:32:13+00:00'
+        remoteId: e7c1fde6fb672dad0a3884257ad934ae
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 4263ab7d04f6ab4fddcad85c0e77dfbc
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Surgery Operating Room'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/a8badff976d0-piron-guillaume-y5hqcin1c6o-unsplash.jpg
+                alternativeText: ''
+                fileName: a8badff976d0-piron-guillaume-y5hqcin1c6o-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__surgery operating room'
+            type: content_id
+        -
+            name: 'ref_location__image__surgery operating room'
+            type: location_id
+        -
+            name: 'ref_path__image__surgery operating room'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-31T05:42:18+00:00'
+        publicationDate: '2022-01-31T05:42:18+00:00'
+        remoteId: c5d645250aa1537051a7cb4440133015
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 26c977cdee60d3f1209fc0179946fa68
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Threodore_Olson.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/fb521d853d6b-threodore_olson.jpg
+                alternativeText: Threodore_Olson.jpg
+                fileName: fb521d853d6b-threodore_olson.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__threodore_olson.jpg
+            type: content_id
+        -
+            name: ref_location__image__threodore_olson.jpg
+            type: location_id
+        -
+            name: ref_path__image__threodore_olson.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-31T05:43:26+00:00'
+        publicationDate: '2022-01-31T05:43:26+00:00'
+        remoteId: 3e65bbb782a98aa2e267b72fd8d8f6f9
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 941becfc864d1289585eaae09d7e3d32
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Brianna Campbell.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/edfcdd464253-brianna-campbell.jpg
+                alternativeText: 'Brianna Campbell.jpg'
+                fileName: edfcdd464253-brianna-campbell.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__brianna campbell.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__brianna campbell.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__brianna campbell.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-31T05:44:22+00:00'
+        publicationDate: '2022-01-31T05:44:22+00:00'
+        remoteId: da1c8d17464441eb2b60325e6033a29d
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 82d8920c39b0dced04be81b24ae723df
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Lauren Rivera.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/4c36146f195c-lauren-rivera.jpg
+                alternativeText: 'Lauren Rivera.jpg'
+                fileName: 4c36146f195c-lauren-rivera.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__lauren rivera.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__lauren rivera.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__lauren rivera.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T16:19:12+00:00'
+        publicationDate: '2022-02-01T16:18:31+00:00'
+        remoteId: 31dfb64407d90855eef73534c440b3df
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 6352f8909bde59101e5006d31905bca2
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Luminous Face Cream.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/37e3a93edf5f-luminous-face-cream.jpg
+                alternativeText: 'Luminous Face Cream.jpg'
+                fileName: 37e3a93edf5f-luminous-face-cream.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__luminous face cream.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__luminous face cream.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__luminous face cream.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T16:29:01+00:00'
+        publicationDate: '2022-02-01T16:27:54+00:00'
+        remoteId: 8dbcd94e6ed025a890a554cf95fe224f
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 7cc91d9a455f95bfee9ba2e468721364
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Radiance Eye Serum.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/fe53abb682d7-radiance-eye-serum.jpg
+                alternativeText: 'Radiance Eye Serum.jpg'
+                fileName: fe53abb682d7-radiance-eye-serum.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__radiance eye serum.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__radiance eye serum.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__radiance eye serum.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T17:34:34+00:00'
+        publicationDate: '2022-02-01T17:34:07+00:00'
+        remoteId: a53861a1b766fcbfafc57d469aad5a95
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 194e4b533d27b7313d0ca5fd03795552
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ibupirin Pain Relief.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/531c5cecb90d-ibupirin-pain-relief.jpg
+                alternativeText: 'Ibupirin Pain Relief.jpg'
+                fileName: 531c5cecb90d-ibupirin-pain-relief.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__ibupirin pain relief.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__ibupirin pain relief.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__ibupirin pain relief.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T17:44:51+00:00'
+        publicationDate: '2022-02-01T17:44:29+00:00'
+        remoteId: f63c9799939d123a9083a34a8bb88926
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 8604ef73b3f11df4deec2110a31c0d2a
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Daily Multivitamins.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/e51b126b56a3-daily-multivitamins.jpg
+                alternativeText: 'Daily Multivitamins.jpg'
+                fileName: e51b126b56a3-daily-multivitamins.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__daily multivitamins.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__daily multivitamins.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__daily multivitamins.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T19:49:38+00:00'
+        publicationDate: '2022-02-01T19:49:12+00:00'
+        remoteId: f08f4bba3130e2ef1561b07f64092f1f
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: e273a0f57835f39f499caa952a141ba1
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Blood Gas System RapidLab.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/a622e0c549e6-blood-gas-system-rapidlab.jpg
+                alternativeText: 'Blood Gas System RapidLab.jpg'
+                fileName: a622e0c549e6-blood-gas-system-rapidlab.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__blood gas system rapid_lab.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__blood gas system rapid_lab.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__blood gas system rapid_lab.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T19:58:17+00:00'
+        publicationDate: '2022-02-01T19:57:35+00:00'
+        remoteId: 106bedde6ee1a3fc95dd29a9dd4be576
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 16f3a528c4950ac1bfa99322f00ed9b4
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Blood Gas System Handheld.jpeg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/966ce2a08a2b-blood-gas-system-handheld.jpeg
+                alternativeText: 'Blood Gas System Handheld.jpeg'
+                fileName: 966ce2a08a2b-blood-gas-system-handheld.jpeg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__blood gas system handheld.jpeg'
+            type: content_id
+        -
+            name: 'ref_location__image__blood gas system handheld.jpeg'
+            type: location_id
+        -
+            name: 'ref_path__image__blood gas system handheld.jpeg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T20:14:23+00:00'
+        publicationDate: '2022-02-01T20:13:53+00:00'
+        remoteId: 5d098817dcfbe448df0eb9ecfb366d14
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: d10e44f8e9bba661c1ff6d2a9e7dda87
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Helse Headquarters.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/7f83e944e1ca-helse-headquarters.jpg
+                alternativeText: 'Helse Headquarters.jpg'
+                fileName: 7f83e944e1ca-helse-headquarters.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__helse headquarters.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__helse headquarters.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__helse headquarters.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T20:30:54+00:00'
+        publicationDate: '2022-02-01T20:30:37+00:00'
+        remoteId: e1387493e7aa8d9e0be3770826a62464
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: b6aab7935d13314aead03953f8b4b96c
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Leadership.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/306b596ae309-leadership.jpg
+                alternativeText: Leadership.jpg
+                fileName: 306b596ae309-leadership.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__leadership.jpg
+            type: content_id
+        -
+            name: ref_location__image__leadership.jpg
+            type: location_id
+        -
+            name: ref_path__image__leadership.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T20:32:33+00:00'
+        publicationDate: '2022-02-01T20:32:33+00:00'
+        remoteId: c548e62c713aab48889a5a7767616264
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 418bfa00f77af366e5a7f6e764cf64e6
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Innovation 1.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/de7a5e021e5e-innovation-1.jpg
+                alternativeText: 'Innovation 1.jpg'
+                fileName: de7a5e021e5e-innovation-1.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__innovation 1.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__innovation 1.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__innovation 1.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T20:33:42+00:00'
+        publicationDate: '2022-02-01T20:33:42+00:00'
+        remoteId: 8c299a85f8f6b742f23d46aac9bc1aab
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 861b3a30590791631488f03ecd7c42bf
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Innovation Scientist'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/cd5eb2699e05-innovation-2.jpg
+                alternativeText: 'Our scientist at work'
+                fileName: cd5eb2699e05-innovation-2.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__innovation scientist'
+            type: content_id
+        -
+            name: 'ref_location__image__innovation scientist'
+            type: location_id
+        -
+            name: 'ref_path__image__innovation scientist'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T20:35:22+00:00'
+        publicationDate: '2022-02-01T20:35:22+00:00'
+        remoteId: 72c9566ad42d373a66c1a7bb3903a9ba
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: b01e2e03f2f32cd2f2bc1204ec4798b5
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Scientists at work'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/f2ebe4d01ca7-innovation-2.jpg
+                alternativeText: 'Scientists at work'
+                fileName: f2ebe4d01ca7-innovation-2.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__scientists at work'
+            type: content_id
+        -
+            name: 'ref_location__image__scientists at work'
+            type: location_id
+        -
+            name: 'ref_path__image__scientists at work'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T10:48:38+00:00'
+        publicationDate: '2022-02-02T10:48:38+00:00'
+        remoteId: 5a2b1100f8008c052d0794bad3e8a15a
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 4e39eaee6abea7147d36ce895e066840
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: scott-graham-OQMZwNd3ThU-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/4e62c4275367-scott-graham-oqmzwnd3thu-unsplash.jpg
+                alternativeText: scott-graham-OQMZwNd3ThU-unsplash.jpg
+                fileName: 4e62c4275367-scott-graham-oqmzwnd3thu-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__scott-graham-oqmzw_nd3_th_u-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__scott-graham-oqmzw_nd3_th_u-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__scott-graham-oqmzw_nd3_th_u-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T10:50:17+00:00'
+        publicationDate: '2022-02-02T10:50:17+00:00'
+        remoteId: 75eb8c74b2be2c80567619da750ed1aa
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 3a42b4379d82c2941f4728fcb2a0ac63
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: hush-naidoo-jade-photography-pA0uoltkwao-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/21e87c291d29-hush-naidoo-jade-photography-pa0uoltkwao-unsplash.jpg
+                alternativeText: hush-naidoo-jade-photography-pA0uoltkwao-unsplash.jpg
+                fileName: 21e87c291d29-hush-naidoo-jade-photography-pa0uoltkwao-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__hush-naidoo-jade-photography-p_a0uoltkwao-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__hush-naidoo-jade-photography-p_a0uoltkwao-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__hush-naidoo-jade-photography-p_a0uoltkwao-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T10:51:29+00:00'
+        publicationDate: '2022-02-02T10:51:29+00:00'
+        remoteId: 482ac8990c6856566855903b1ad09b7b
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 7ce61fbdc5ad3fc2b06e5da7f59a5129
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: mimi-thian-vdXMSiX-n6M-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/332a6ed7aa2b-mimi-thian-vdxmsix-n6m-unsplash.jpg
+                alternativeText: mimi-thian-vdXMSiX-n6M-unsplash.jpg
+                fileName: 332a6ed7aa2b-mimi-thian-vdxmsix-n6m-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__mimi-thian-vd_xmsi_x-n6_m-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__mimi-thian-vd_xmsi_x-n6_m-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__mimi-thian-vd_xmsi_x-n6_m-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T10:52:15+00:00'
+        publicationDate: '2022-02-02T10:52:15+00:00'
+        remoteId: 3b27d6e91380ff8894d011a13f6b48d7
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 750c9528e56d12266eda91caf64c0841
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: national-cancer-institute-NFvdKIhxYlU-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/9764dfb9a512-national-cancer-institute-nfvdkihxylu-unsplash.jpg
+                alternativeText: national-cancer-institute-NFvdKIhxYlU-unsplash.jpg
+                fileName: 9764dfb9a512-national-cancer-institute-nfvdkihxylu-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__national-cancer-institute-nfvd_kihx_yl_u-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__national-cancer-institute-nfvd_kihx_yl_u-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__national-cancer-institute-nfvd_kihx_yl_u-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T10:52:31+00:00'
+        publicationDate: '2022-02-02T10:52:31+00:00'
+        remoteId: 9a7441e94ca0057dd806c5bdf3eb2ef1
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: d785012f11ce3d8e380ea3f08c782048
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: national-cancer-institute-NFvdKIhxYlU-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/ad019c9c1ab2-national-cancer-institute-nfvdkihxylu-unsplash.jpg
+                alternativeText: national-cancer-institute-NFvdKIhxYlU-unsplash.jpg
+                fileName: ad019c9c1ab2-national-cancer-institute-nfvdkihxylu-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__national-cancer-institute-nfvd_kihx_yl_u-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__national-cancer-institute-nfvd_kihx_yl_u-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__national-cancer-institute-nfvd_kihx_yl_u-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T10:59:21+00:00'
+        publicationDate: '2022-02-02T10:59:21+00:00'
+        remoteId: dee64f2a00d9ad770c6d23f2fc73285d
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 53d08acab1fbdade5ba9b7bbb9aeff41
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: cdc-BSozBCQn6oY-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/e762b5804768-cdc-bsozbcqn6oy-unsplash.jpg
+                alternativeText: cdc-BSozBCQn6oY-unsplash.jpg
+                fileName: e762b5804768-cdc-bsozbcqn6oy-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__cdc-bsoz_bcqn6o_y-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__cdc-bsoz_bcqn6o_y-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__cdc-bsoz_bcqn6o_y-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T11:02:05+00:00'
+        publicationDate: '2022-02-02T11:02:05+00:00'
+        remoteId: 4179b7169a206489e87d523f18ddc1ba
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 77f6f5755f74d15596c828ebe2ce108b
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: luke-chesser-rCOWMC8qf8A-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/b453f90ae39a-luke-chesser-rcowmc8qf8a-unsplash.jpg
+                alternativeText: luke-chesser-rCOWMC8qf8A-unsplash.jpg
+                fileName: b453f90ae39a-luke-chesser-rcowmc8qf8a-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__luke-chesser-r_cowmc8qf8_a-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__luke-chesser-r_cowmc8qf8_a-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__luke-chesser-r_cowmc8qf8_a-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T11:02:29+00:00'
+        publicationDate: '2022-02-02T11:02:29+00:00'
+        remoteId: 931601c7b02eff4ad14107d6830baa47
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: b0100b26e4ba34e9942932885f2b91fa
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: cdc-voVYCm6xoQo-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/2f9015957f9d-cdc-vovycm6xoqo-unsplash.jpg
+                alternativeText: cdc-voVYCm6xoQo-unsplash.jpg
+                fileName: 2f9015957f9d-cdc-vovycm6xoqo-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__cdc-vo_vycm6xo_qo-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__cdc-vo_vycm6xo_qo-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__cdc-vo_vycm6xo_qo-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T11:05:05+00:00'
+        publicationDate: '2022-02-02T11:05:05+00:00'
+        remoteId: 88f8e19c52713fc892f9b7a8fbf18096
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 1814315c63729f5ab3042c05b1450a15
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: marcel-strauss-fzqxoFJytiE-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/2ee705f5b314-marcel-strauss-fzqxofjytie-unsplash.jpg
+                alternativeText: marcel-strauss-fzqxoFJytiE-unsplash.jpg
+                fileName: 2ee705f5b314-marcel-strauss-fzqxofjytie-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__marcel-strauss-fzqxo_fjyti_e-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__marcel-strauss-fzqxo_fjyti_e-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__marcel-strauss-fzqxo_fjyti_e-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T14:23:43+00:00'
+        publicationDate: '2022-02-02T14:23:43+00:00'
+        remoteId: 36a9d3a5bbb37e26c34ea4e3c54c035e
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 7d6952dfd4d8b6f310f182ffdf4627b2
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: national-cancer-institute-LxPrHCm8-TI-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/1adec460d695-national-cancer-institute-lxprhcm8-ti-unsplash.jpg
+                alternativeText: national-cancer-institute-LxPrHCm8-TI-unsplash.jpg
+                fileName: 1adec460d695-national-cancer-institute-lxprhcm8-ti-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__national-cancer-institute-lx_pr_hcm8-ti-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__national-cancer-institute-lx_pr_hcm8-ti-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__national-cancer-institute-lx_pr_hcm8-ti-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T14:24:45+00:00'
+        publicationDate: '2022-02-02T14:24:45+00:00'
+        remoteId: 5b21d797521e0fdff2235efdcd508c78
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 2c0d2d77f67db63e9b1e9c512fc61bf4
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: roberto-sorin-RS0-h_pyByk-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/488ade08421e-roberto-sorin-rs0-h_pybyk-unsplash.jpg
+                alternativeText: roberto-sorin-RS0-h_pyByk-unsplash.jpg
+                fileName: 488ade08421e-roberto-sorin-rs0-h_pybyk-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__roberto-sorin-rs0-h_py_byk-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__roberto-sorin-rs0-h_py_byk-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__roberto-sorin-rs0-h_py_byk-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T14:30:40+00:00'
+        publicationDate: '2022-02-02T14:30:40+00:00'
+        remoteId: f5305d128a073056b960e7c88a66bb7f
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 1dc0e907091e0f5cfeb2b97810c74d9e
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: kalos-skincare-kzjH8CCWAD0-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/57371801ee54-kalos-skincare-kzjh8ccwad0-unsplash.jpg
+                alternativeText: kalos-skincare-kzjH8CCWAD0-unsplash.jpg
+                fileName: 57371801ee54-kalos-skincare-kzjh8ccwad0-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__kalos-skincare-kzj_h8_ccwad0-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__kalos-skincare-kzj_h8_ccwad0-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__kalos-skincare-kzj_h8_ccwad0-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T15:37:36+00:00'
+        publicationDate: '2022-02-02T15:37:36+00:00'
+        remoteId: 1ea0a468c169b81f994a9bc7b555a919
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: b014cf64409e2a4b17bfb2b53be4fcd2
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: cdc-qs8wUhpN1gs-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/73cce605147d-cdc-qs8wuhpn1gs-unsplash.jpg
+                alternativeText: cdc-qs8wUhpN1gs-unsplash.jpg
+                fileName: 73cce605147d-cdc-qs8wuhpn1gs-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__cdc-qs8w_uhp_n1gs-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__cdc-qs8w_uhp_n1gs-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__cdc-qs8w_uhp_n1gs-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T16:47:57+00:00'
+        publicationDate: '2022-02-02T16:47:57+00:00'
+        remoteId: 894eac06815d3c2ba3925fcf707fb030
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 070c31fadfde9a555d6c64846439eafd
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: national-cancer-institute-byGTytEGjBo-unsplash.jpg
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/208677b8b936-national-cancer-institute-bygtytegjbo-unsplash.jpg
+                alternativeText: national-cancer-institute-byGTytEGjBo-unsplash.jpg
+                fileName: 208677b8b936-national-cancer-institute-bygtytegjbo-unsplash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: ref__content__image__national-cancer-institute-by_gtyt_egj_bo-unsplash.jpg
+            type: content_id
+        -
+            name: ref_location__image__national-cancer-institute-by_gtyt_egj_bo-unsplash.jpg
+            type: location_id
+        -
+            name: ref_path__image__national-cancer-institute-by_gtyt_egj_bo-unsplash.jpg
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-25T22:08:54+01:00'
+        publicationDate: '2022-02-25T22:08:54+01:00'
+        remoteId: 191079e0b983f811aa30a5d2b8db20e5
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 1f62733274bcf82af190cae962515d10
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Portable Blood Gas Analyzer.png'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/62e87f747993-portable-blood-gas-analyzer.png
+                alternativeText: 'Portable Blood Gas Analyzer.png'
+                fileName: 62e87f747993-portable-blood-gas-analyzer.png
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__portable blood gas analyzer.png'
+            type: content_id
+        -
+            name: 'ref_location__image__portable blood gas analyzer.png'
+            type: location_id
+        -
+            name: 'ref_path__image__portable blood gas analyzer.png'
+            type: path
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-26T06:50:21+01:00'
+        publicationDate: '2022-02-26T06:50:21+01:00'
+        remoteId: f9cac866d3908eb80891eda95e011d92
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: d0ece525888eeea0363dc07b85997928
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Advanced Blood Gas Analyzer.png'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/9c4995f81a24-advanced-blood-gas-analyzer.png
+                alternativeText: 'Advanced Blood Gas Analyzer.png'
+                fileName: 9c4995f81a24-advanced-blood-gas-analyzer.png
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__advanced blood gas analyzer.png'
+            type: content_id
+        -
+            name: 'ref_location__image__advanced blood gas analyzer.png'
+            type: location_id
+        -
+            name: 'ref_path__image__advanced blood gas analyzer.png'
+            type: path
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T06:23:12+01:00'
+        publicationDate: '2022-03-01T06:23:12+01:00'
+        remoteId: 81b4a53956cd9b87bb808b9f37e3d9fb
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 07014569bf505662a633f24e8b49ff25
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'RapidTest Series E Blood Gas System.png'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/da6a626e0e33-rapidtest-series-e-blood-gas-system.png
+                alternativeText: 'RapidTest Series E Blood Gas System.png'
+                fileName: da6a626e0e33-rapidtest-series-e-blood-gas-system.png
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__rapid_test series e blood gas system.png'
+            type: content_id
+        -
+            name: 'ref_location__image__rapid_test series e blood gas system.png'
+            type: location_id
+        -
+            name: 'ref_path__image__rapid_test series e blood gas system.png'
+            type: path
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T06:56:18+01:00'
+        publicationDate: '2022-03-01T06:56:18+01:00'
+        remoteId: fc6806a3562547fe0bcd9a9256609131
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 87ebb6d52482426b08b66937c83ecab3
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Advanced RapidTest Series E Blood Gas System.png'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/39d239ce75ee-advanced-rapidtest-series-e-blood-gas-system.png
+                alternativeText: 'Advanced RapidTest Series E Blood Gas System.png'
+                fileName: 39d239ce75ee-advanced-rapidtest-series-e-blood-gas-system.png
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__advanced rapid_test series e blood gas system.png'
+            type: content_id
+        -
+            name: 'ref_location__image__advanced rapid_test series e blood gas system.png'
+            type: location_id
+        -
+            name: 'ref_path__image__advanced rapid_test series e blood gas system.png'
+            type: path
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T07:04:07+01:00'
+        publicationDate: '2022-03-01T07:04:07+01:00'
+        remoteId: 0cd36923d1d10e72ebd5f0d12ae671b4
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 11eea3c353a680ec7bf3c82c89408bbe
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'RapidTest Clinic Series Blood Gas System.png'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/d09c859ba987-rapidtest-clinic-series-blood-gas-system.png
+                alternativeText: 'RapidTest Clinic Series Blood Gas System.png'
+                fileName: d09c859ba987-rapidtest-clinic-series-blood-gas-system.png
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__rapid_test clinic series blood gas system.png'
+            type: content_id
+        -
+            name: 'ref_location__image__rapid_test clinic series blood gas system.png'
+            type: location_id
+        -
+            name: 'ref_path__image__rapid_test clinic series blood gas system.png'
+            type: path
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T07:15:02+01:00'
+        publicationDate: '2022-03-01T07:15:02+01:00'
+        remoteId: 5dca271a7b960bf110234308a7a5986f
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 2318875a449a18987cc999a97c27eff4
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Electrolyte and Lithium Testing Analyzer'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/ded78e526b72-electrolyte-and-lithium-testing-analyzer.png
+                alternativeText: 'Electrolyte and Lithium Testing Analyzer'
+                fileName: ded78e526b72-electrolyte-and-lithium-testing-analyzer.png
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__ electrolyte and lithium testing analyzer.png'
+            type: content_id
+        -
+            name: 'ref_location__image__ electrolyte and lithium testing analyzer.png'
+            type: location_id
+        -
+            name: 'ref_path__image__ electrolyte and lithium testing analyzer.png'
+            type: path
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T09:04:44+01:00'
+        publicationDate: '2022-03-01T09:04:44+01:00'
+        remoteId: b20cb55de1bc8a5caee25cdf1d2b740f
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 5544cee41249cede754ddc6fdbac0150
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ibupirin Rapid Release.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/4763735f039d-ibupirin-rapid-release.jpg
+                alternativeText: 'Ibupirin Rapid Release.jpg'
+                fileName: 4763735f039d-ibupirin-rapid-release.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__ibupirin rapid release.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__ibupirin rapid release.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__ibupirin rapid release.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T09:05:03+01:00'
+        publicationDate: '2022-03-01T09:05:03+01:00'
+        remoteId: 14ac312c47547b7ac318883a95cac119
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 9e13abc96bf5e8d4d950f8583bd31d5b
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ibupirin 1000 mg.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/417a811bdb76-ibupirin-1000-mg.jpg
+                alternativeText: 'Ibupirin 1000 mg.jpg'
+                fileName: 417a811bdb76-ibupirin-1000-mg.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__ibupirin 1000 mg.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__ibupirin 1000 mg.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__ibupirin 1000 mg.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T09:05:34+01:00'
+        publicationDate: '2022-03-01T09:05:34+01:00'
+        remoteId: 90823630905e61e9a44a3baf31307690
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: bf651bed9d01be810e6d4454ca6cfa0d
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Prenatal Multi-Vitamins.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/4fdba1c00d4f-prenatal-multi-vitamins.jpg
+                alternativeText: 'Prenatal Multi-Vitamins.jpg'
+                fileName: 4fdba1c00d4f-prenatal-multi-vitamins.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__prenatal multi-vitamins.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__prenatal multi-vitamins.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__prenatal multi-vitamins.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:34:40+01:00'
+        publicationDate: '2022-03-01T11:34:40+01:00'
+        remoteId: bd5dea84634a09dc5b1ddc3fbb6e7e4b
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: d2b5ad1b2c61f7e6092c50314ab398a5
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: '40 Plus Multi-Vitamins for Men.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/79b7a5dd103a-40-plus-multi-vitamins-for-men.jpg
+                alternativeText: '40 Plus Multi-Vitamins for Men.jpg'
+                fileName: 79b7a5dd103a-40-plus-multi-vitamins-for-men.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__40 plus multi-vitamins for men.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__40 plus multi-vitamins for men.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__40 plus multi-vitamins for men.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:34:58+01:00'
+        publicationDate: '2022-03-01T11:34:58+01:00'
+        remoteId: b607f8327df68dfdc97dcaacdebec0f9
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 6c629fedc49f9a306645bd9f08cfc180
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Calcium for Women.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/e623bb50661f-calcium-for-women.jpg
+                alternativeText: 'Calcium for Women.jpg'
+                fileName: e623bb50661f-calcium-for-women.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__calcium for women.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__calcium for women.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__calcium for women.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:35:24+01:00'
+        publicationDate: '2022-03-01T11:35:24+01:00'
+        remoteId: dcd7919634f2ebcdd1710e66cc271773
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: e3a09e13dd3dce042e5c4e20227a9500
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Postnatal Vitamins.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/cb379fd12c87-postnatal-vitamins.jpg
+                alternativeText: 'Postnatal Vitamins.jpg'
+                fileName: cb379fd12c87-postnatal-vitamins.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__postnatal vitamins.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__postnatal vitamins.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__postnatal vitamins.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:35:39+01:00'
+        publicationDate: '2022-03-01T11:35:39+01:00'
+        remoteId: 35a8cc98f8b0275dc1d5956100d1d8b6
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 16c2b9c08380b5ee81bd48f104b9a42f
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Children''s Ibupirin Cold & Cough.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/91e646d1be09-children-s-ibupirin-cold-cough.jpg
+                alternativeText: 'Children''s Ibupirin Cold & Cough.jpg'
+                fileName: 91e646d1be09-children-s-ibupirin-cold-cough.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__children''s ibupirin cold & cough.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__children''s ibupirin cold & cough.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__children''s ibupirin cold & cough.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:36:01+01:00'
+        publicationDate: '2022-03-01T11:36:01+01:00'
+        remoteId: e7a178cba3d76f0f543ae3aec99131c7
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 1a12336dcdf569e8b8d7f26d0b08dcab
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Infant''s Ibupirin Cold & Cough.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/216823e8887d-infant-s-ibupirin-cold-cough.jpg
+                alternativeText: 'Infant''s Ibupirin Cold & Cough.jpg'
+                fileName: 216823e8887d-infant-s-ibupirin-cold-cough.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__infant''s ibupirin cold & cough.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__infant''s ibupirin cold & cough.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__infant''s ibupirin cold & cough.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T09:06:08+01:00'
+        publicationDate: '2022-03-01T09:06:08+01:00'
+        remoteId: 3e6c679a765f4c82fc13b616d1f35891
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 8d3df0fb58095e98efb01392851af710
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Hydrating Overnight Face Mask.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/4f83d4e80b76-hydrating-overnight-face-mask.jpg
+                alternativeText: 'Hydrating Overnight Face Mask.jpg'
+                fileName: 4f83d4e80b76-hydrating-overnight-face-mask.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__hydrating overnight face mask.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__hydrating overnight face mask.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__hydrating overnight face mask.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:32:05+01:00'
+        publicationDate: '2022-03-01T11:32:05+01:00'
+        remoteId: 312eb1a184ecce640a506684abf93872
+        alwaysAvailable: true
+        section:
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: b415d80f63f6cd0a2dcaf25053f5b852
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Anti-Aging Retinol Face Serum.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/15245c0481be-anti-aging-retinol-face-serum.jpg
+                alternativeText: 'Anti-Aging Retinol Face Serum.jpg'
+                fileName: 15245c0481be-anti-aging-retinol-face-serum.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__anti-aging retinol face serum.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__anti-aging retinol face serum.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__anti-aging retinol face serum.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:32:21+01:00'
+        publicationDate: '2022-03-01T11:32:21+01:00'
+        remoteId: 503ff1df4da9eb2b50ca3137727aeb53
+        alwaysAvailable: true
+        section:
+            id: 3
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 243da0a62706cd61309c7c4fc304c05a
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Dark Spot Corrector.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/8edcc8d580b7-dark-spot-corrector.jpg
+                alternativeText: 'Dark Spot Corrector.jpg'
+                fileName: 8edcc8d580b7-dark-spot-corrector.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__dark spot corrector.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__dark spot corrector.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__dark spot corrector.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:32:36+01:00'
+        publicationDate: '2022-03-01T11:32:36+01:00'
+        remoteId: 574bde4f6f36752abebbc55cb527326e
+        alwaysAvailable: true
+        section:
+            id: 3
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: e8811621ea063d25d6be30484d34c5b7
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Deep Cleansing Foaming Face Wash.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/2b0a52811875-deep-cleansing-foaming-face-wash.jpg
+                alternativeText: 'Deep Cleansing Foaming Face Wash.jpg'
+                fileName: 2b0a52811875-deep-cleansing-foaming-face-wash.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__deep cleansing foaming face wash.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__deep cleansing foaming face wash.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__deep cleansing foaming face wash.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:33:09+01:00'
+        publicationDate: '2022-03-01T11:33:09+01:00'
+        remoteId: 594bcc2676fa757fa308479070c51dd0
+        alwaysAvailable: true
+        section:
+            id: 3
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: 6c007a1e09fe216fefc29b99be6c4438
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ultra Alcohol-Free Toner.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/75404ac715bc-ultra-alcohol-free-toner.jpg
+                alternativeText: 'Ultra Alcohol-Free Toner.jpg'
+                fileName: 75404ac715bc-ultra-alcohol-free-toner.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__ultra alcohol-free toner.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__ultra alcohol-free toner.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__ultra alcohol-free toner.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:33:25+01:00'
+        publicationDate: '2022-03-01T11:33:25+01:00'
+        remoteId: d130519e4ae64f66f175f51fedcb5b0e
+        alwaysAvailable: true
+        section:
+            id: 3
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: bf92af5073498a244318dda293c912d0
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ultra Alcohol-Free Cleanser.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/a8c64782bb75-ultra-alcohol-free-cleanser.jpg
+                alternativeText: 'Ultra Alcohol-Free Cleanser.jpg'
+                fileName: a8c64782bb75-ultra-alcohol-free-cleanser.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__ultra alcohol-free cleanser.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__ultra alcohol-free cleanser.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__ultra alcohol-free cleanser.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:34:09+01:00'
+        publicationDate: '2022-03-01T11:34:09+01:00'
+        remoteId: eb09271a5a5ad36fdfce1d571cf96822
+        alwaysAvailable: true
+        section:
+            id: 3
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: f8a14b5e73d7b5fd9a9c2f0944572108
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ultra Serum-Infused Face Cream.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/a12519066105-ultra-serum-infused-face-cream.jpg
+                alternativeText: 'Ultra Serum-Infused Face Cream.jpg'
+                fileName: a12519066105-ultra-serum-infused-face-cream.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__ultra serum-infused face cream.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__ultra serum-infused face cream.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__ultra serum-infused face cream.jpg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: image
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:34:25+01:00'
+        publicationDate: '2022-03-01T11:34:25+01:00'
+        remoteId: 7ca1cf1acd74bba16c89cfb0d7b0e572
+        alwaysAvailable: true
+        section:
+            id: 3
+            identifier: media
+    location:
+        parentLocationId: 51
+        parentLocationRemoteId: null
+        locationRemoteId: c331694d9418b439343279c3b7abe63e
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ginger Turmeric Face Mask.jpg'
+        -
+            fieldDefIdentifier: caption
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: vendor/ibexa/prototype-content-pharma/src/bundle/Resources/public/images/e057c7f683cf-ginger-turmeric-face-mask.jpg
+                alternativeText: 'Ginger Turmeric Face Mask.jpg'
+                fileName: e057c7f683cf-ginger-turmeric-face-mask.jpg
+                additionalData: {  }
+    references:
+        -
+            name: 'ref__content__image__ginger turmeric face mask.jpg'
+            type: content_id
+        -
+            name: 'ref_location__image__ginger turmeric face mask.jpg'
+            type: location_id
+        -
+            name: 'ref_path__image__ginger turmeric face mask.jpg'
+            type: path
+
+-
+    type: reference
+    mode: save
+    filename: 'references_images.yaml'

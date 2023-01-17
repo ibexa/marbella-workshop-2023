@@ -1,0 +1,4 @@
+ibexa_design_engine:
+    design_list:
+        techno: [techno, base_theme, base, standard]
+        techno_commerce: [techno_commerce, techno, base_theme, base, standard]

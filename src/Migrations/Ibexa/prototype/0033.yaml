@@ -1,0 +1,9 @@
+-
+    type: content_type
+    mode: update
+    match:
+        field: content_type_identifier
+        value: landing_page
+    actions:
+        - { action: assign_content_type_group, value: 'Experience' }
+        - { action: unassign_content_type_group, value: 'Content' }

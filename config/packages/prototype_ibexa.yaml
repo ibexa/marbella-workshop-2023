@@ -1,0 +1,26 @@
+ibexa:
+    system:
+        site_group:
+            base_logo:
+                remote_location_id: 05a3ebb35a6e4189d6c92791e0744811
+            project_information:
+                company: 'Ibexa Nordics AS'
+                info: 'Ibexa has offices around the world. Contact the Ibexa team near you or fill in the form and we will be in touch right away.'
+                description: 'Discover the Ibexa Digital Experience Platform (DXP), designed to help B2B companies succeed in their transformation by building memorable experiences. Faster.'
+                address: 'Solligata 2, 0254 Oslo, Norway'
+                email: 'info@ibexa.co'
+                phone: '+47 35 58 70 20'
+                favicon: 'https://www.ibexa.co/favicon-32x32.png'
+                copyright: '© 2020 Ibexa Nordics AS. All rights reserved.'
+                privacy: '/privacy-policy'
+                terms: '/terms-and-conditions'
+                contact: '/contact-us'
+                top_action: '/callback'
+                widget_action: '/contact-us'
+                socialLinks:
+                    facebook: 'https://facebook.com/ibexa.co'
+                    instagram: 'https://www.linkedin.com/company/ibexa/'
+                    twitter: 'https://twitter.com/Ibexa_co'
+                    youtube: 'https://youtube.com/c/ibexa'
+                    linkedin: 'https://www.linkedin.com/company/ibexa/'
+                    xing: 'https://www.xing.com/pages/ibexa'

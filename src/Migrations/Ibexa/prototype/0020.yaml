@@ -1,0 +1,168 @@
+# News
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: news
+        contentTypeGroups:
+            - Prototype
+        mainTranslation: eng-GB
+        nameSchema: '<title>'
+        urlAliasSchema: '<title>'
+        container: true
+        remoteId: null
+        translations:
+            eng-GB:
+                name: 'News'
+                description: ''
+    fields:
+        -
+            identifier: title
+            type: ezstring
+            position: 10
+            translations:
+                eng-GB:
+                    name: Title
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: short_title
+            type: ezstring
+            position: 20
+            translations:
+                eng-GB:
+                    name: 'Short Title'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: date
+            type: ezdate
+            position: 30
+            translations:
+                eng-GB:
+                    name: 'News date'
+                    description: 'Visible news date.'
+            required: false
+            searchable: true
+            infoCollector: null
+            translatable: null
+            category: ''
+            defaultValue: null
+            fieldSettings: {}
+            validatorConfiguration: null
+        -
+            identifier: body
+            type: ezrichtext
+            position: 40
+            translations:
+                eng-GB:
+                    name: 'Content of the News.'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: image
+            type: ezimageasset
+            position: 50
+            translations:
+                eng-GB:
+                    name: Image
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: null
+            validatorConfiguration: null
+            thumbnail: true
+        -
+            identifier: press_contact
+            type: ezobjectrelationlist
+            position: 60
+            translations:
+                eng-GB:
+                    name: 'Press contact'
+                    description: 'Person who will be shown as contact for news.'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings:
+                selectionMethod: 0
+                selectionDefaultLocation: null
+                selectionContentTypes:
+                    - person
+            validatorConfiguration:
+                RelationListValueValidator:
+                    selectionLimit: 1
+        -
+            identifier: attachments
+            type: ezobjectrelationlist
+            position: 70
+            translations:
+                eng-GB:
+                    name: 'Attachments'
+                    description: 'PDF attachments.'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings:
+                selectionMethod: 0
+                selectionDefaultLocation: null
+                selectionContentTypes:
+                    - pdf
+            validatorConfiguration:
+                RelationListValueValidator:
+                    selectionLimit: 0
+        -
+            identifier: tags
+            type: ibexa_taxonomy_entry_assignment
+            position: 80
+            translations:
+                eng-GB:
+                    name: Tags
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                taxonomy_entries: {  }
+                taxonomy: null
+            fieldSettings:
+                taxonomy: tags
+            validatorConfiguration: {  }

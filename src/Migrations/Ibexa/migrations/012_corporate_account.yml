@@ -1,0 +1,535 @@
+-   type: section
+    mode: create
+    metadata:
+        identifier: corporate_account
+        name: Corporate Account
+
+-   type: content_type_group
+    mode: create
+    metadata:
+        identifier: corporate_account
+        isSystem: true
+    references:
+        -   name: ref__corporate_account__content_type_group_id
+            type: content_type_group_id
+
+-   type: content
+    mode: create
+    metadata:
+        contentType: user_group
+        alwaysAvailable: true
+        mainTranslation: eng-GB
+        section:
+            identifier: corporate_account
+    location:
+        parentLocationId: 5
+        locationRemoteId: corporate_account_sales_reps
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+    fields:
+        -   fieldDefIdentifier: name
+            fieldTypeIdentifier: ezstring
+            languageCode: eng-GB
+            value: 'Sales reps'
+        -   fieldDefIdentifier: description
+            fieldTypeIdentifier: ezstring
+            languageCode: eng-GB
+            value: 'Sales reps'
+    references:
+        -   name: ref__corporate_account__sales_reps_user_group__location_id
+            type: location_id
+
+-   type: content
+    mode: create
+    metadata:
+        contentType: user_group
+        mainTranslation: eng-GB
+        alwaysAvailable: true
+        section:
+            identifier: corporate_account
+    location:
+        parentLocationId: 1
+        locationRemoteId: corporate_account_folder
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+    fields:
+        -   fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Corporate Account
+    references:
+        -   name: ref__corporate_account__content_id
+            type: content_id
+
+-   type: content_type
+    mode: create
+    metadata:
+        identifier: member
+        contentTypeGroups:
+            - corporate_account
+        mainTranslation: eng-GB
+        nameSchema: '<first_name> <last_name>'
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: Member
+    fields:
+        -   identifier: first_name
+            type: ezstring
+            position: 2
+            translations:
+                eng-GB:
+                    name: 'First name'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: ''
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: last_name
+            type: ezstring
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Last name'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: ''
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: phone_number
+            type: ezstring
+            position: 4
+            translations:
+                eng-GB:
+                    name: 'Phone number'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: ''
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: user
+            type: ezuser
+            position: 6
+            translations:
+                eng-GB:
+                    name: 'User'
+                    description: ''
+            required: true
+            searchable: false
+            infoCollector: false
+            translatable: false
+            category: 'internal'
+            defaultValue: ''
+            fieldSettings: { }
+
+-   type: content_type
+    mode: create
+    metadata:
+        identifier: company
+        contentTypeGroups:
+            - corporate_account
+        mainTranslation: eng-GB
+        nameSchema: '<name>'
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: Company
+    fields:
+        -   identifier: active
+            type: ezboolean
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'Is active'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'basic_information'
+            defaultValue: ''
+            fieldSettings: { }
+        -   identifier: name
+            type: ezstring
+            position: 2
+            translations:
+                eng-GB:
+                    name: 'Name'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'basic_information'
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: vat
+            type: ezstring
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Tax ID'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'basic_information'
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: website
+            type: ezstring
+            position: 4
+            translations:
+                eng-GB:
+                    name: 'Website'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'basic_information'
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: customer_group
+            type: ibexa_customer_group
+            position: 5
+            translations:
+                eng-GB:
+                    name: 'Customer group'
+                    description: ''
+            required: true
+            searchable: false
+            infoCollector: false
+            translatable: false
+            category: 'basic_information'
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration: { }
+        -   identifier: sales_rep
+            type: ezobjectrelation
+            position: 6
+            translations:
+                eng-GB:
+                    name: 'Sales rep'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'basic_information'
+            defaultValue: ''
+            fieldSettings:
+                selectionMethod: 0
+                selectionRoot: 'reference:ref__corporate_account__sales_reps_user_group__location_id'
+                selectionContentTypes:
+                    - user
+                rootDefaultLocation: false
+        -   identifier: contact
+            type: ezobjectrelation
+            position: 7
+            translations:
+                eng-GB:
+                    name: 'Contact'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'basic_information'
+            defaultValue: ''
+            fieldSettings:
+                selectionMethod: 0
+                selectionRoot: -1
+                selectionContentTypes:
+                    - member
+                rootDefaultLocation: true
+        -   identifier: default_address
+            type: ezobjectrelation
+            position: 8
+            translations:
+                eng-GB:
+                    name: 'Default address'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'basic_information'
+            defaultValue: ''
+            fieldSettings:
+                selectionMethod: 0
+                selectionRoot: -1
+                selectionContentTypes:
+                    - shipping_address
+                rootDefaultLocation: true
+        -   identifier: billing_address
+            type: ibexa_address
+            position: 9
+            translations:
+                eng-GB:
+                    name: 'Billing address'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: false
+            category: 'billing_address'
+            fieldSettings:
+                type: billing
+        -   identifier: address_book
+            type: ezobjectrelation
+            position: 10
+            translations:
+                eng-GB:
+                    name: 'Address book'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'internal'
+            defaultValue: ''
+            fieldSettings: { }
+        -   identifier: members
+            type: ezobjectrelation
+            position: 10
+            translations:
+                eng-GB:
+                    name: 'Members'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'internal'
+            defaultValue: ''
+            fieldSettings: { }
+
+-   type: content_type
+    mode: create
+    metadata:
+        identifier: shipping_address
+        contentTypeGroups:
+            - corporate_account
+        mainTranslation: eng-GB
+        nameSchema: '<name>'
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: Shipping address
+    fields:
+        -   identifier: name
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'Name'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: ''
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -   identifier: address
+            type: ibexa_address
+            position: 2
+            translations:
+                eng-GB:
+                    name: 'Address'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: false
+            category: ''
+            fieldSettings:
+                type: personal
+        -   identifier: email
+            type: ezemail
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'E-mail'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: ''
+            defaultValue: ''
+            fieldSettings: { }
+        -   identifier: phone
+            type: ezstring
+            position: 4
+            translations:
+                eng-GB:
+                    name: 'Phone number'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: 'basic_information'
+            defaultValue: ''
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+
+-   type: role
+    mode: create
+    metadata:
+        identifier: 'Corporate Access'
+    policies:
+        -
+            module: user
+            function: login
+            limitations:
+                -
+                    identifier: SiteAccess
+                    values: [corporate]
+        -
+            module: content
+            function: read
+            limitations:
+                -
+                    identifier: Section
+                    values: [corporate_account]
+        -
+            module: content
+            function: read
+            limitations:
+                -
+                    identifier: Subtree
+                    values: [/1/5/]
+        -
+            module: content
+            function: versionread
+            limitations:
+                -
+                    identifier: Section
+                    values: [corporate_account]
+        -
+            module: customer_group
+            function: view
+
+        -
+            module: role
+            function: read
+
+    actions:
+        -   action: assign_role_to_user_group
+            value:
+                id: 'reference:ref__corporate_account__content_id'
+
+-   type: role
+    mode: create
+    metadata:
+        identifier: 'Company Admin'
+    policies:
+        -
+            module: user
+            function: invite
+            limitations:
+                -
+                    identifier: UserPermissions
+                    values: { roles: {  }, user_groups: {  } }
+        -
+            module: content
+            function: '*'
+        -
+            module: role
+            function: assign
+
+    references:
+        -
+            name: ref__role__company_admin__role_id
+            type: role_id
+
+-   type: role
+    mode: create
+    metadata:
+        identifier: 'Company Buyer'
+    references:
+        -
+            name: ref__role__company_buyer__role_id
+            type: role_id
+
+-   type: role
+    mode: update
+    match:
+        field: identifier
+        value: 'Company Admin'
+    policies:
+        -
+            module: user
+            function: invite
+            limitations:
+                -   identifier: UserPermissions
+                    values:
+                        roles:
+                             - 'reference:ref__role__company_admin__role_id'
+                             - 'reference:ref__role__company_buyer__role_id'
+                        user_groups: {}
+        -
+            module: content
+            function: '*'
+        -
+            module: role
+            function: assign
+
+-   type: segment_group
+    mode: create
+    identifier: corporate_accounts
+    name: Corporate Accounts
+
+-   type: reference
+    mode: save
+    filename: references/corporate_account_references.yml

@@ -1,0 +1,2960 @@
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 1
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Components
+    references:
+        -
+            name: components_location_id
+            type: location_id
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: configuration
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: false
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:components_location_id'
+    fields:
+        -
+            fieldDefIdentifier: configuration_name
+            languageCode: eng-GB
+            value: silver-eshop
+        -
+            fieldDefIdentifier: configuration_file
+            languageCode: eng-GB
+            value: |
+                ibexa.commerce.site_access.config.core.default.category_view: product_list
+                ibexa.commerce.site_access.config.eshop.default.last_viewed_products_in_session_limit: 10
+                ibexa.commerce.site_access.config.eshop.default.catalog_description_limit: 50
+                ibexa.commerce.site_access.config.core.default.currency_rate_changed_at: 01.01.2018
+                ibexa.commerce.site_access.config.core.default.automatic_currency_conversion: true
+                ibexa.commerce.site_access.config.core.default.currency_list:
+                    EUR: '1'
+                    USD: '1.23625'
+                    GBP: '0.86466'
+                    CAD: '1.55686'
+                ibexa.commerce.site_access.config.core.default.standard_price_factory.fallback_currency: EUR
+                ibexa.commerce.site_access.config.core.default.standard_price_factory.base_currency: EUR
+                ibexa.commerce.site_access.config.price.default.price_service_chain.product_list:
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                ibexa.commerce.site_access.config.price.default.price_service_chain.product_detail:
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                ibexa.commerce.site_access.config.price.default.price_service_chain.slider_product_list:
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                ibexa.commerce.site_access.config.price.default.price_service_chain.basket:
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                ibexa.commerce.site_access.config.price.default.price_service_chain.basket_variant:
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                ibexa.commerce.site_access.config.price.default.price_service_chain.stored_basket:
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                ibexa.commerce.site_access.config.price.default.price_service_chain.wish_list:
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                ibexa.commerce.site_access.config.price.default.price_service_chain.quick_order:
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                ibexa.commerce.site_access.config.price.default.price_service_chain.quick_order_line_preview:
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                ibexa.commerce.site_access.config.price.default.price_service_chain.comparison:
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                ibexa.commerce.site_access.config.price.default.price_service_chain.search_list:
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                ibexa.commerce.site_access.config.price.default.price_service_chain.bestseller_list:
+                    - Ibexa\Bundle\Commerce\PriceEngine\Service\ShopPriceProvider
+                ibexa.commerce.site_access.config.core.default.marketing.olark_chat.activated: false
+                ibexa.commerce.site_access.config.core.default.marketing.olark_chat.id: 6295-386-10-7457
+                ibexa.commerce.site_access.config.basket.default.discontinued_products_listener_active: true
+                ibexa.commerce.site_access.config.basket.default.discontinued_products_listener_consider_packaging_unit: true
+                ibexa.commerce.site_access.config.checkout.default.order_confirmation.sales_email_address: ''
+                ibexa.commerce.site_access.config.newsletter.default.newsletter_active: false
+                ibexa.commerce.site_access.config.newsletter.default.unsubscribe_globally: true
+                ibexa.commerce.site_access.config.newsletter.default.display_newsletter_box_for_logged_in_users: true
+                ibexa.commerce.site_access.config.newsletter.default.newsletter2go_username: ''
+                ibexa.commerce.site_access.config.newsletter.default.newsletter2go_password: ''
+                ibexa.commerce.site_access.config.newsletter.default.newsletter2go_auth_key: ''
+                ibexa.commerce.site_access.config.basket.default.validHours: 120
+                ibexa.commerce.site_access.config.basket.default.refreshCatalogElementAfter: '1 hours'
+                ibexa.commerce.site_access.config.basket.default.stock_in_column: true
+                ibexa.commerce.site_access.config.basket.default.description_limit: 50
+                ibexa.commerce.site_access.config.basket.default.additional_text_for_basket_line: false
+                ibexa.commerce.site_access.config.basket.default.additional_text_for_basket_line_input_limit: 30
+                ibexa.commerce.site_access.config.basket.stored.default.stock_in_column: true
+                ibexa.commerce.site_access.config.basket.stored.default.description_limit: 50
+                ibexa.commerce.site_access.config.wishlist.default.description_limit: 50
+                ibexa.commerce.site_access.config.core.default.template_debitor_country: DE
+                ibexa.commerce.site_access.config.core.default.enable_customer_number_login: false
+                ibexa.commerce.site_access.config.core.default.use_template_debitor_customer_number: true
+                ibexa.commerce.site_access.config.core.default.use_template_debitor_contact_number: false
+                ibexa.commerce.site_access.config.core.default.price_requests_without_customer_number: true
+                ibexa.commerce.site_access.config.basket.default.recalculatePricesAfter: '3 hours'
+                ibexa.commerce.site_access.config.eshop.default.erp.variant_handling: SKU_ONLY
+                ibexa.commerce.site_access.config.erp.default.web_connector.service_location: 'http://webconnproxy.silver-eshop.de?config=harmony_wc3_noop_mapping'
+                ibexa.commerce.site_access.config.eshop.default.webconnector.username: admin
+                ibexa.commerce.site_access.config.eshop.default.webconnector.password: passwo
+                ibexa.commerce.site_access.config.eshop.default.webconnector.soapTimeout: 5
+                ibexa.commerce.site_access.config.eshop.default.webconnector.erpTimeout: 5
+                ibexa.commerce.site_access.config.core.default.bestseller_limit_on_bestseller_page: 6
+                ibexa.commerce.site_access.config.core.default.bestseller_limit_on_catalog_page: 6
+                ibexa.commerce.site_access.config.core.default.bestseller_limit_in_silver_module: 6
+                ibexa.commerce.site_access.config.core.default.bestseller_threshold: 1
+                ibexa.commerce.site_access.config.checkout.default.payment_method.paypal_express_checkout: true
+                ibexa.commerce.site_access.config.checkout.default.payment_method.invoice: true
+                ibexa.commerce.site_access.config.checkout.default.shipping_method.standard: true
+                ibexa.commerce.site_access.config.checkout.default.shipping_method.express_delivery: false
+                ibexa.commerce.site_access.config.order.management.local.default.shipping_cost: ''
+                ibexa.commerce.site_access.config.order.management.local.default.shipping_free: ''
+                ibexa.commerce.site_access.config.core.default.shipping_vat_code: '19'
+                ibexa.commerce.site_access.config.core.en.standard_price_factory.fallback_currency: EUR
+                ibexa.commerce.site_access.config.checkout.en.payment_method.paypal_express_checkout: true
+                ibexa.commerce.site_access.config.checkout.en.payment_method.invoice: true
+                ibexa.commerce.site_access.config.checkout.en.shipping_method.standard: true
+                ibexa.commerce.site_access.config.checkout.en.shipping_method.express_delivery: true
+                ibexa.commerce.site_access.config.core.de.standard_price_factory.fallback_currency: EUR
+                ibexa.commerce.site_access.config.checkout.de.payment_method.paypal_express_checkout: true
+                ibexa.commerce.site_access.config.checkout.de.payment_method.invoice: true
+                ibexa.commerce.site_access.config.checkout.de.shipping_method.standard: true
+                ibexa.commerce.site_access.config.checkout.de.shipping_method.express_delivery: true
+                
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:components_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Textmodules
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+    references:
+        -
+            name: textmodule_location_id
+            type: location_id
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:textmodule_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Basket
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+    references:
+        -
+            name: basket_location_id
+            type: location_id
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:textmodule_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Checkout
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+    references:
+        -
+            name: checkout_location_id
+            type: location_id
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:textmodule_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Contact
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+    references:
+        -
+            name: contact_location_id
+            type: location_id
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:textmodule_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Customercenter
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+    references:
+        -
+            name: customercenter_location_id
+            type: location_id
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:textmodule_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Email
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+    references:
+        -
+            name: email_location_id
+            type: location_id
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:textmodule_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Footer
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+    references:
+        -
+            name: footer_location_id
+            type: location_id
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:textmodule_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Forms
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+    references:
+        -
+            name: forms_location_id
+            type: location_id
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:textmodule_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Misc
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+    references:
+        -
+            name: misc_location_id
+            type: location_id
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:textmodule_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Orderhistory
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+    references:
+        -
+            name: orderhistory_location_id
+            type: location_id
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:textmodule_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: User
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                content: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+                    
+    references:
+        -
+            name: user_location_id
+            type: location_id
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:basket_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Introtext stored basket'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: wishlist_stored_basket_intro_text
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: storedBasket
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">You can remove or update products and add one or more products to the basket.</para>
+                        <para ezxhtml:class="paraClass">We have recalculated prices and stock information for your stored basket. Price or stock information may have changed.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:basket_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Introtext wishlist'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: wishlist_stored_basket_intro_text
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: wishList
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Use the wishlist to store items for later.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:checkout_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Accept our Data protection and Cancellation policies'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: label.accept_cancellation_policies
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Please accept our <link xlink:href="/viewcontent/cancellation_policy" xlink:show="none" xlink:title="">Cancellation policies</link>.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: false
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:checkout_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Data privay hint'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: data_privacy_hint
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para>By placing your order you agree to our <link xlink:href="/viewcontent/data_protection" xlink:show="none" xlink:title="">data &amp; privacy regulations</link>.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:checkout_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message - Cancellation'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: common.success_cancellation
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Thank you for submitting this form.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:checkout_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Introtext - Summary of order'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: introtext_order_summary
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">
+                            This is a summary of your order. If you have chosen an electronic payment method you will be redirected to the payment provider after clicking on the order button.
+                        </para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:checkout_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Terms&Conditions'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: terms_conditions
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Please accept our <link xlink:href="/viewcontent/termsAndConditionsIdentifier" xlink:show="none" xlink:title="">Terms&amp;Conditions</link>.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:contact_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message - Contact form'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: success_contact
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">
+                            Thank you very much for your request. We will come back as soon as possible.
+                        </para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:contact_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Intro text - Contact form'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: contact_intro_text
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">
+                            Please let us a message. We will take care as soon as possible.
+                        </para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:customercenter_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Appoval request entry page'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: approver_entry_page_intro_text
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Here you can see a list of baskets that are waiting for approval.</para>
+                        <para ezxhtml:class="paraClass">You can</para>
+                        <itemizedlist>
+                            <listitem>
+                                <para>approve an order (the buyer will get an email as well). You can change products or the delivery address for this order if required.</para>
+                            </listitem>
+                            <listitem>
+                                <para>reject the order and add a comment for the buyer</para>
+                            </listitem>
+                        </itemizedlist>
+                        <para ezxhtml:class="paraClass">If you want to approve an order, make sure that you don't have an active basket. Either order or remove it.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:customercenter_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Basket sent to approver'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: basket_send_to_approver_success_message
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Your basket is now in the approval process. All approvers were informed. You will be informed immediately when your basket is ordered or rejected.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:customercenter_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Basket was send to approver info '
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: basket_send_to_approver_info_message
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Please wait until your order has been approved. You will get a message when your order is approved.</para>
+                        <para ezxhtml:class="paraClass">You will also receive an email, if your order is rejected.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:customercenter_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Buyer approval request entry page'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: buyer_entry_page_intro_text
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Here you can find a list of your approval requests</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:customercenter_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Email request new user'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: customercenter_new_user_created_email
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">The main contact has created a shop account for you. You can log in with your new login data. For security reasons we recommend you to change your password.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:customercenter_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message edit user'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: success_message_customer_center_edit_user
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">The user data was successfully updated.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:customercenter_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message add erp user to the shop'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: success_message_customer_center_add_user
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Benutzer wurde erfolgreich in den Shop hinzugefügt. Eine Email mit seinen Login-Daten wurde an ihn versendet.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:customercenter_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message request new user'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: success_message_customer_center_request_user
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Ein neuer Benutzer wurde erfolgreich angelegt. Eine Email mit seinen Login-Daten wurde an ihn versendet.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:customercenter_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Error message forms'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: error_message_customer_center_forms
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Es sind Fehler aufgetreten. Bitte prüfen Sie oballe Pflicht-Felder ausgefüllt sind,für diese E-Mail Adresse ggf. bereits ein Benutzer im Shop angelegt wurde undmindestens eine Rolle aktiviert wurde.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:customercenter_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Customercenter - Contacts from ERP'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: customer_center_entry_page_erp_users_intro
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Folgende Mitarbeiter sind uns bereits bekannt aber sie haben noch keinen Shop-Account. Sie können Mitarbeiter hier direkt aktivieren.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:customercenter_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Customercenter introtext'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: customer_center_entry_page_shop_users_intro
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">
+                            The customercenter allows to maintain shop accounts for your employees. You can:Change the rights for an userDeactivate an userChange a users settingsYou can also create new shop accounts. \_
+                        </para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:customercenter_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Request new user tooltip'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: customer_center_request_new_user_tooltip
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Hier können Sie neue Benutzer in Shop anlegen.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: false
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:email_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Email cancellation policies'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: email_cancelation_policies
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para><link xlink:href="/viewcontent/cancellation_policy" xlink:show="none">Cancellation policy</link></para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: false
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:email_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Email footer'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: email_footer
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para>
+                <literallayout class="normal">Best regards \_ -- -- -- -- -- -- -- -- -- -- -- -- -- -- \_ Ibexa AS Solligata 2 0254 OSLO Norway Phone: +47 35 58 70 20 * Shop systems B2B und B2C with integration in your ERP system * Multishop systems * Mobile commerce * \_ </literallayout>
+                        </para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: false
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:email_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Email intro text Shop Owner'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: email_shop_owner_intro_text
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Thank you for your order</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:email_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Email header address invoice text'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: header_address_invoice_text
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para>Ibexa AS</para>
+                        <para>Solligata 2</para>
+                        <para>0254 OSLO</para>
+                        <para>Norway</para>
+                        <para><link xlink:href="mailto:info@ibexa.co" xlink:show="none">info@ibexa.co</link></para>
+                        <para><link xlink:href="https://www.ibexa.co/" xlink:show="none">https://www.ibexa.co/</link></para>
+                        <para>+47 35 58 70 20</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:email_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Email payment method invoice text'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: invoice_payment_method_invoice_text
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para>If you have any questions do not hesitate to contact us.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:email_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Email invoice left footer'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: invoice_left_footer
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para></para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:email_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Email invoice right footer'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: invoice_right_footer
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para></para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:email_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Introduction text newsletter'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: common.subscribe_newsletter_intro
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Subscribe to our newsletter and benefit from our regular updates about new products and news,</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:footer_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Footer address'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: footer_block_address
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para>Ibexa AS</para>
+                        <para>Solligata 2</para>
+                        <para>0254 OSLO</para>
+                        <para>Norway</para>
+                        <para><link xlink:href="mailto:info@ibexa.co" xlink:show="none">info@ibexa.co</link></para>
+                        <para><link xlink:href="https://www.ibexa.co/" xlink:show="none">https://www.ibexa.co/</link></para>
+                        <para>+47 35 58 70 20</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:footer_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Footer block company'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: footer_block_company
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">
+                            <link xlink:href="/service/contact" xlink:show="none" xlink:title="">Contact</link>
+                        </para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:footer_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Footer block ordering'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: footer_block_ordering
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">
+                            <link xlink:href="/service/cancellation" xlink:show="none" xlink:title="">Online-Cancellation form</link>
+                        </para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:footer_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Footer block service'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: footer_block_service
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">
+                            <link xlink:href="/service/rma" xlink:show="none">Product return form</link>
+                        </para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: false
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:forms_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Quickorder Introtext'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: quickorder_introtext
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para>If you know the skus of the products you want to order, you can use quickorder to add these products to the basket.</para>
+                        <para>You can search for</para>
+                        <itemizedlist>
+                            <listitem>
+                                <para>a product name</para>
+                            </listitem>
+                            <listitem>
+                                <para>a sku</para>
+                            </listitem>
+                            <listitem>
+                                <para>a sku and variant code or a variant name</para>
+                            </listitem>
+                        </itemizedlist>
+                        <para>The shop will display suggestions and you can choose one of the list.</para>
+                        <para>A csv file containing a list of skus, variant codes and quantity can be imported by drag &amp; drop. Instead of uploading a file you can paste the content into the textbox s well.</para>
+                        <para>Please click on "Refresh quickorder" if you want to see your individual prices and the updated stock information.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:misc_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: '404 Page'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: 404_page
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">The page you've requested could not be found. The requested page may no longer exist, or there may be a typo in the URL.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:misc_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Access denied'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: 403_access_denied
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">You have been logged out automatically because of a timeout or you don't have access to the requested content. Please log in again if you are already a customers or create a new account.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:orderhistory_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Introtext orderhistory'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: orderhistory_introtext
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Here you will find an overview of your order history.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Back to catalog'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: back_to_catalog
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Go back to catalog</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: false
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Click here to register new user'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: common.click_here_to_register
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para>New customer? You can create a new account here:</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message password change'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: success_message_password_change
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Password changed successfully.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message for password request'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: success_message_password_reminder
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">An email was sent to your email address.</para>
+                        <para ezxhtml:class="paraClass">Please check your mailbox to get a new password.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Error message password change'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: error_message_password_change
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Could not send the form. Please check for errors and resubmit.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Error message for password reminder'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: error_message_password_reminder
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Could not send the form. Please check for errors and resubmit.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Intro text Edit Buyer'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: buyer_intro_text
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">You can edit your buyer address here.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Intro text edit My Account'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: my_account_intro_text
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">You can edit your account here.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'My profile information intro text'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: my_profile_intro_text
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">You may edit your profile information here.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Registration error message'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: error_message_register
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Some errors occurred. See below.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message activate business customer'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: success_activate_business
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Thank you for activating your account.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message Edit Buyer'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: success_buyer
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Your buyer address has been successfully modified.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message edit invoice'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: success_invoice
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">If your account doesn't have a customer number, your invoice address has been modified. If your account has a customer number, your changes have to be approved first. An email has been sent to the administrator.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message Edit MyAccount'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: success_my_account
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Your account has been modified.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message registration business customer'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: success_register_business
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Thank you for your registration. You will receive an email after your data is verified by an administrator.</para>
+                </section>
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: st_textmodule
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: true
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_NAME
+        sortOrder: ASC
+        priority: 0
+        parentLocationId: 'reference:user_location_id'
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Success message registration private customer'
+        -
+            fieldDefIdentifier: identifier
+            languageCode: eng-GB
+            value: success_register_private
+        -
+            fieldDefIdentifier: context
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: content
+            languageCode: eng-GB
+            value: |
+                <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml"
+                    xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom"
+                    version="5.0-variant ezpublish-1.0">
+                        <para ezxhtml:class="paraClass">Thank you for your registration. In a few minutes you will receive a confirmation email.</para>
+                </section>

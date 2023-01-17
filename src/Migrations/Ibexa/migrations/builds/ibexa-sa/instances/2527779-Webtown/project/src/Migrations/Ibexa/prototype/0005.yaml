@@ -1,0 +1,8 @@
+-
+    type: content_type_group
+    mode: create
+    metadata:
+        identifier: Design
+        name: Design
+        creationDate: ''
+        creatorId: null

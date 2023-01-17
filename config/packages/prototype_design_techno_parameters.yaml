@@ -1,0 +1,9 @@
+parameters:
+    prototype:
+        themes:
+            techno:
+                top_action: '/contact-us'
+
+    ibexa.site_access.config.default.base_menu.content_type_identifiers: [ 'landing_page', 'folder', 'blog', 'faq', 'form' ]
+    ibexa.site_access.config.default.base_search.content_type_identifiers: [ 'landing_page', 'article', 'folder', 'blog', 'faq', 'form', 'product', 'person', 'job_post' ]
+    ibexa.site_access.config.default.base_sitemap.content_type_identifiers: [ 'landing_page', 'folder', 'blog', 'faq', 'form' ]

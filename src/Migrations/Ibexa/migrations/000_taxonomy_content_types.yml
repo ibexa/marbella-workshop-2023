@@ -1,0 +1,101 @@
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: tag
+        contentTypeGroups:
+            - Content
+        mainTranslation: eng-GB
+        nameSchema: '<name>'
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: Tag
+    fields:
+        -
+            identifier: name
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'Name'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: 'New Tag'
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: identifier
+            type: ezstring
+            position: 2
+            translations:
+                eng-GB:
+                    name: 'Identifier'
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: parent
+            type: ibexa_taxonomy_entry
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Parent'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: ''
+            defaultValue: null
+            fieldSettings:
+                taxonomy: tags
+            validatorConfiguration: ~
+        -
+            identifier: description
+            type: eztext
+            position: 4
+            translations:
+                eng-GB:
+                    name: 'Description'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings:
+                textRows: 10
+            validatorConfiguration: {  }
+        -
+            identifier: image
+            type: ezimage
+            position: 5
+            translations:
+                eng-GB:
+                    name: 'Image upload'
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                FileSizeValidator:
+                    maxFileSize: null

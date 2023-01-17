@@ -1,0 +1,85 @@
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: faq_topic
+        contentTypeGroups:
+            - Prototype
+        mainTranslation: eng-GB
+        nameSchema: '<question>'
+        urlAliasSchema: '<question>'
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: 'FAQ Topic'
+                description: ''
+    fields:
+        -
+            identifier: question
+            type: ezstring
+            position: 10
+            translations:
+                eng-GB:
+                    name: Question
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: short_answer
+            type: ezrichtext
+            position: 20
+            translations:
+                eng-GB:
+                    name: 'Short answer'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: answer
+            type: ezrichtext
+            position: 20
+            translations:
+                eng-GB:
+                    name: Answer
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: { }
+        -
+            identifier: image
+            type: ezimageasset
+            position: 50
+            translations:
+                eng-GB:
+                    name: Image
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: null
+            validatorConfiguration: null
+            thumbnail: true

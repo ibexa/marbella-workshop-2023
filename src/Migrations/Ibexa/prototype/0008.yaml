@@ -1,0 +1,404 @@
+-
+    type: attribute_group
+    mode: create
+    identifier: skin_care
+    names:
+        eng-GB: 'Skin Care'
+    position: 1
+-
+    type: attribute_group
+    mode: create
+    identifier: self_care_medicine
+    names:
+        eng-GB: 'Self Care Medicine'
+    position: 2
+-
+    type: attribute_group
+    mode: create
+    identifier: sample_analysis
+    names:
+        eng-GB: 'Sample & Analysis'
+    position: 3
+-
+    type: attribute_group
+    mode: create
+    identifier: device_hw_sw
+    names:
+        eng-GB: 'Device Hardware & Software'
+    position: 4
+-
+    type: attribute_group
+    mode: create
+    identifier: quality_control
+    names:
+        eng-GB: 'Quality Control'
+    position: 5
+-
+    type: attribute_group
+    mode: create
+    identifier: data_security
+    names:
+        eng-GB: 'Data and Security'
+    position: 6
+-
+    type: attribute_group
+    mode: create
+    identifier: physical_dimensions
+    names:
+        eng-GB: 'Physical Dimensions'
+    position: 7
+
+-
+    type: attribute
+    mode: create
+    identifier: skin_concern
+    attribute_group_identifier: skin_care
+    attribute_type_identifier: selection
+    position: 1
+    names:
+        eng-GB: 'Skin Concern'
+    options:
+        choices:
+            - { value: 'acne', label: { "eng-GB": "Acne" }}
+            - { value: 'aging_skin', label: { "eng-GB": "Aging skin" }}
+            - { value: 'anti_aging', label: { "eng-GB": "Anti aging" }}
+            - { value: 'dry_skin', label: { "eng-GB": "Dry skin" }}
+            - { value: 'normal_skin', label: { "eng-GB": "Normal skin" }}
+            - { value: 'oily_skin', label: { "eng-GB": "Oily skin" }}
+            - { value: 'sensitive_skin', label: { "eng-GB": "Sensitive skin" }}
+
+-
+    type: attribute
+    mode: create
+    identifier: form
+    attribute_group_identifier: skin_care
+    attribute_type_identifier: selection
+    position: 2
+    names:
+        eng-GB: 'Form'
+    options:
+        choices:
+            - { value: 'liquid', label: { "eng-GB": "Liquid" }}
+            - { value: 'pads', label: { "eng-GB": "Pads" }}
+            - { value: 'wipes', label: { "eng-GB": "Wipes" }}
+-
+    type: attribute
+    mode: create
+    identifier: ingredient
+    attribute_group_identifier: skin_care
+    attribute_type_identifier: selection
+    position: 1
+    names:
+        eng-GB: 'Ingredient'
+    options:
+        choices:
+            - { value: 'benzoyl_peroxide', label: { "eng-GB": "Benzoyl Peroxide" }}
+            - { value: 'exfoliating_crystals', label: { "eng-GB": "Exfoliating Crystals" }}
+            - { value: 'hyaluronic_acid', label: { "eng-GB": "Hyaluronic Acid" }}
+            - { value: 'microclear_technology', label: { "eng-GB": "Microclear Technology" }}
+            - { value: 'salicylic_acid', label: { "eng-GB": "Salicylic Acid" }}
+            - { value: 'titanium_dioxide', label: { "eng-GB": "Titanium Dioxide" }}
+            - { value: 'vitamin_c', label: { "eng-GB": "Vitamin C" }}
+            - { value: 'retinol', label: { "eng-GB": "Retinol" }}
+            - { value: 'vitamin_e', label: { "eng-GB": "Vitamin E" }}
+
+-
+    type: attribute
+    mode: create
+    identifier: purpose
+    attribute_group_identifier: self_care_medicine
+    attribute_type_identifier: selection
+    position: 0
+    names:
+        eng-GB: 'Purpose'
+    options:
+        choices:
+            - { value: 'headache_muscle', label: { "eng-GB": "Headache + Muscle Pain" }}
+            - { value: 'arthritis_pain', label: { "eng-GB": "Arthritis Pain" }}
+            - { value: 'sinus', label: { "eng-GB": "Sinus" }}
+            - { value: 'cold_flu', label: { "eng-GB": "Cold & Flu" }}
+            - { value: 'sleep_pain', label: { "eng-GB": "Sleep + Pain" }}
+            - { value: 'children_infants', label: { "eng-GB": "Children & Infants" }}
+            - { value: 'vitamins', label: { "eng-GB": "Vitamins" }}
+-
+    type: attribute
+    mode: create
+    identifier: form_type
+    attribute_group_identifier: self_care_medicine
+    attribute_type_identifier: selection
+    position: 1
+    names:
+        eng-GB: 'Form'
+    options:
+        choices:
+            - { value: 'tablet', label: { "eng-GB": "Tablet" }}
+            - { value: 'capsule', label: { "eng-GB": "Capsule" }}
+            - { value: 'syrup', label: { "eng-GB": "Syrup" }}
+-
+    type: attribute
+    mode: create
+    identifier: count
+    attribute_group_identifier: self_care_medicine
+    attribute_type_identifier: integer
+    position: 2
+    names:
+        eng-GB: 'Count'
+
+-
+    type: attribute
+    mode: create
+    identifier: active_ingredient
+    attribute_group_identifier: self_care_medicine
+    attribute_type_identifier: selection
+    position: 3
+    names:
+        eng-GB: 'Active Ingredient'
+    options:
+        choices:
+            - { value: 'acetaminophen', label: { "eng-GB": "Acetaminophen" }}
+            - { value: 'diphenhydramine_hci', label: { "eng-GB": "Diphenhydramine HCl" }}
+            - { value: 'melotonin', label: { "eng-GB": "Melotonin" }}
+            - { value: 'vitamin_a', label: { "eng-GB": "Vitamin A" }}
+            - { value: 'vitamin_b', label: { "eng-GB": "Vitamin B" }}
+            - { value: 'vitamin_c', label: { "eng-GB": "Vitamin C" }}
+            - { value: 'vitamin_d', label: { "eng-GB": "Vitamin D" }}
+            - { value: 'vitamin_e', label: { "eng-GB": "Vitamin E" }}
+            - { value: 'calcium', label: { "eng-GB": "Calcium" }}
+            - { value: 'folic_acid', label: { "eng-GB": "Folic Acid" }}
+-
+    type: attribute
+    mode: create
+    identifier: active_ingredient_quantity
+    attribute_group_identifier: self_care_medicine
+    attribute_type_identifier: integer
+    position: 4
+    names:
+        eng-GB: 'Active Ingredient Quantity'
+
+-
+    type: attribute
+    mode: create
+    identifier: inactive_ingredient
+    attribute_group_identifier: self_care_medicine
+    attribute_type_identifier: selection
+    position: 5
+    names:
+        eng-GB: 'Inactive Ingredient'
+    options:
+        choices:
+            - { value: 'powdered_cellulose', label: { "eng-GB": "Powdered Cellulose" }}
+            - { value: 'pregelatinizedd_starch', label: { "eng-GB": "Pregelatinized Starch" }}
+            - { value: 'sodium_starch_glycolate', label: { "eng-GB": "Sodium Starch Glycolate" }}
+            - { value: 'magnesium_stearate', label: { "eng-GB": "Magnesium Stearate" }}
+            - { value: 'purified_water', label: { "eng-GB": "Purified Water" }}
+            - { value: 'iron_oxide', label: { "eng-GB": "Iron Oxide" }}
+-
+    type: attribute
+    mode: create
+    identifier: flavor
+    attribute_group_identifier: self_care_medicine
+    attribute_type_identifier: selection
+    position: 6
+    names:
+        eng-GB: 'Flavor'
+    options:
+        choices:
+            - { value: 'cherry', label: { "eng-GB": "Cherry" }}
+            - { value: 'blueberry', label: { "eng-GB": "Blueberry" }}
+            - { value: 'strawberry', label: { "eng-GB": "Strawberry" }}
+            - { value: 'no_flavor', label: { "eng-GB": "No flavor" }}
+
+-
+    type: attribute
+    mode: create
+    identifier: sample_size
+    attribute_group_identifier: sample_analysis
+    attribute_type_identifier: float
+    position: 0
+    names:
+        eng-GB: 'Sample Size'
+-
+    type: attribute
+    mode: create
+    identifier: sample_type
+    attribute_group_identifier: sample_analysis
+    attribute_type_identifier: selection
+    position: 1
+    names:
+        eng-GB: 'Sample Type'
+    options:
+        choices:
+            - { value: 'whole_blood', label: { "eng-GB": "Whole Blood" }}
+            - { value: 'pleural_fluid', label: { "eng-GB": "Pleural Fluid" }}
+-
+    type: attribute
+    mode: create
+    identifier: time_to_result
+    attribute_group_identifier: sample_analysis
+    attribute_type_identifier: integer
+    position: 2
+    names:
+        eng-GB: 'Time to result'
+
+-
+    type: attribute
+    mode: create
+    identifier: operating_system
+    attribute_group_identifier: device_hw_sw
+    attribute_type_identifier: selection
+    position: 2
+    names:
+        eng-GB: 'Operating system'
+    options:
+        choices:
+            - { value: 'microsoft_win_10_iot', label: { "eng-GB": "Microsoft Windows 10 IoT" }}
+            - { value: 'android', label: { "eng-GB": "Android" }}
+            - { value: 'macos', label: { "eng-GB": "MacOS" }}
+-
+    type: attribute
+    mode: create
+    identifier: barcode_scanner
+    attribute_group_identifier: device_hw_sw
+    attribute_type_identifier: checkbox
+    position: 2
+    names:
+        eng-GB: 'Integrated Barcode Scanner'
+-
+    type: attribute
+    mode: create
+    identifier: power_rating
+    attribute_group_identifier: device_hw_sw
+    attribute_type_identifier: integer
+    position: 2
+    names:
+        eng-GB: 'Power Rating'
+-
+    type: attribute
+    mode: create
+    identifier: power_frequency
+    attribute_group_identifier: device_hw_sw
+    attribute_type_identifier: integer
+    position: 2
+    names:
+        eng-GB: 'Power Frequency'
+-
+    type: attribute
+    mode: create
+    identifier: power_voltage
+    attribute_group_identifier: device_hw_sw
+    attribute_type_identifier: integer
+    position: 2
+    names:
+        eng-GB: 'Power Voltage'
+-
+    type: attribute
+    mode: create
+    identifier: external_interfaces
+    attribute_group_identifier: device_hw_sw
+    attribute_type_identifier: selection
+    position: 2
+    names:
+        eng-GB: 'External Interfaces'
+    options:
+        choices:
+            - { value: 'usb', label: { "eng-GB": "Universal Serial Bus (USB)" }}
+            - { value: 'rs232_port', label: { "eng-GB": "RS232 Port" }}
+            - { value: '10base_ethernet', label: { "eng-GB": "10Base T Ethernet" }}
+            - { value: 'bar_code_scanner', label: { "eng-GB": "Bar-code Scanner" }}
+
+-
+    type: attribute
+    mode: create
+    identifier: qc
+    attribute_group_identifier: quality_control
+    attribute_type_identifier: selection
+    position: 0
+    names:
+        eng-GB: 'QC'
+    options:
+        choices:
+            - { value: 'customizeable_qc_schedule', label: { "eng-GB": "Customizeable QC schedule" }}
+            - { value: 'automatic_qc', label: { "eng-GB": "Automatic QC" }}
+
+-
+    type: attribute
+    mode: create
+    identifier: security
+    attribute_group_identifier: data_security
+    attribute_type_identifier: selection
+    position: 0
+    names:
+        eng-GB: 'Security'
+    options:
+        choices:
+            - { value: 'patient_data_encryption', label: { "eng-GB": "Patient Data encryption" }}
+            - { value: 'encrypted_end_to_end_data_transmission', label: { "eng-GB": "Encrypted end-to-end data transmission" }}
+            - { value: 'no_hard_coded_password', label: { "eng-GB": "No hard-coded password" }}
+-
+    type: attribute
+    mode: create
+    identifier: communication
+    attribute_group_identifier: data_security
+    attribute_type_identifier: selection
+    position: 0
+    names:
+        eng-GB: 'Communication'
+    options:
+        choices:
+            - { value: 'wireless', label: { "eng-GB": "Wireless" }}
+            - { value: 'dual_port_transmission_ethernet', label: { "eng-GB": "Dual-port transmission via Ethernet and serial port" }}
+
+-
+    type: attribute
+    mode: create
+    identifier: length
+    attribute_group_identifier: physical_dimensions
+    attribute_type_identifier: float
+    position: 0
+    names:
+        eng-GB: 'Length'
+-
+    type: attribute
+    mode: create
+    identifier: width
+    attribute_group_identifier: physical_dimensions
+    attribute_type_identifier: float
+    position: 0
+    names:
+        eng-GB: 'Width'
+-
+    type: attribute
+    mode: create
+    identifier: height
+    attribute_group_identifier: physical_dimensions
+    attribute_type_identifier: float
+    position: 0
+    names:
+        eng-GB: 'Height'
+-
+    type: attribute
+    mode: create
+    identifier: volume
+    attribute_group_identifier: physical_dimensions
+    attribute_type_identifier: float
+    position: 0
+    names:
+        eng-GB: 'Volume'
+-
+    type: attribute
+    mode: create
+    identifier: area
+    attribute_group_identifier: physical_dimensions
+    attribute_type_identifier: float
+    position: 0
+    names:
+        eng-GB: 'Area'
+-
+    type: attribute
+    mode: create
+    identifier: weight
+    attribute_group_identifier: physical_dimensions
+    attribute_type_identifier: float
+    position: 0
+    names:
+        eng-GB: 'Weight'

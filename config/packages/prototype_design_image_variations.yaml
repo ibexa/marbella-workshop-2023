@@ -1,0 +1,43 @@
+ibexa:
+    system:
+        default:
+            image_variations:
+                full_width:
+                    reference: null
+                    filters:
+                        - { name: geometry/scaledownonly, params: [970, 600] }
+                logo:
+                    reference: null
+                    filters:
+                        - { name: geometry/scaledownonly, params: [160, 40] }
+                related_widget:
+                    reference: null
+                    filters:
+                        - { name: geometry/scaledownonly, params: [100, 80] }
+                author_avatar:
+                    reference: null
+                    filters:
+                        - { name: geometry/scaledownonly, params: [105, 105] }
+                service:
+                    reference: null
+                    filters:
+                        - { name: geometry/scaleheight, params: [580] }
+                service_tall:
+                    reference: null
+                    filters:
+                        - { name: geometry/scaleheight, params: [660] }
+                        - { name: geometry/crop, params: [500, 660, 0, 0] }
+                breadcrumbs_header:
+                    reference: null
+                    filters:
+                        - { name: geometry/scalewidth, params: [ 1920 ] }
+                blog_widget:
+                    reference: null
+                    filters:
+                        - { name: geometry/scalewidth, params: [ 730 ] }
+                        - { name: geometry/crop, params: [ 730, 480, 0, 0 ] }
+                product_list:
+                    reference: null
+                    filters:
+                        - { name: geometry/scalewidth, params: [300]}
+                        - { name: geometry/crop, params: [ 282, 180, 0, 0 ] }

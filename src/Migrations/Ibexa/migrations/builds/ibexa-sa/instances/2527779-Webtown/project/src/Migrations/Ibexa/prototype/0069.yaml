@@ -1,0 +1,196 @@
+-
+    type: product_availability
+    mode: create
+    product_code: VIT13649130
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: BGS11000
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: BGS120001
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: SER927429
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: BGS12000
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: VIT9740024
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: PAIN2394729
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: VIT1273698
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: CRM2974299
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: SOAP287859
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: BGS14500
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: MASK238462
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: BGS139799
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: MASK288367
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: PAIN654226
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: PAIN234767882
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: PAIN23334
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: PAIN238746
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: CRM437615348
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: BGS10000
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: VIT9298422
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: VIT1987612
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: SER23984729
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: BGS13000
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: BGS12004
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: SOAP1938793
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: SOAP81739
+    stock: ~
+    is_available: true
+    is_infinite: true
+-
+    type: product_availability
+    mode: create
+    product_code: CRM2837648
+    stock: ~
+    is_available: true
+    is_infinite: true

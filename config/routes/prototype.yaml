@@ -1,0 +1,2 @@
+base:
+    resource: '@IbexaPrototypeBaseBundle/Resources/config/routing.yaml'

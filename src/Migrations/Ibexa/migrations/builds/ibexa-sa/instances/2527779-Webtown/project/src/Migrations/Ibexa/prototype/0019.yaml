@@ -1,0 +1,52 @@
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: js_resource
+        contentTypeGroups:
+            - Design
+        mainTranslation: eng-GB
+        nameSchema: '<name>'
+        urlAliasSchema: '<name>'
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: 'JS Resource'
+                description: ''
+    fields:
+        -
+            identifier: name
+            type: ezstring
+            position: 10
+            translations:
+                eng-GB:
+                    name: 'Name'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: file
+            type: ezbinaryfile
+            position: 3
+            translations:
+                eng-GB:
+                    name: File
+                    description: ''
+            required: true
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: null
+            validatorConfiguration: null

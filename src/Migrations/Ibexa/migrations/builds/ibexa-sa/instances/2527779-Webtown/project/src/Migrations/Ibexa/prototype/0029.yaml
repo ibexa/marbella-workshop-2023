@@ -1,0 +1,85 @@
+-
+    type: content_type
+    mode: update
+    match:
+        field: content_type_identifier
+        value: form
+    metadata:
+        contentTypeGroups: null
+        mainTranslation: null
+        remoteId: null
+        urlAliasSchema: null
+        nameSchema: null
+        container: null
+        translations: {  }
+    fields:
+        -
+            identifier: sub_title
+            type: ezstring
+            position: 20
+            translations:
+                eng-GB:
+                    name: 'Sub-Title'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: short_description
+            type: ezrichtext
+            position: 30
+            translations:
+                eng-GB:
+                    name: 'Short description'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: description
+            type: ezrichtext
+            position: 40
+            translations:
+                eng-GB:
+                    name: 'Description'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: image
+            type: ezimageasset
+            position: 60
+            translations:
+                eng-GB:
+                    name: Image
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: null
+            validatorConfiguration: null
+    actions:
+        - { action: assign_content_type_group, value: 'Experience' }
+        - { action: unassign_content_type_group, value: 'Content' }

@@ -1,0 +1,128 @@
+-
+    type: content_type
+    mode: update
+    match:
+        field: content_type_identifier
+        value: article
+    metadata:
+        contentTypeGroups: null
+        mainTranslation: null
+        remoteId: null
+        urlAliasSchema: null
+        nameSchema: null
+        container: null
+        translations: {  }
+    fields: {  }
+    actions:
+        -
+            action: remove_field_by_identifier
+            value: image
+-
+    type: content_type
+    mode: update
+    match:
+        field: content_type_identifier
+        value: article
+    metadata:
+        contentTypeGroups: null
+        mainTranslation: null
+        remoteId: null
+        urlAliasSchema: null
+        nameSchema: null
+        container: null
+        translations: {  }
+    fields:
+        -
+            identifier: image
+            type: ezimageasset
+            position: 7
+            translations:
+                eng-GB:
+                    name: Image
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: null
+            validatorConfiguration: null
+            thumbnail: true
+        -
+            identifier: tags
+            type: ibexa_taxonomy_entry_assignment
+            position: 8
+            translations:
+                eng-GB:
+                    name: Tags
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                taxonomy_entries: { }
+                taxonomy: null
+            fieldSettings:
+                taxonomy: tags
+            validatorConfiguration: { }
+        -
+            identifier: meta_title
+            type: ezstring
+            position: 70
+            translations:
+                eng-GB:
+                    name: 'Meta title'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: metadata
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: meta_description
+            type: ezstring
+            position: 80
+            translations:
+                eng-GB:
+                    name: 'Meta description'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: metadata
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: meta_keywords
+            type: ezstring
+            position: 90
+            translations:
+                eng-GB:
+                    name: 'Meta keywords'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: metadata
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+    actions: {  }

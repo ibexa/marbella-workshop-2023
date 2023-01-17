@@ -1,0 +1,4 @@
+ibexa_design_engine:
+    design_list:
+        clean_base: [base, standard]
+        webtown: [webtown, techno_commerce, techno, base, standard]

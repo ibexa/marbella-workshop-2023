@@ -1,0 +1,455 @@
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: blood_gas_system
+        mainTranslation: eng-GB
+        creatorId: 14
+        creationDate: '2022-01-30T22:49:56+00:00'
+        remoteId: 4fad55e046953891bcb952f3596fe453
+        urlAliasSchema: ''
+        nameSchema: '<name>'
+        container: false
+        defaultAlwaysAvailable: true
+        defaultSortField: 2
+        defaultSortOrder: 0
+        contentTypeGroups:
+            - product
+        translations:
+            eng-GB:
+                name: 'Blood Gas System'
+                description: ''
+    fields:
+        -
+            identifier: name
+            type: ezstring
+            position: 0
+            translations:
+                eng-GB:
+                    name: Name
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: product_specification
+            type: ibexa_product_specification
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'Product Specification'
+                    description: ''
+            required: true
+            searchable: false
+            infoCollector: false
+            translatable: false
+            category: content
+            defaultValue: null
+            fieldSettings:
+                attributes_definitions:
+                    physical_dimensions: [{ attributeDefinition: length, discriminator: false, required: false }, { attributeDefinition: width, discriminator: false, required: false }, { attributeDefinition: height, discriminator: false, required: false }, { attributeDefinition: weight, discriminator: false, required: false }]
+                    quality_control: [{ attributeDefinition: qc, discriminator: false, required: false }]
+                    data_security: [{ attributeDefinition: security, discriminator: false, required: false }, { attributeDefinition: communication, discriminator: false, required: false }]
+                    device_hw_sw: [{ attributeDefinition: operating_system, discriminator: false, required: false }, { attributeDefinition: barcode_scanner, discriminator: false, required: false }, { attributeDefinition: power_rating, discriminator: false, required: false }, { attributeDefinition: power_frequency, discriminator: false, required: false }]
+                    sample_analysis: [{ attributeDefinition: sample_size, discriminator: false, required: false }, { attributeDefinition: sample_type, discriminator: false, required: false }, { attributeDefinition: time_to_result, discriminator: false, required: false }]
+                regions: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: image
+            type: ezimageasset
+            position: 2
+            translations:
+                eng-GB:
+                    name: Image
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: content
+            defaultValue:
+                destinationContentId: null
+                alternativeText: null
+                source: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+            thumbnail: true
+        -
+            identifier: short_description
+            type: ezrichtext
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Short Description'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: description
+            type: ezrichtext
+            position: 4
+            translations:
+                eng-GB:
+                    name: Description
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+    references:
+        -
+            name: ref__blood_gas_system__content_type_id
+            type: content_type_id
+    actions:
+        - {action: 'assign_vat_to_regions'}
+
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: self_care_medicine
+        mainTranslation: eng-GB
+        creatorId: 14
+        creationDate: '2022-02-01T17:28:08+00:00'
+        remoteId: c92cbfb9257910129c058d4aeafc00dd
+        urlAliasSchema: ''
+        nameSchema: '<name>'
+        container: false
+        defaultAlwaysAvailable: true
+        defaultSortField: 2
+        defaultSortOrder: 0
+        contentTypeGroups:
+            - product
+        translations:
+            eng-GB:
+                name: 'Self Care Medicine Product'
+                description: ''
+    fields:
+        -
+            identifier: name
+            type: ezstring
+            position: 0
+            translations:
+                eng-GB:
+                    name: Name
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: product_specification
+            type: ibexa_product_specification
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'Product Specification'
+                    description: ''
+            required: true
+            searchable: false
+            infoCollector: false
+            translatable: false
+            category: content
+            defaultValue: null
+            fieldSettings:
+                attributes_definitions:
+                    self_care_medicine: [{ attributeDefinition: purpose, discriminator: false, required: false }, { attributeDefinition: count, discriminator: false, required: false }, { attributeDefinition: active_ingredient, discriminator: false, required: false }, { attributeDefinition: inactive_ingredient, discriminator: false, required: false }, { attributeDefinition: active_ingredient_quantity, discriminator: false, required: false }, { attributeDefinition: flavor, discriminator: false, required: false }, { attributeDefinition: form_type, discriminator: false, required: false }]
+                regions: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: image
+            type: ezimageasset
+            position: 2
+            translations:
+                eng-GB:
+                    name: Image
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: content
+            defaultValue:
+                destinationContentId: null
+                alternativeText: null
+                source: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+            thumbnail: true
+        -
+            identifier: short_description
+            type: ezrichtext
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Short Description'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: description
+            type: ezrichtext
+            position: 4
+            translations:
+                eng-GB:
+                    name: Description
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: uses
+            type: ezrichtext
+            position: 5
+            translations:
+                eng-GB:
+                    name: Uses
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: warnings
+            type: ezrichtext
+            position: 6
+            translations:
+                eng-GB:
+                    name: Warnings
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: directions
+            type: ezrichtext
+            position: 7
+            translations:
+                eng-GB:
+                    name: Directions
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+    references:
+        -
+            name: ref__self_care_medicine__content_type_id
+            type: content_type_id
+    actions:
+        - { action: 'assign_vat_to_regions' }
+
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: skin_care_product
+        mainTranslation: eng-GB
+        creatorId: 14
+        creationDate: '2022-02-01T15:47:44+00:00'
+        remoteId: aa057e65f0f08cfa904248e9994bb6da
+        urlAliasSchema: ''
+        nameSchema: '<name>'
+        container: false
+        defaultAlwaysAvailable: true
+        defaultSortField: 2
+        defaultSortOrder: 0
+        contentTypeGroups:
+            - product
+        translations:
+            eng-GB:
+                name: 'Skin Care Product'
+                description: ''
+    fields:
+        -
+            identifier: name
+            type: ezstring
+            position: 0
+            translations:
+                eng-GB:
+                    name: Name
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: product_specification
+            type: ibexa_product_specification
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'Product Specification'
+                    description: ''
+            required: true
+            searchable: false
+            infoCollector: false
+            translatable: false
+            category: content
+            defaultValue: null
+            fieldSettings:
+                attributes_definitions:
+                    physical_dimensions: [{ attributeDefinition: volume, discriminator: false, required: false }]
+                    skin_care: [{ attributeDefinition: skin_concern, discriminator: false, required: false }, { attributeDefinition: ingredient, discriminator: false, required: false }]
+                regions: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: image
+            type: ezimageasset
+            position: 2
+            translations:
+                eng-GB:
+                    name: Image
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: content
+            defaultValue:
+                destinationContentId: null
+                alternativeText: null
+                source: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+            thumbnail: true
+        -
+            identifier: short_description
+            type: ezrichtext
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Short Description'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: description
+            type: ezrichtext
+            position: 4
+            translations:
+                eng-GB:
+                    name: Benefits
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: usage
+            type: ezrichtext
+            position: 5
+            translations:
+                eng-GB:
+                    name: 'How to use'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+    references:
+        -
+            name: ref__skin_care_product__content_type_id
+            type: content_type_id
+    actions:
+        - {action: 'assign_vat_to_regions'}

@@ -1,0 +1,58 @@
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: ses_productcatalog
+        mainTranslation: eng-GB
+        creatorId: null
+        modificationDate: null
+        publicationDate: null
+        remoteId: null
+        alwaysAvailable: false
+        section: 1
+    location:
+        locationRemoteId: null
+        hidden: false
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_PATH
+        sortOrder: ASC
+        priority: 1
+        parentLocationId: 2
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Product Catalog'
+        -
+            fieldDefIdentifier: root_node
+            languageCode: eng-GB
+            value: 56
+        -
+            fieldDefIdentifier: path_prefix
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: depth
+            languageCode: eng-GB
+            value: '5'
+    references:
+        -
+            name: product_catalog_location_id
+            type: location_id
+-
+    type: content
+    mode: update
+    match:
+        field: location_id
+        value: 'reference:product_catalog_location_id'
+    metadata:
+        remoteId: null
+        alwaysAvailable: null
+        mainLanguageCode: null
+        modificationDate: null
+        publishedData: null
+        ownerId: null
+    fields:
+        -
+            fieldDefIdentifier: root_node
+            languageCode: null
+            value: 'reference:product_catalog_location_id'

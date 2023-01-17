@@ -1,0 +1,85 @@
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: inspiration
+        contentTypeGroups:
+            - Experience
+        mainTranslation: eng-GB
+        nameSchema: '<title>'
+        urlAliasSchema: ''
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: Inspiration
+                description: ''
+    fields:
+        -
+            identifier: title
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: Title
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: teaser_text
+            type: eztext
+            position: 2
+            translations:
+                eng-GB:
+                    name: 'Teaser Text'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings:
+                textRows: 10
+            validatorConfiguration: {  }
+        -
+            identifier: teaser_image
+            type: ezimageasset
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Teaser Image'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: description
+            type: ezrichtext
+            position: 4
+            translations:
+                eng-GB:
+                    name: Description
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }

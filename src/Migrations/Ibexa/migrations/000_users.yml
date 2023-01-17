@@ -1,0 +1,86 @@
+-
+    type: reference
+    mode: set
+    name: ref_user_group__members
+    value: 11
+-
+    type: reference
+    mode: set
+    name: ref_user_group__anonymous_users
+    value: 42
+-
+    type: user_group
+    mode: create
+    metadata:
+        contentTypeIdentifier: user_group
+        mainLanguage: eng-GB
+        parentGroupId: 4
+        remoteId: null
+    fields:
+        -
+            fieldDefIdentifier: name
+            fieldTypeIdentifier: ezstring
+            languageCode: eng-GB
+            value: 'Shop users'
+        -
+            fieldDefIdentifier: description
+            fieldTypeIdentifier: ezstring
+            languageCode: eng-GB
+            value: 'Shop users'
+    roles: {  }
+    references:
+        -
+            name: ref_user_group__shop_users
+            type: user_group_id
+-
+    type: user_group
+    mode: create
+    metadata:
+        contentTypeIdentifier: user_group
+        mainLanguage: eng-GB
+        parentGroupId: 'reference:ref_user_group__shop_users'
+        remoteId: null
+    fields:
+        -
+            fieldDefIdentifier: name
+            fieldTypeIdentifier: ezstring
+            languageCode: eng-GB
+            value: 'Private customers'
+        -
+            fieldDefIdentifier: description
+            fieldTypeIdentifier: ezstring
+            languageCode: eng-GB
+            value: 'User group for private customers'
+    roles: {  }
+    references:
+        -
+            name: ref_user_group__private_customer
+            type: user_group_id
+-
+    type: user_group
+    mode: create
+    metadata:
+        contentTypeIdentifier: user_group
+        mainLanguage: eng-GB
+        parentGroupId: 'reference:ref_user_group__shop_users'
+        remoteId: null
+    fields:
+        -
+            fieldDefIdentifier: name
+            fieldTypeIdentifier: ezstring
+            languageCode: eng-GB
+            value: 'Business customers'
+        -
+            fieldDefIdentifier: description
+            fieldTypeIdentifier: ezstring
+            languageCode: eng-GB
+            value: 'User group for business customers'
+    roles: {  }
+    references:
+        -
+            name: ref_user_group__business_customer
+            type: user_group_id
+-
+    type: reference
+    mode: save
+    filename: references/references.yml

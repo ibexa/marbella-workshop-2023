@@ -1,0 +1,363 @@
+# project information content type
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: project_information
+        contentTypeGroups:
+            - Prototype
+        mainTranslation: eng-GB
+        nameSchema: 'Project Information'
+        urlAliasSchema: ''
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: Project Information
+                description: ''
+    fields:
+        -
+            identifier: company
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: Company
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+              StringLengthValidator:
+                maxStringLength: null
+                minStringLength: null
+        -
+            identifier: info
+            type: eztext
+            position: 2
+            translations:
+                eng-GB:
+                    name: Info
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+        -
+            identifier: description
+            type: eztext
+            position: 3
+            translations:
+                eng-GB:
+                    name: Description
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+        -
+            identifier: address
+            type: ezstring
+            position: 4
+            translations:
+                eng-GB:
+                    name: Address
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+        -
+            identifier: email
+            type: ezemail
+            position: 5
+            translations:
+                eng-GB:
+                    name: Email
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+        -
+            identifier: phone
+            type: ezstring
+            position: 5
+            translations:
+                eng-GB:
+                    name: Phone
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: favicon
+            type: ezstring
+            position: 7
+            translations:
+                eng-GB:
+                    name: Favicon URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: copyright
+            type: ezstring
+            position: 8
+            translations:
+                eng-GB:
+                    name: Copyright
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: privacy
+            type: ezstring
+            position: 9
+            translations:
+                eng-GB:
+                    name: Privacy URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: terms
+            type: ezstring
+            position: 10
+            translations:
+                eng-GB:
+                    name: Terms URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: contact
+            type: ezstring
+            position: 11
+            translations:
+                eng-GB:
+                    name: Contact URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: top_action
+            type: ezstring
+            position: 12
+            translations:
+                eng-GB:
+                    name: Top Action URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: widget_action
+            type: ezstring
+            position: 13
+            translations:
+                eng-GB:
+                    name: Widget Action URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: facebook
+            type: ezstring
+            position: 14
+            translations:
+                eng-GB:
+                    name: Facebook URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: instagram
+            type: ezstring
+            position: 15
+            translations:
+                eng-GB:
+                    name: Instagram URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: twitter
+            type: ezstring
+            position: 16
+            translations:
+                eng-GB:
+                    name: Twitter URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: youtube
+            type: ezstring
+            position: 17
+            translations:
+                eng-GB:
+                    name: Youtube URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: linkedin
+            type: ezstring
+            position: 18
+            translations:
+                eng-GB:
+                    name: Linkedin URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: xing
+            type: ezstring
+            position: 19
+            translations:
+                eng-GB:
+                    name: Xing URL
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null

@@ -1,0 +1,20 @@
+-
+    type: content_type
+    mode: update
+    match:
+        field: content_type_identifier
+        value: configuration
+    actions:
+        - { action: copy_configuration_to_settings, value: configuration_file }
+-
+    type: content
+    mode: delete
+    match:
+        field: content_type_identifier
+        value: configuration
+-
+    type: content_type
+    mode: delete
+    match:
+        field: content_type_identifier
+        value: configuration

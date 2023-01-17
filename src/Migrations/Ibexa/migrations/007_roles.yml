@@ -1,0 +1,113 @@
+-
+    type: reference
+    mode: load
+    filename: references/references.yml
+-
+    type: role
+    mode: create
+    metadata:
+        identifier: 'Ecommerce anonymous'
+    policies:
+        -
+            module: content
+            function: read
+            limitations:
+                -
+                    identifier: Class
+                    values: [article, file, folder, image, ses_category, ses_product, ses_productcatalog, st_textmodule]
+                -
+                    identifier: Section
+                    values: [components, media, standard]
+        -
+            module: user
+            function: login
+            limitations:
+                -
+                    identifier: SiteAccess
+                    values: [site]
+        -
+            module: siso_policy
+            function: read_basket
+            limitations: {  }
+        -
+            module: siso_policy
+            function: write_basket
+            limitations: {  }
+        -
+            module: siso_policy
+            function: see_product_price
+            limitations: {  }
+        -
+            module: siso_policy
+            function: quickorder
+            limitations: {  }
+    actions:
+        -
+            action: assign_role_to_user_group
+            value:
+                id: 'reference:ref_user_group__anonymous_users'
+        -
+            action: assign_role_to_user_group
+            value:
+                id: 'reference:ref_user_group__shop_users'
+-
+    type: role
+    mode: create
+    metadata:
+        identifier: 'Ecommerce checkout'
+    policies:
+        -
+            module: siso_policy
+            function: checkout
+            limitations: {  }
+    actions:
+        -
+            action: assign_role_to_user_group
+            value:
+                id: 'reference:ref_user_group__anonymous_users'
+        -
+            action: assign_role_to_user_group
+            value:
+                id: 'reference:ref_user_group__shop_users'
+-
+    type: role
+    mode: create
+    metadata:
+        identifier: 'Ecommerce registered users'
+    policies:
+        -
+            module: siso_policy
+            function: edit_invoice
+            limitations: {  }
+        -
+            module: siso_policy
+            function: forms_profile_edit
+            limitations: {  }
+        -
+            module: siso_policy
+            function: order_list
+            limitations: {  }
+        -
+            module: siso_policy
+            function: edit_delivery
+            limitations: {  }
+        -
+            module: content
+            function: read
+            limitations:
+                -
+                    identifier: Owner
+                    values: [1]
+    actions:
+        -   action: assign_role_to_user_group
+            value:
+                id: 'reference:ref_user_group__shop_users'
+-
+    type: role
+    mode: update
+    match:
+        field: identifier
+        value: Member
+    metadata:
+        name: null
+    policies: null

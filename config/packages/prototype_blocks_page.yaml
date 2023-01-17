@@ -1,0 +1,737 @@
+ibexa_fieldtype_page:
+    blocks:
+        teaser:
+            category: 'Prototype'
+            name: Teaser
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#contentlist'
+            configuration_template: '@ibexadesign/blocks/config/teaser.html.twig'
+            views:
+                fullwidth:
+                    template: '@ibexadesign/blocks/teaser/fullwidth.html.twig'
+                    name: 'Fullwidth Teaser'
+                grid:
+                    template: '@ibexadesign/blocks/teaser/grid.html.twig'
+                    name: 'Grid'
+            attributes:
+                teaser_location:
+                    type: locationlist
+                    name: Location
+                    validators:
+                        not_blank:
+                            message: You must select a location
+
+        call_to_action_external:
+            category: 'Prototype'
+            name: CTA External
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#contentlist'
+            views:
+                image_text_button:
+                    template: '@ibexadesign/blocks/cta_external/image_text_button.html.twig'
+                    name: 'Image - Text - Button'
+                image_title_text_button:
+                    template: '@ibexadesign/blocks/cta_external/image_title_text_button.html.twig'
+                    name: 'Image - Title - Text - Button'
+            attributes:
+                image:
+                    type: embed
+                    name: Image
+                    validators:
+                        not_blank:
+                            message: Image field is required
+                title:
+                    type: string
+                    name: Title
+                text:
+                    type: text
+                    name: Text
+                url:
+                    type: string
+                    name: URL
+                button_text:
+                    type: string
+                    name: Button text
+
+        call_to_action_internal:
+            category: 'Prototype'
+            name: CTA Internal
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#contentlist'
+            views:
+                image_text_button:
+                    template: '@ibexadesign/blocks/cta_internal/image_text_button.html.twig'
+                    name: 'Image - Text - Button'
+                image_title_text_button:
+                    template: '@ibexadesign/blocks/cta_internal/image_title_text_button.html.twig'
+                    name: 'Image - Title - Text - Button'
+            attributes:
+                image:
+                    type: embed
+                    name: Image
+                    validators:
+                        not_blank:
+                            message: Image field is required
+                location:
+                    type: embed
+                    name: Location
+                    validators:
+                        not_blank:
+                            message: Location field is required
+                title:
+                    type: string
+                    name: Title
+                text:
+                    type: text
+                    name: Text
+                button_text:
+                    type: string
+                    name: Button text
+
+        download:
+            category: 'Prototype'
+            name: Download
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#contentlist'
+            views:
+                default:
+                    template: '@ibexadesign/blocks/download/default.html.twig'
+                    name: 'Default'
+            attributes:
+                location:
+                    type: embed
+                    name: Location
+                    validators:
+                        not_blank:
+                            message: Image field is required
+                align:
+                    type: select
+                    name: Header box alignment
+                    value: left
+                    options:
+                        multiple: false
+                        choices:
+                            'left': left
+                            'center': center
+                            'right': right
+                button_size:
+                    type: select
+                    name: Button size
+                    value: regular
+                    options:
+                        multiple: false
+                        choices:
+                            'Small': sm
+                            'Regular': regular
+                            'Big': xl
+
+                button_style:
+                    type: select
+                    name: Button style
+                    value: solid
+                    options:
+                        multiple: false
+                        choices:
+                            'Solid': solid
+                            'Bordered': bordered
+                            'Transparent': transparent
+                button_color:
+                    type: select
+                    name: Button color
+                    value: primary
+                    options:
+                        multiple: false
+                        choices:
+                            'Primary button': primary
+                            'Dark grey button': dark-grey
+
+        hero:
+            category: 'Prototype'
+            name: Hero
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#banner'
+            configuration_template: '@ibexadesign/blocks/config/hero.html.twig'
+            views:
+                default:
+                    template: '@ibexadesign/blocks/hero/default.html.twig'
+                    name: 'Default'
+                default_dark:
+                    template: '@ibexadesign/blocks/hero/default_dark.html.twig'
+                    name: 'Default text dark'
+            attributes:
+                image:
+                    type: embed
+                    name: Image
+                    validators:
+                        not_blank:
+                            message: You must provide an image
+                header_box_alignment:
+                    type: select
+                    name: Header box alignment
+                    value: left
+                    options:
+                        multiple: false
+                        choices:
+                            'left': left
+                            'center': center
+                            'right': right
+                header_box_title:
+                    type: string
+                    name: Header box title
+                header_box_title_tag:
+                    type: select
+                    name: Header box title tag
+                    value: h2
+                    options:
+                        multiple: false
+                        choices:
+                            'h1': h1
+                            'h2': h2
+                            'h3': h3
+                            'h4': h4
+                header_box_text:
+                    type: richtext
+                    name: Header box text
+                header_box_button_action:
+                    type: select
+                    name: Button action
+                    value: internal
+                    options:
+                        multiple: false
+                        choices:
+                            'internal link': internal
+                            'external URL': external
+                header_box_button_text:
+                    type: string
+                    name: Button text
+                header_box_button_internal_target:
+                    type: embed
+                    name: Internal link
+                header_box_button_external_target:
+                    type: string
+                    name: External URL
+
+        teaser_2:
+            category: 'Prototype'
+            name: Teaser
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#banner'
+            configuration_template: '@ibexadesign/blocks/config/teaser_2.html.twig'
+            views:
+                default:
+                    template: '@ibexadesign/blocks/teaser_2/default.html.twig'
+                    name: 'Default'
+                full_width:
+                    template: '@ibexadesign/blocks/teaser_2/full_width.html.twig'
+                    name: 'Fullwidth'
+            attributes:
+                image:
+                    type: embed
+                    name: Image
+                    validators:
+                        not_blank:
+                            message: You must provide an image
+                header_box_alignment:
+                    type: select
+                    name: Header box alignment
+                    value: right
+                    options:
+                        multiple: false
+                        choices:
+                            'left': left
+                            'right': right
+                header_box_title:
+                    type: string
+                    name: Header box title
+                header_box_title_tag:
+                    type: select
+                    name: Header box title tag
+                    value: h2
+                    options:
+                        multiple: false
+                        choices:
+                            'h1': h1
+                            'h2': h2
+                            'h3': h3
+                            'h4': h4
+                header_box_text:
+                    type: richtext
+                    name: Header box text
+                header_box_button_action:
+                    type: select
+                    name: Button action
+                    value: internal
+                    options:
+                        multiple: false
+                        choices:
+                            'internal link': internal
+                            'external URL': external
+                header_box_button_text:
+                    type: string
+                    name: Button text
+                header_box_button_internal_target:
+                    type: embed
+                    name: Internal link
+                header_box_button_external_target:
+                    type: string
+                    name: External URL
+
+        video_2:
+            category: 'Prototype'
+            name: Video
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#video'
+            configuration_template: '@ibexadesign/blocks/config/video_2.html.twig'
+            views:
+                default:
+                    template: '@ibexadesign/blocks/video_2/default.html.twig'
+                    name: 'Default'
+            attributes:
+                thumbnail:
+                    type: embed
+                    name: Thumbnail
+                video_source:
+                    type: string
+                    name: Video URL
+                    validators:
+                        not_blank:
+                            message: You must provide the video url
+
+        tabcordion:
+            category: 'Prototype'
+            name: Tabcordion
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#sites-all'
+            configuration_template: '@ibexadesign/blocks/config/tabcordion.html.twig'
+            views:
+                accordion:
+                    template: '@ibexadesign/blocks/tabcordion/accordion.html.twig'
+                    name: 'Accordion'
+                tabs:
+                    template: '@ibexadesign/blocks/tabcordion/tabs.html.twig'
+                    name: 'Tabs'
+            attributes:
+                article_location:
+                    type: locationlist
+                    name: Articles
+                    validators:
+                        not_blank:
+                            message: Choose article items
+
+        carousel:
+            category: 'Prototype'
+            name: Carousel
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#gallery'
+            configuration_template: '@ibexadesign/blocks/config/carousel.html.twig'
+            views:
+                default:
+                    template: '@ibexadesign/blocks/carousel/default.html.twig'
+                    name: 'Default'
+            attributes:
+                location_list:
+                    type: locationlist
+                    name: Items
+                    validators:
+                        not_blank:
+                            message: Choose items
+                show_controls:
+                    type: select
+                    name: Show controls (arrows)
+                    value: true
+                    options:
+                        multiple: false
+                        choices:
+                            'Yes': true
+                            'No': false
+                show_indicators:
+                    type: select
+                    name: Show indicators (dots)
+                    value: true
+                    options:
+                        multiple: false
+                        choices:
+                            'Yes': true
+                            'No': false
+                autoplay:
+                    type: select
+                    name: Autoplay
+                    value: false
+                    options:
+                        multiple: false
+                        choices:
+                            'Yes': true
+                            'No': false
+                autoplay_interval:
+                    type: integer
+                    name: Autoplay interval (ms)
+                    value: 4000
+                    validators:
+                        not_blank:
+                            message: Please provide a valid number
+
+        multiple_parent_content_list:
+            category: 'Prototype'
+            name: Multi-parent Content List
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#contentlist'
+            views:
+                default:
+                    template: '@ibexadesign/blocks/multiple_parent_content_list/default.html.twig'
+                    name: 'Default'
+            attributes:
+                parent_locations_list:
+                    type: locationlist
+                    name: Parents locations
+                    validators:
+                        not_blank:
+                            message: Choose items
+                content_types_identifiers:
+                    type: contenttypelist
+                    name: Content Types to be displayed
+                    validators:
+                        not_blank:
+                            message: You must provide value
+                        regexp:
+                            options:
+                                pattern: '/^([a-zA-Z_-]+|,[a-zA-Z_-]+)+$/i'
+                            message: Choose at least one content type
+                limit:
+                    type: integer
+                    name: Limit
+                    validators:
+                        not_blank:
+                            message: You must provide value
+                        regexp:
+                            options:
+                                pattern: '/^[1-9][0-9]*$/'
+                            message: Limit must be a number greater than 0
+
+        teaser_text_left_image_right:
+            views:
+                teaser:
+                    template: '@ibexadesign/blocks/matrix/one_line/teaser_text_left_image_right.html.twig'
+                    name: 'Text - Image'
+                teaser_background:
+                    template: '@ibexadesign/blocks/matrix/one_line/teaser_text_left_image_right_background.html.twig'
+                    name: 'Text - Image - Background'
+            name: 'Text - Image'
+            category: Teaser
+            thumbnail: '/bundles/ibexaprototypepage/images/blocks/matrix.svg#matrix-single-left'
+            attributes:
+                text_row:
+                    name: 'Text'
+                    type: richtext
+                image_row:
+                    name: 'Image'
+                    type: embed
+                link:
+                    name: 'Button link'
+                    type: string
+
+        teaser_text_right_image_left:
+            views:
+                teaser:
+                    template: '@ibexadesign/blocks/matrix/one_line/teaser_text_right_image_left.html.twig'
+                    name: 'Image - Text'
+                teaser_background:
+                    template: '@ibexadesign/blocks/matrix/one_line/teaser_text_right_image_left_background.html.twig'
+                    name: 'Image - Text - Background'
+            name: 'Image - Text'
+            category: Teaser
+            thumbnail: '/bundles/ibexaprototypepage/images/blocks/matrix.svg#matrix-single-right'
+            attributes:
+                text_row:
+                    name: 'Text'
+                    type: richtext
+                image_row:
+                    name: 'Image'
+                    type: embed
+                link:
+                    name: 'Button link'
+                    type: string
+        matrix:
+            views:
+                text:
+                    template: '@ibexadesign/blocks/matrix/matrix_text_first.html.twig'
+                    name: 'Text First'
+            name: 'Teaser Block I'
+            category: Teaser
+            thumbnail: '/bundles/ibexaprototypepage/images/blocks/matrix.svg#matrix-top-right-bot-left'
+            attributes:
+                text_row_1:
+                    type: richtext
+                    name: 'Text Row 1'
+                image_row_1:
+                    type: embed
+                    name: 'Image Row 1'
+                text_row_2:
+                    type: richtext
+                    name: 'Text Row 2'
+                image_row_2:
+                    name: 'Image Row 2'
+                    type: embed
+                text_free:
+                    type: richtext
+                    name: 'Free Text bottom'
+                link:
+                    type: string
+                    name: 'Button link'
+
+        matrix_image_start:
+            views:
+                image:
+                    template: '@ibexadesign/blocks/matrix/matrix_image_first.html.twig'
+                    name: 'Image First'
+            name: 'Teaser Block II'
+            category: Teaser
+            thumbnail: '/bundles/ibexaprototypepage/images/blocks/matrix.svg#matrix-top-right-bot'
+            attributes:
+                text_row_1:
+                    type: richtext
+                    name: 'Text Row 1'
+                image_row_1:
+                    type: embed
+                    name: 'Image Row 1'
+                text_row_2:
+                    type: richtext
+                    name: 'Text Row 2'
+                image_row_2:
+                    type: embed
+                    name: 'Image Row 2'
+                text_free:
+                    type: richtext
+                    name: 'Free Text Bottom'
+                link:
+                    type: string
+                    name: 'Button link'
+
+        matrix_image_bottom:
+            views:
+                image_bottom:
+                    template: '@ibexadesign/blocks/matrix/matrix_text_top_image_bottom.html.twig'
+                    name: 'Text Top & image bottom'
+            name: 'Teaser Block III'
+            category: Teaser
+            thumbnail: '/bundles/ibexaprototypepage/images/blocks/matrix.svg#matrix-two-bot'
+            attributes:
+                text_row_1:
+                    type: richtext
+                    name: 'Text Row 1'
+                image_row_1:
+                    type: embed
+                    name: 'Image Row 1'
+                text_row_2:
+                    type: richtext
+                    name: 'Text Row 2'
+                image_row_2:
+                    type: embed
+                    name: 'Image Row 2'
+                text_free:
+                    type: richtext
+                    name: 'Free Text Zone'
+                link:
+                    type: string
+                    name: 'Button link'
+        title:
+            category: Prototype
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#h1'
+            views:
+                default:
+                    name: default
+                    template: '@ibexadesign/blocks/text/title.html.twig'
+            attributes:
+                title:
+                    type: string
+                    name: 'Text'
+                    validators:
+                        not_blank:
+                            message: Text must not be empty
+                title_tag:
+                    type: select
+                    name: title
+                    value: h1
+                    options:
+                        multiple: false
+                        choices:
+                            'h1': h1
+                            'h2': h2
+                            'h3': h3
+                            'h4': h4
+                            'h5': h5
+                            'h6': h6
+        single_line_text:
+            category: Prototype
+            name: 'Single Text Line'
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#custom_tags'
+            views:
+                default:
+                    name: default
+                    template: '@ibexadesign/blocks/text/single_line_text.html.twig'
+            attributes:
+                line:
+                    type: text
+                    name: 'Text Line'
+                    validators:
+                        not_blank:
+                            message: Text Line must not be empty
+        quick_image:
+            category: Prototype
+            name: 'Image'
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#image'
+            views:
+                default:
+                    name: default
+                    template: '@ibexadesign/blocks/image/quick_image.html.twig'
+            attributes:
+                image:
+                    type: embed
+                    validators:
+                        content_type:
+                            message: You must select an Image
+                            options:
+                                types: image
+                        regexp:
+                            options:
+                                pattern: '/[0-9]+/'
+                            message: Choose a Content item
+                quickstyle:
+                    type: select
+                    name: quick style
+                    value: ""
+                    options:
+                        multiple: true
+                        choices:
+                            'responsive': img-fluid w-100
+                            'thumbnail': img-thumbnail
+        collection:
+            views:
+                prototype:
+                    template: '@ibexadesign/blocks/collection/prototype.html.twig'
+                    name: 'Prototype View'
+                flipbox_dark:
+                    template: '@ibexadesign/blocks/collection/flipbox_dark.html.twig'
+                    name: 'Flipbox Dark'
+                flipbox_light:
+                    template: '@ibexadesign/blocks/collection/flipbox_light.html.twig'
+                    name: 'Flipbox Light'
+                references:
+                    template: '@ibexadesign/blocks/collection/references.html.twig'
+                    name: 'References View'
+                side_by_side:
+                    template: '@ibexadesign/blocks/collection/side_by_side.html.twig'
+                    name: 'Side by Side'
+        targeting:
+            views:
+                prototype:
+                    template: '@ibexadesign/blocks/targeting/prototype.html.twig'
+                    name: 'Prototype View'
+        schedule:
+            views:
+                prototype:
+                    template: '@ibexadesign/blocks/schedule/prototype.html.twig'
+                    name: 'Prototype view'
+                latest_dark:
+                    template: '@ibexadesign/blocks/schedule/latest_dark.html.twig'
+                    name: 'Latest Content Dark'
+        double_line_text:
+            category: Prototype
+            name: 'Double Line Text'
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#custom_tags'
+            views:
+                default:
+                    name: default
+                    template: '@ibexadesign/blocks/text/double_line_text.html.twig'
+                dark:
+                    name: dark
+                    template: '@ibexadesign/blocks/text/double_line_text_dark.html.twig'
+            attributes:
+                heading:
+                    type: text
+                    name: 'Heading'
+                    validators:
+                        not_blank:
+                            message: Text Line must not be empty
+                line:
+                    type: text
+                    name: 'Text Line'
+                    validators:
+                        not_blank:
+                            message: Text Line must not be empty
+        teaser_text_left_right_image_bottom:
+            views:
+                teaser:
+                    template: '@ibexadesign/blocks/matrix/two_line/teaser_text_left_right_image_bottom.html.twig'
+                    name: 'Text Side by Side + Image'
+            name: 'Side by Side Text & Image'
+            category: Prototype
+            thumbnail: '/bundles/ibexaprototypepage/images/blocks/matrix.svg#matrix-two-bot'
+            attributes:
+                text_left:
+                    name: 'Text left'
+                    type: richtext
+                text_right:
+                    name: 'Text right'
+                    type: richtext
+                image:
+                    name: 'Image'
+                    type: embed
+                subtitle:
+                    name: 'Subtitle'
+                    type: string
+                label:
+                    name: 'Button label'
+                    type: string
+                link:
+                    name: 'Button link'
+                    type: string
+        teaser_embed_and_image_action:
+            views:
+                teaser:
+                    template: '@ibexadesign/blocks/matrix/embed_and_image_action.html.twig'
+                    name: 'Embed and Image Action'
+            name: 'Embed & Image Action'
+            category: Prototype
+            thumbnail: '/bundles/ibexaprototypepage/images/blocks/matrix.svg#matrix-two-bot'
+            attributes:
+                content:
+                    name: 'Content'
+                    type: embed
+                image:
+                    name: 'Image'
+                    type: embed
+                label:
+                    name: 'Button label'
+                    type: string
+                link:
+                    name: 'Button link'
+                    type: string
+        tagged_content_list:
+            category: Prototypes
+            name: Tagged Content List
+            thumbnail: '/bundles/ibexaicons/img/all-icons.svg#contentlist'
+            views:
+                default:
+                    template: '@ibexadesign/blocks/tagged_content_list/default.html.twig'
+                    name: 'Default'
+            attributes:
+                content_types_identifiers:
+                    type: contenttypelist
+                    name: Content Type to be displayed
+                    validators:
+                        not_blank:
+                            message: You must provide a value
+                        regexp:
+                            options:
+                                pattern: '/^([a-zA-Z_-]+|,[a-zA-Z_-]+)+$/i'
+                            message: Choose at least one content type
+                tag:
+                    type: string
+                    name: Search Tags
+                    validators:
+                        not_blank:
+                            message: You must provide a value
+                        regexp:
+                            options:
+                                pattern: '/^([0-9a-zA-Z_-]+|,[0-9a-zA-Z_-]+)+$/i'
+                            message: Choose at least one tag, seperated with comma
+                limit:
+                    type: integer
+                    name: Limit
+                    validators:
+                        not_blank:
+                            message: You must provide value
+                        regexp:
+                            options:
+                                pattern: '/^[1-9][0-9]*$/'
+                            message: Limit must be a number greater than 0

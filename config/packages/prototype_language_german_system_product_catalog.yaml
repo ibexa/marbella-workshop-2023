@@ -1,0 +1,14 @@
+ibexa:
+    system:
+        de:
+            product_catalog:
+                currencies:
+                    - EUR
+                regions:
+                    - germany
+        admin_de:
+            product_catalog:
+                currencies:
+                    - EUR
+                regions:
+                    - germany

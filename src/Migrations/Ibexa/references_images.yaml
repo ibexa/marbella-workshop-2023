@@ -1,0 +1,608 @@
+
+-
+    name: ref__segment_group_doctors
+    value: 2
+
+-
+    name: ref__segment_group_customers
+    value: 3
+
+-
+    name: 'ref__content__image__surgery operating room'
+    value: 142
+
+-
+    name: 'ref_location__image__surgery operating room'
+    value: 143
+
+-
+    name: 'ref_path__image__surgery operating room'
+    value: /1/43/51/143/
+
+-
+    name: ref__content__image__threodore_olson.jpg
+    value: 143
+
+-
+    name: ref_location__image__threodore_olson.jpg
+    value: 144
+
+-
+    name: ref_path__image__threodore_olson.jpg
+    value: /1/43/51/144/
+
+-
+    name: 'ref__content__image__brianna campbell.jpg'
+    value: 144
+
+-
+    name: 'ref_location__image__brianna campbell.jpg'
+    value: 145
+
+-
+    name: 'ref_path__image__brianna campbell.jpg'
+    value: /1/43/51/145/
+
+-
+    name: 'ref__content__image__lauren rivera.jpg'
+    value: 145
+
+-
+    name: 'ref_location__image__lauren rivera.jpg'
+    value: 146
+
+-
+    name: 'ref_path__image__lauren rivera.jpg'
+    value: /1/43/51/146/
+
+-
+    name: 'ref__content__image__luminous face cream.jpg'
+    value: 146
+
+-
+    name: 'ref_location__image__luminous face cream.jpg'
+    value: 147
+
+-
+    name: 'ref_path__image__luminous face cream.jpg'
+    value: /1/43/51/147/
+
+-
+    name: 'ref__content__image__radiance eye serum.jpg'
+    value: 147
+
+-
+    name: 'ref_location__image__radiance eye serum.jpg'
+    value: 148
+
+-
+    name: 'ref_path__image__radiance eye serum.jpg'
+    value: /1/43/51/148/
+
+-
+    name: 'ref__content__image__ibupirin pain relief.jpg'
+    value: 148
+
+-
+    name: 'ref_location__image__ibupirin pain relief.jpg'
+    value: 149
+
+-
+    name: 'ref_path__image__ibupirin pain relief.jpg'
+    value: /1/43/51/149/
+
+-
+    name: 'ref__content__image__daily multivitamins.jpg'
+    value: 149
+
+-
+    name: 'ref_location__image__daily multivitamins.jpg'
+    value: 150
+
+-
+    name: 'ref_path__image__daily multivitamins.jpg'
+    value: /1/43/51/150/
+
+-
+    name: 'ref__content__image__blood gas system rapid_lab.jpg'
+    value: 150
+
+-
+    name: 'ref_location__image__blood gas system rapid_lab.jpg'
+    value: 151
+
+-
+    name: 'ref_path__image__blood gas system rapid_lab.jpg'
+    value: /1/43/51/151/
+
+-
+    name: 'ref__content__image__blood gas system handheld.jpeg'
+    value: 151
+
+-
+    name: 'ref_location__image__blood gas system handheld.jpeg'
+    value: 152
+
+-
+    name: 'ref_path__image__blood gas system handheld.jpeg'
+    value: /1/43/51/152/
+
+-
+    name: 'ref__content__image__helse headquarters.jpg'
+    value: 152
+
+-
+    name: 'ref_location__image__helse headquarters.jpg'
+    value: 153
+
+-
+    name: 'ref_path__image__helse headquarters.jpg'
+    value: /1/43/51/153/
+
+-
+    name: ref__content__image__leadership.jpg
+    value: 153
+
+-
+    name: ref_location__image__leadership.jpg
+    value: 154
+
+-
+    name: ref_path__image__leadership.jpg
+    value: /1/43/51/154/
+
+-
+    name: 'ref__content__image__innovation 1.jpg'
+    value: 154
+
+-
+    name: 'ref_location__image__innovation 1.jpg'
+    value: 155
+
+-
+    name: 'ref_path__image__innovation 1.jpg'
+    value: /1/43/51/155/
+
+-
+    name: 'ref__content__image__innovation scientist'
+    value: 155
+
+-
+    name: 'ref_location__image__innovation scientist'
+    value: 156
+
+-
+    name: 'ref_path__image__innovation scientist'
+    value: /1/43/51/156/
+
+-
+    name: 'ref__content__image__scientists at work'
+    value: 156
+
+-
+    name: 'ref_location__image__scientists at work'
+    value: 157
+
+-
+    name: 'ref_path__image__scientists at work'
+    value: /1/43/51/157/
+
+-
+    name: ref__content__image__scott-graham-oqmzw_nd3_th_u-unsplash.jpg
+    value: 157
+
+-
+    name: ref_location__image__scott-graham-oqmzw_nd3_th_u-unsplash.jpg
+    value: 158
+
+-
+    name: ref_path__image__scott-graham-oqmzw_nd3_th_u-unsplash.jpg
+    value: /1/43/51/158/
+
+-
+    name: ref__content__image__hush-naidoo-jade-photography-p_a0uoltkwao-unsplash.jpg
+    value: 158
+
+-
+    name: ref_location__image__hush-naidoo-jade-photography-p_a0uoltkwao-unsplash.jpg
+    value: 159
+
+-
+    name: ref_path__image__hush-naidoo-jade-photography-p_a0uoltkwao-unsplash.jpg
+    value: /1/43/51/159/
+
+-
+    name: ref__content__image__mimi-thian-vd_xmsi_x-n6_m-unsplash.jpg
+    value: 159
+
+-
+    name: ref_location__image__mimi-thian-vd_xmsi_x-n6_m-unsplash.jpg
+    value: 160
+
+-
+    name: ref_path__image__mimi-thian-vd_xmsi_x-n6_m-unsplash.jpg
+    value: /1/43/51/160/
+
+-
+    name: ref__content__image__national-cancer-institute-nfvd_kihx_yl_u-unsplash.jpg
+    value: 161
+
+-
+    name: ref_location__image__national-cancer-institute-nfvd_kihx_yl_u-unsplash.jpg
+    value: 162
+
+-
+    name: ref_path__image__national-cancer-institute-nfvd_kihx_yl_u-unsplash.jpg
+    value: /1/43/51/162/
+
+-
+    name: ref__content__image__cdc-bsoz_bcqn6o_y-unsplash.jpg
+    value: 162
+
+-
+    name: ref_location__image__cdc-bsoz_bcqn6o_y-unsplash.jpg
+    value: 163
+
+-
+    name: ref_path__image__cdc-bsoz_bcqn6o_y-unsplash.jpg
+    value: /1/43/51/163/
+
+-
+    name: ref__content__image__luke-chesser-r_cowmc8qf8_a-unsplash.jpg
+    value: 163
+
+-
+    name: ref_location__image__luke-chesser-r_cowmc8qf8_a-unsplash.jpg
+    value: 164
+
+-
+    name: ref_path__image__luke-chesser-r_cowmc8qf8_a-unsplash.jpg
+    value: /1/43/51/164/
+
+-
+    name: ref__content__image__cdc-vo_vycm6xo_qo-unsplash.jpg
+    value: 164
+
+-
+    name: ref_location__image__cdc-vo_vycm6xo_qo-unsplash.jpg
+    value: 165
+
+-
+    name: ref_path__image__cdc-vo_vycm6xo_qo-unsplash.jpg
+    value: /1/43/51/165/
+
+-
+    name: ref__content__image__marcel-strauss-fzqxo_fjyti_e-unsplash.jpg
+    value: 165
+
+-
+    name: ref_location__image__marcel-strauss-fzqxo_fjyti_e-unsplash.jpg
+    value: 166
+
+-
+    name: ref_path__image__marcel-strauss-fzqxo_fjyti_e-unsplash.jpg
+    value: /1/43/51/166/
+
+-
+    name: ref__content__image__national-cancer-institute-lx_pr_hcm8-ti-unsplash.jpg
+    value: 166
+
+-
+    name: ref_location__image__national-cancer-institute-lx_pr_hcm8-ti-unsplash.jpg
+    value: 167
+
+-
+    name: ref_path__image__national-cancer-institute-lx_pr_hcm8-ti-unsplash.jpg
+    value: /1/43/51/167/
+
+-
+    name: ref__content__image__roberto-sorin-rs0-h_py_byk-unsplash.jpg
+    value: 167
+
+-
+    name: ref_location__image__roberto-sorin-rs0-h_py_byk-unsplash.jpg
+    value: 168
+
+-
+    name: ref_path__image__roberto-sorin-rs0-h_py_byk-unsplash.jpg
+    value: /1/43/51/168/
+
+-
+    name: ref__content__image__kalos-skincare-kzj_h8_ccwad0-unsplash.jpg
+    value: 168
+
+-
+    name: ref_location__image__kalos-skincare-kzj_h8_ccwad0-unsplash.jpg
+    value: 169
+
+-
+    name: ref_path__image__kalos-skincare-kzj_h8_ccwad0-unsplash.jpg
+    value: /1/43/51/169/
+
+-
+    name: ref__content__image__cdc-qs8w_uhp_n1gs-unsplash.jpg
+    value: 169
+
+-
+    name: ref_location__image__cdc-qs8w_uhp_n1gs-unsplash.jpg
+    value: 170
+
+-
+    name: ref_path__image__cdc-qs8w_uhp_n1gs-unsplash.jpg
+    value: /1/43/51/170/
+
+-
+    name: ref__content__image__national-cancer-institute-by_gtyt_egj_bo-unsplash.jpg
+    value: 170
+
+-
+    name: ref_location__image__national-cancer-institute-by_gtyt_egj_bo-unsplash.jpg
+    value: 171
+
+-
+    name: ref_path__image__national-cancer-institute-by_gtyt_egj_bo-unsplash.jpg
+    value: /1/43/51/171/
+
+-
+    name: 'ref__content__image__portable blood gas analyzer.png'
+    value: 171
+
+-
+    name: 'ref_location__image__portable blood gas analyzer.png'
+    value: 172
+
+-
+    name: 'ref_path__image__portable blood gas analyzer.png'
+    value: /1/43/51/172/
+
+-
+    name: 'ref__content__image__advanced blood gas analyzer.png'
+    value: 172
+
+-
+    name: 'ref_location__image__advanced blood gas analyzer.png'
+    value: 173
+
+-
+    name: 'ref_path__image__advanced blood gas analyzer.png'
+    value: /1/43/51/173/
+
+-
+    name: 'ref__content__image__rapid_test series e blood gas system.png'
+    value: 173
+
+-
+    name: 'ref_location__image__rapid_test series e blood gas system.png'
+    value: 174
+
+-
+    name: 'ref_path__image__rapid_test series e blood gas system.png'
+    value: /1/43/51/174/
+
+-
+    name: 'ref__content__image__advanced rapid_test series e blood gas system.png'
+    value: 174
+
+-
+    name: 'ref_location__image__advanced rapid_test series e blood gas system.png'
+    value: 175
+
+-
+    name: 'ref_path__image__advanced rapid_test series e blood gas system.png'
+    value: /1/43/51/175/
+
+-
+    name: 'ref__content__image__rapid_test clinic series blood gas system.png'
+    value: 175
+
+-
+    name: 'ref_location__image__rapid_test clinic series blood gas system.png'
+    value: 176
+
+-
+    name: 'ref_path__image__rapid_test clinic series blood gas system.png'
+    value: /1/43/51/176/
+
+-
+    name: 'ref__content__image__ electrolyte and lithium testing analyzer.png'
+    value: 176
+
+-
+    name: 'ref_location__image__ electrolyte and lithium testing analyzer.png'
+    value: 177
+
+-
+    name: 'ref_path__image__ electrolyte and lithium testing analyzer.png'
+    value: /1/43/51/177/
+
+-
+    name: 'ref__content__image__ibupirin rapid release.jpg'
+    value: 177
+
+-
+    name: 'ref_location__image__ibupirin rapid release.jpg'
+    value: 178
+
+-
+    name: 'ref_path__image__ibupirin rapid release.jpg'
+    value: /1/43/51/178/
+
+-
+    name: 'ref__content__image__ibupirin 1000 mg.jpg'
+    value: 178
+
+-
+    name: 'ref_location__image__ibupirin 1000 mg.jpg'
+    value: 179
+
+-
+    name: 'ref_path__image__ibupirin 1000 mg.jpg'
+    value: /1/43/51/179/
+
+-
+    name: 'ref__content__image__prenatal multi-vitamins.jpg'
+    value: 179
+
+-
+    name: 'ref_location__image__prenatal multi-vitamins.jpg'
+    value: 180
+
+-
+    name: 'ref_path__image__prenatal multi-vitamins.jpg'
+    value: /1/43/51/180/
+
+-
+    name: 'ref__content__image__40 plus multi-vitamins for men.jpg'
+    value: 180
+
+-
+    name: 'ref_location__image__40 plus multi-vitamins for men.jpg'
+    value: 181
+
+-
+    name: 'ref_path__image__40 plus multi-vitamins for men.jpg'
+    value: /1/43/51/181/
+
+-
+    name: 'ref__content__image__calcium for women.jpg'
+    value: 181
+
+-
+    name: 'ref_location__image__calcium for women.jpg'
+    value: 182
+
+-
+    name: 'ref_path__image__calcium for women.jpg'
+    value: /1/43/51/182/
+
+-
+    name: 'ref__content__image__postnatal vitamins.jpg'
+    value: 182
+
+-
+    name: 'ref_location__image__postnatal vitamins.jpg'
+    value: 183
+
+-
+    name: 'ref_path__image__postnatal vitamins.jpg'
+    value: /1/43/51/183/
+
+-
+    name: 'ref__content__image__children''s ibupirin cold & cough.jpg'
+    value: 183
+
+-
+    name: 'ref_location__image__children''s ibupirin cold & cough.jpg'
+    value: 184
+
+-
+    name: 'ref_path__image__children''s ibupirin cold & cough.jpg'
+    value: /1/43/51/184/
+
+-
+    name: 'ref__content__image__infant''s ibupirin cold & cough.jpg'
+    value: 184
+
+-
+    name: 'ref_location__image__infant''s ibupirin cold & cough.jpg'
+    value: 185
+
+-
+    name: 'ref_path__image__infant''s ibupirin cold & cough.jpg'
+    value: /1/43/51/185/
+
+-
+    name: 'ref__content__image__hydrating overnight face mask.jpg'
+    value: 185
+
+-
+    name: 'ref_location__image__hydrating overnight face mask.jpg'
+    value: 186
+
+-
+    name: 'ref_path__image__hydrating overnight face mask.jpg'
+    value: /1/43/51/186/
+
+-
+    name: 'ref__content__image__anti-aging retinol face serum.jpg'
+    value: 186
+
+-
+    name: 'ref_location__image__anti-aging retinol face serum.jpg'
+    value: 187
+
+-
+    name: 'ref_path__image__anti-aging retinol face serum.jpg'
+    value: /1/43/51/187/
+
+-
+    name: 'ref__content__image__dark spot corrector.jpg'
+    value: 187
+
+-
+    name: 'ref_location__image__dark spot corrector.jpg'
+    value: 188
+
+-
+    name: 'ref_path__image__dark spot corrector.jpg'
+    value: /1/43/51/188/
+
+-
+    name: 'ref__content__image__deep cleansing foaming face wash.jpg'
+    value: 188
+
+-
+    name: 'ref_location__image__deep cleansing foaming face wash.jpg'
+    value: 189
+
+-
+    name: 'ref_path__image__deep cleansing foaming face wash.jpg'
+    value: /1/43/51/189/
+
+-
+    name: 'ref__content__image__ultra alcohol-free toner.jpg'
+    value: 189
+
+-
+    name: 'ref_location__image__ultra alcohol-free toner.jpg'
+    value: 190
+
+-
+    name: 'ref_path__image__ultra alcohol-free toner.jpg'
+    value: /1/43/51/190/
+
+-
+    name: 'ref__content__image__ultra alcohol-free cleanser.jpg'
+    value: 190
+
+-
+    name: 'ref_location__image__ultra alcohol-free cleanser.jpg'
+    value: 191
+
+-
+    name: 'ref_path__image__ultra alcohol-free cleanser.jpg'
+    value: /1/43/51/191/
+
+-
+    name: 'ref__content__image__ultra serum-infused face cream.jpg'
+    value: 191
+
+-
+    name: 'ref_location__image__ultra serum-infused face cream.jpg'
+    value: 192
+
+-
+    name: 'ref_path__image__ultra serum-infused face cream.jpg'
+    value: /1/43/51/192/
+
+-
+    name: 'ref__content__image__ginger turmeric face mask.jpg'
+    value: 192
+
+-
+    name: 'ref_location__image__ginger turmeric face mask.jpg'
+    value: 193
+
+-
+    name: 'ref_path__image__ginger turmeric face mask.jpg'
+    value: /1/43/51/193/

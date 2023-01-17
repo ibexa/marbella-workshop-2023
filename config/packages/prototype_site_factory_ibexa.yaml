@@ -1,0 +1,16 @@
+ibexa:
+    siteaccess:
+        groups:
+            site_factory_group_light: []
+            site_factory_group_dark: []
+            site_factory_group_color: []
+
+    system:
+        site_factory_group_light:
+            design: site_factory_design_light
+
+        site_factory_group_dark:
+            design: site_factory_design_dark
+
+        site_factory_group_color:
+            design: site_factory_design_color

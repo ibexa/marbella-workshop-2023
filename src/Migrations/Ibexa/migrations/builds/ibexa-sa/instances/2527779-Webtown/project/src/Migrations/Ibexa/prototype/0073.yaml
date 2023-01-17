@@ -1,0 +1,481 @@
+## Sales rep
+-
+    type: user
+    mode: create
+    metadata:
+        login: 'casper.eicher'
+        email: casper.eicher@ibexa.rocks
+        password: publish
+        enabled: true
+        mainTranslation: eng-GB
+        contentType: user
+        section:
+            identifier: corporate_account
+    groups:
+        # Sales reps User group, replace once https://issues.ibexa.co/browse/IBX-3677 fixed
+        - userGroupEditorsEnglish
+    location:
+        parentLocationRemoteId: corporate_account_sales_reps
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: first_name
+            fieldTypeIdentifier: ezstring
+            value: Casper
+        -
+            fieldDefIdentifier: last_name
+            fieldTypeIdentifier: ezstring
+            value: Eicher
+    references:
+        -
+            name: 'ref__content__sales_rep__casper_eicher'
+            type: content_id
+        -
+            name: 'ref_location__sales_rep__casper_eicher'
+            type: location_id
+        -
+            name: 'ref_path__sales_rep__casper_eicher'
+            type: path
+
+## Company
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: company
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-08-18T10:07:40+02:00'
+        publicationDate: '2022-08-18T10:07:28+02:00'
+        alwaysAvailable: true
+        section:
+            identifier: corporate_account
+    location:
+        parentLocationRemoteId: corporate_account_folder
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: active
+            languageCode: eng-GB
+            value: true
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'FeuerIndustrie GmbH'
+        -
+            fieldDefIdentifier: vat
+            languageCode: eng-GB
+            value: DE712311452
+        -
+            fieldDefIdentifier: website
+            languageCode: eng-GB
+            value: 'https://feuerindustrie.rocks'
+        -
+            fieldDefIdentifier: customer_group
+            languageCode: eng-GB
+            value:
+                # Hardcoded, replace when https://issues.ibexa.co/browse/IBX-3696 implemented
+                customer_group_id: 1
+        -
+            fieldDefIdentifier: sales_rep
+            languageCode: eng-GB
+            value:
+                destinationContentId: 10
+        -
+            fieldDefIdentifier: contact
+            languageCode: eng-GB
+            value:
+                destinationContentId: null
+        -
+            fieldDefIdentifier: default_address
+            languageCode: eng-GB
+            value:
+                destinationContentId: null
+        -
+            fieldDefIdentifier: billing_address
+            languageCode: eng-GB
+            value:
+                name: 'FeuerIndustrie GmbH'
+                country: DE
+                fields:
+                    region: null
+                    locality: Berlin
+                    street: 'Wiessstrasse 18'
+                    postal_code: '08192'
+                    email: 'contact@feuerindustrie.rocks'
+                    phone_number: '+43971681272'
+        -
+            fieldDefIdentifier: address_book
+            languageCode: eng-GB
+            value:
+                destinationContentId: null
+        -
+            fieldDefIdentifier: members
+            languageCode: eng-GB
+            value:
+                destinationContentId: null
+    references:
+        -
+            name: 'ref__content__company__feuerindustrie'
+            type: content_id
+        -
+            name: 'ref_location__company__feuerindustrie'
+            type: location_id
+        -
+            name: 'ref_path__company__feuerindustrie'
+            type: path
+    actions:
+        - { action: 'create_corporate_account_segment', value: null }
+
+## Address book
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-08-18T10:07:29+02:00'
+        publicationDate: '2022-08-18T10:07:29+02:00'
+        alwaysAvailable: true
+        section:
+            identifier: corporate_account
+    location:
+        parentLocationId: 'reference:ref_location__company__feuerindustrie'
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Address Book'
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: null
+                alternativeText: null
+                source: null
+    references:
+        -
+            name: 'ref__content__folder__feuerindustrie__address_book'
+            type: content_id
+        -
+            name: 'ref_location__folder__feuerindustrie__address_book'
+            type: location_id
+        -
+            name: 'ref_path__folder__feuerindustrie__address_book'
+            type: path
+
+## Address
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: shipping_address
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-08-18T10:07:29+02:00'
+        publicationDate: '2022-08-18T10:07:29+02:00'
+        alwaysAvailable: true
+        section:
+            identifier: corporate_account
+    location:
+        parentLocationId: 'reference:ref_location__folder__feuerindustrie__address_book'
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'FeuerIndustrie GmbH'
+        -
+            fieldDefIdentifier: address
+            languageCode: eng-GB
+            value:
+                name: 'FeuerIndustrie GmbH'
+                country: DE
+                fields:
+                    region: null
+                    locality: Berlin
+                    street: 'Weissstrasse 18'
+                    postal_code: 08192
+                    email: 'contact@feuerindustrie.rocks'
+                    phone_number: '+43971681272'
+        -
+            fieldDefIdentifier: email
+            languageCode: eng-GB
+            value: 'contact@feuerindustrie.rocks'
+        -
+            fieldDefIdentifier: phone
+            languageCode: eng-GB
+            value: '+43971681272'
+    references:
+        -
+            name: 'ref__content__shipping_address__willbur__smith_ltd'
+            type: content_id
+        -
+            name: 'ref_location__shipping_address__willbur__smith_ltd'
+            type: location_id
+        -
+            name: 'ref_path__shipping_address__willbur__smith_ltd'
+            type: path
+
+## Members
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: user_group
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-08-18T10:07:28+02:00'
+        publicationDate: '2022-08-18T10:07:28+02:00'
+        alwaysAvailable: true
+        remoteId: 'feuerindustrie_members'
+        section:
+            identifier: corporate_account
+    location:
+        parentLocationId: 'reference:ref_location__company__feuerindustrie'
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Members
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value: null
+    references:
+        -
+            name: ref__content__feuerindustrie__user_group__members
+            type: content_id
+        -
+            name: ref_location__feuerindustrie__user_group__members
+            type: location_id
+        -
+            name: ref_path__feuerindustrie__user_group__members
+            type: path
+
+## Update company to set references
+-
+    type: content
+    mode: update
+    match:
+        field: location_id
+        value: 'reference:ref_location__company__feuerindustrie'
+    fields:
+        -
+            fieldDefIdentifier: default_address
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__shipping_address__willbur__smith_ltd'
+        -
+            fieldDefIdentifier: address_book
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__folder__feuerindustrie__address_book'
+        -
+            fieldDefIdentifier: members
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__feuerindustrie__user_group__members'
+
+## Company admin
+-
+    type: user
+    mode: create
+    metadata:
+        login: 'artur.oppert'
+        email: artur.oppert@ibexa.rocks
+        password: Publish123
+        enabled: true
+        mainTranslation: eng-GB
+        contentType: member
+        section:
+            identifier: corporate_account
+    groups:
+        - feuerindustrie_members
+    location:
+        parentLocationId: 'reference:ref_location__feuerindustrie__user_group__members'
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: first_name
+            fieldTypeIdentifier: ezstring
+            value: Artur
+        -
+            fieldDefIdentifier: last_name
+            fieldTypeIdentifier: ezstring
+            value: Oppert
+        -
+            fieldDefIdentifier: phone_number
+            fieldTypeIdentifier: ezstring
+            value: '+437268367265'
+    references:
+        -
+            name: 'ref__content__admin__artur_oppert'
+            type: content_id
+        -
+            name: 'ref_location__admin__artur_oppert'
+            type: location_id
+        -
+            name: 'ref_path__admin__artur_oppert'
+            type: path
+    actions:
+        - { action: assign_user_to_role, identifier: 'Corporate Access' }
+        - {
+            action: assign_user_to_role,
+            identifier: 'Company Admin',
+            limitation: {
+                type: 'Subtree',
+                values: [ 'reference:ref_path__company__feuerindustrie' ]
+            }
+        }
+        - { action: assign_member_to_corporate_segment, companyContentId: 'reference:ref__content__company__feuerindustrie' }
+
+## Company buyers
+-
+    type: user
+    mode: create
+    metadata:
+        login: 'helen.dassler'
+        email: helen.dassler@ibexa.rocks
+        password: Publish123
+        enabled: true
+        mainTranslation: eng-GB
+        contentType: member
+        section:
+            identifier: corporate_account
+    groups:
+        - feuerindustrie_members
+    location:
+        parentLocationId: 'reference:ref_location__feuerindustrie__user_group__members'
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: first_name
+            fieldTypeIdentifier: ezstring
+            value: Helen
+        -
+            fieldDefIdentifier: last_name
+            fieldTypeIdentifier: ezstring
+            value: Dassler
+        -
+            fieldDefIdentifier: phone_number
+            fieldTypeIdentifier: ezstring
+            value: '+435261489251'
+    references:
+        -
+            name: 'ref__content__buyer__helen_dessler'
+            type: content_id
+        -
+            name: 'ref_location__buyer__helen_dessler'
+            type: location_id
+        -
+            name: 'ref_path__buyer__helen_dessler'
+            type: path
+    actions:
+        - { action: assign_user_to_role, identifier: 'Corporate Access' }
+        - {
+            action: assign_user_to_role,
+            identifier: 'Company Buyer',
+            limitation: {
+                type: 'Subtree',
+                values: [ 'reference:ref_path__company__feuerindustrie' ]
+            }
+        }
+        - { action: assign_member_to_corporate_segment, companyContentId: 'reference:ref__content__company__feuerindustrie' }
+
+-
+    type: user
+    mode: create
+    metadata:
+        login: 'elena.wirz'
+        email: elena.wirz@ibexa.rocks
+        password: Publish123
+        enabled: true
+        mainTranslation: eng-GB
+        contentType: member
+        section:
+            identifier: corporate_account
+    groups:
+        - feuerindustrie_members
+    location:
+        parentLocationId: 'reference:ref_location__feuerindustrie__user_group__members'
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: first_name
+            fieldTypeIdentifier: ezstring
+            value: Elena
+        -
+            fieldDefIdentifier: last_name
+            fieldTypeIdentifier: ezstring
+            value: Wirz
+        -
+            fieldDefIdentifier: phone_number
+            fieldTypeIdentifier: ezstring
+            value: '+437162514263'
+    references:
+        -
+            name: 'ref__content__buyer__elena_wirz'
+            type: content_id
+        -
+            name: 'ref_location__buyer__elena_wirz'
+            type: location_id
+        -
+            name: 'ref_path__buyer__elena_wirz'
+            type: path
+    actions:
+        - { action: assign_user_to_role, identifier: 'Corporate Access' }
+        - {
+            action: assign_user_to_role,
+            identifier: 'Company Buyer',
+            limitation: {
+                type: 'Subtree',
+                values: [ 'reference:ref_path__company__feuerindustrie' ]
+            }
+        }
+        - { action: assign_member_to_corporate_segment, companyContentId: 'reference:ref__content__company__feuerindustrie' }

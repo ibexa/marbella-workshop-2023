@@ -1,0 +1,147 @@
+ibexa:
+    system:
+        site_group: &front_end_group_configuration
+            content_view:
+                card:
+                    article:
+                        template: '@ibexadesign/card/article.html.twig'
+                        match:
+                            Identifier\ContentType: [article]
+                    blog_post:
+                        template: '@ibexadesign/card/blog_post.html.twig'
+                        match:
+                            Identifier\ContentType: [blog_post]
+                    folder:
+                        template: '@ibexadesign/card/folder.html.twig'
+                        match:
+                            Identifier\ContentType: [folder]
+                    job_offer:
+                        template: '@ibexadesign/card/job_offer.html.twig'
+                        match:
+                            Identifier\ContentType: [job_offer]
+                    news:
+                        template: '@ibexadesign/card/news.html.twig'
+                        match:
+                            Identifier\ContentType: [news]
+                    homepage:
+                        template: '@ibexadesign/card/homepage.html.twig'
+                        match:
+                            Identifier\ContentType: [homepage]
+                    pressrelease:
+                        template: '@ibexadesign/card/pressrelease.html.twig'
+                        match:
+                            Identifier\ContentType: [pressrelease]
+                    person:
+                        template: '@ibexadesign/card/person.html.twig'
+                        match:
+                            Identifier\ContentType: [person]
+                    product:
+                        template: '@ibexadesign/card/product.html.twig'
+                        match:
+                            '@Ibexa\Contracts\ProductCatalog\ViewMatcher\ProductBased\IsProduct': ~
+                    pdf:
+                        template: '@ibexadesign/card/pdf.html.twig'
+                        match:
+                            Identifier\ContentType: [pdf]
+                card_tall:
+                    article:
+                        template: '@ibexadesign/card_tall/article.html.twig'
+                        match:
+                            Identifier\ContentType: [ article ]
+                    product:
+                        template: '@ibexadesign/card_tall/product.html.twig'
+                        match:
+                            '@Ibexa\Contracts\ProductCatalog\ViewMatcher\ProductBased\IsProduct': ~
+                    blog_post:
+                        template: '@ibexadesign/card_tall/blog_post.html.twig'
+                        match:
+                            Identifier\ContentType: [blog_post]
+                card_dark:
+                    article:
+                        template: '@ibexadesign/card_dark/article.html.twig'
+                        match:
+                            Identifier\ContentType: [ article ]
+                    product:
+                        template: '@ibexadesign/card_dark/product.html.twig'
+                        match:
+                            '@Ibexa\Contracts\ProductCatalog\ViewMatcher\ProductBased\IsProduct': ~
+                    blog_post:
+                        template: '@ibexadesign/card_dark/blog_post.html.twig'
+                        match:
+                            Identifier\ContentType: [blog_post]
+                side_by_side:
+                    product:
+                        template: '@ibexadesign/side_by_side/product.html.twig'
+                        match:
+                            '@Ibexa\Contracts\ProductCatalog\ViewMatcher\ProductBased\IsProduct': ~
+                    form:
+                        template: '@ibexadesign/side_by_side/form.html.twig'
+                        match:
+                            Identifier\ContentType: [form]
+                    image:
+                        template: '@ibexadesign/side_by_side/image.html.twig'
+                        match:
+                            Identifier\ContentType: [image]
+                    article:
+                        template: '@ibexadesign/side_by_side/article.html.twig'
+                        match:
+                            Identifier\ContentType: [ article ]
+                tabs:
+                    article:
+                        template: '@ibexadesign/tabs/article.html.twig'
+                        match:
+                            Identifier\ContentType: [article]
+                accordion:
+                    article:
+                        template: '@ibexadesign/accordion/article.html.twig'
+                        match:
+                            Identifier\ContentType: [article]
+                carousel:
+                    article:
+                        template: '@ibexadesign/carousel/article.html.twig'
+                        match:
+                            Identifier\ContentType: [article]
+                    image:
+                        template: '@ibexadesign/carousel/image.html.twig'
+                        match:
+                            Identifier\ContentType: [image]
+                    form:
+                        template: '@ibexadesign/carousel/form.html.twig'
+                        match:
+                            Identifier\ContentType: [form]
+                    product_folder:
+                        template: '@ibexadesign/carousel/product_folder.html.twig'
+                        match:
+                            Identifier\ContentType: [product_folder]
+                    blog_post:
+                        template: '@ibexadesign/carousel/blog_post.html.twig'
+                        match:
+                            Identifier\ContentType: [blog_post]
+                block_teaser_image_wide:
+                    image:
+                        template: "@ibexadesign/teaser/image/wide.html.twig"
+                        match:
+                            Identifier\ContentType: [image]
+                flipbox:
+                    folder:
+                        template: '@ibexadesign/flipbox/folder.html.twig'
+                        match:
+                            Identifier\ContentType: [folder]
+                    article:
+                        template: '@ibexadesign/flipbox/article.html.twig'
+                        match:
+                            Identifier\ContentType: [article]
+                portal_widget:
+                    product:
+                        template: '@ibexadesign/portal_widget/product.html.twig'
+                        match:
+                            Identifier\ContentType: [ product ]
+                reference:
+                    folder:
+                        template: '@ibexadesign/reference/folder.html.twig'
+                        match:
+                            Identifier\ContentType: [ folder ]
+
+        site_factory_group_light: *front_end_group_configuration
+        site_factory_group_dark: *front_end_group_configuration
+        site_factory_group_color: *front_end_group_configuration

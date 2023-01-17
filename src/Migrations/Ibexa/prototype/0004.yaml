@@ -1,0 +1,6 @@
+-
+    type: section
+    mode: create
+    metadata:
+        identifier: site_factory
+        name: 'Site Factory'

@@ -1,0 +1,6 @@
+ibexa:
+    system:
+        site_group: &front_end_group_configuration
+        site_factory_group_light: *front_end_group_configuration
+        site_factory_group_dark: *front_end_group_configuration
+        site_factory_group_color: *front_end_group_configuration

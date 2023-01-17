@@ -1,0 +1,24 @@
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: null
+        publicationDate: null
+        remoteId: siteFactorySitesHome
+        alwaysAvailable: true
+        section: 1 #change to identifier after branch was merged: https://github.com/ibexa/migrations/tree/section_id_resolver
+    location:
+        hidden: true
+        sortField: !php/const Ibexa\Contracts\Core\Repository\Values\Content\Location::SORT_FIELD_PATH
+        sortOrder: ASC
+        priority: 0
+        locationRemoteId: siteFactorySitesHome
+        parentLocationId: 2
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Site Factory Sites'

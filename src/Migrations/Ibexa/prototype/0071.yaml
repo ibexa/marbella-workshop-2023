@@ -1,0 +1,11 @@
+-
+    type: customer_group
+    mode: create
+    identifier: reseller_germany
+    names:
+        eng-GB: 'Reseller Germany'
+        ger-DE: 'Reseller Germany'
+    descriptions:
+        eng-GB: 'Reseller Germany'
+        ger-DE: 'Reseller Germany'
+    global_price_rate: -7

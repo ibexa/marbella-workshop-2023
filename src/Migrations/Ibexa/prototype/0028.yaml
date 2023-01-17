@@ -1,0 +1,48 @@
+-
+    type: content_type
+    mode: update
+    match:
+        field: content_type_identifier
+        value: job_post
+    fields:
+        -
+            identifier: related_jobs
+            type: ezobjectrelationlist
+            position: 60
+            translations:
+                eng-GB:
+                    name: 'Related Jobs'
+                    description: 'Related Jobs'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings:
+                selectionMethod: 0
+                selectionDefaultLocation: null
+                selectionContentTypes:
+                    - job_post
+            validatorConfiguration:
+                RelationListValueValidator:
+                    selectionLimit: 0
+        -
+            identifier: tags
+            type: ibexa_taxonomy_entry_assignment
+            position: 70
+            translations:
+                eng-GB:
+                    name: Tags
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                taxonomy_entries: { }
+                taxonomy: null
+            fieldSettings:
+                taxonomy: tags
+            validatorConfiguration: { }

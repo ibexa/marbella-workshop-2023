@@ -1,0 +1,36 @@
+-
+    type: segment_group
+    mode: create
+    name: 'Doctors'
+    identifier: doctors
+    references:
+        -
+            name: ref__segment_group_doctors
+            type: segment_group_id
+
+-
+    type: segment
+    mode: create
+    name: 'Immunologist'
+    identifier: immunologist
+    group:
+        id: reference:ref__segment_group_doctors
+    references: { }
+
+-
+    type: segment
+    mode: create
+    name: 'General Practicioner'
+    identifier: general_practicioner
+    group:
+        id: reference:ref__segment_group_doctors
+    references: { }
+
+-
+    type: segment
+    mode: create
+    name: 'Dermatologist'
+    identifier: dermatologist
+    group:
+        id: reference:ref__segment_group_doctors
+    references: { }

@@ -1,0 +1,163 @@
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: product_folder
+        mainTranslation: eng-GB
+        creatorId: 14
+        creationDate: '2022-01-30T18:25:11+01:00'
+        remoteId: 1ff89952cd712e52acfcf46637f41a12
+        urlAliasSchema: ''
+        nameSchema: '<name>'
+        container: false
+        defaultAlwaysAvailable: true
+        defaultSortField: 2
+        defaultSortOrder: 0
+        contentTypeGroups:
+            - Prototype
+        translations:
+            eng-GB:
+                name: 'Product Folder'
+                description: ''
+    fields:
+        -
+            identifier: name
+            type: ezstring
+            position: 0
+            translations:
+                eng-GB:
+                    name: Name
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: short_name
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'Short Name'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: short_description
+            type: ezrichtext
+            position: 2
+            translations:
+                eng-GB:
+                    name: 'Short Description'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: description
+            type: ezrichtext
+            position: 3
+            translations:
+                eng-GB:
+                    name: Description
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: image
+            type: ezimageasset
+            position: 4
+            translations:
+                eng-GB:
+                    name: Image
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                destinationContentId: null
+                alternativeText: null
+                source: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+            thumbnail: true
+        -
+            identifier: product_type_identifier
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'Product type identifier'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: content
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: products
+            type: ezcontentquery
+            position: 5
+            translations:
+                eng-GB:
+                    name: Products
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: ''
+            fieldSettings:
+                QueryType: 'Base:Products'
+                ReturnedType: article
+                Parameters:
+                    product_type: '@=content.getFieldValue(''product_type_identifier'').text'
+                EnablePagination: true
+                ItemsPerPage: 10
+            validatorConfiguration: {  }
+    references:
+        -
+            name: ref__product_folder__content_type_id
+            type: content_type_id

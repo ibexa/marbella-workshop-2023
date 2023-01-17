@@ -1,0 +1,17 @@
+-
+    type: role
+    mode: create
+    metadata:
+        identifier: 'Anonymous (Experience)'
+    policies:
+        -
+            module: content
+            function: read
+            limitations:
+                -
+                    identifier: Section
+                    values: [experience]
+    actions:
+        -
+            action: assign_role_to_user_group
+            remote_id: 15b256dbea2ae72418ff5facc999e8f9

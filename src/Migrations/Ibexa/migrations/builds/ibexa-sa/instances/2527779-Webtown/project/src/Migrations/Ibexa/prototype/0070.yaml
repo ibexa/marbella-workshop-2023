@@ -1,0 +1,9 @@
+-
+    type: customer_group
+    mode: create
+    identifier: reseller_uk
+    names:
+        eng-GB: 'Reseller UK'
+    descriptions:
+        eng-GB: 'Reseller UK'
+    global_price_rate: -5

@@ -1,0 +1,48 @@
+-
+    type: content_type
+    mode: update
+    match:
+        field: content_type_identifier
+        value: image
+    metadata:
+        identifier: image
+    fields:
+        -
+            identifier: image
+            type: ezimage
+            position: 3
+            translations:
+                eng-GB:
+                    name: Image
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration:
+                FileSizeValidator:
+                    maxFileSize: 10
+                AlternativeTextValidator:
+                    required: false
+            thumbnail: true
+        -
+            identifier: tags
+            type: ibexa_taxonomy_entry_assignment
+            position: 10
+            translations:
+                eng-GB:
+                    name: Tags
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                taxonomy_entries: { }
+                taxonomy: null
+            fieldSettings:
+                taxonomy: tags
+            validatorConfiguration: { }

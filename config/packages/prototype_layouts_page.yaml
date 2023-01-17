@@ -1,0 +1,144 @@
+ibexa_fieldtype_page:
+    layouts:
+        'left_sidebar':
+            identifier: 'left_sidebar'
+            name: 'Left Sidebar'
+            description: 'Left Sidebar'
+            thumbnail: '/bundles/ibexaprototypepage/images/layouts/left_sidebar.png'
+            template: '@ibexadesign/layouts/left_sidebar.html.twig'
+            zones:
+                first:
+                    name: 'Hero zone'
+                second:
+                    name: 'Left zone'
+                third:
+                    name: 'Right zone'
+
+        'right_sidebar':
+            identifier: 'right_sidebar'
+            name: 'right_sidebar'
+            description: 'Right Sidebar'
+            thumbnail: '/bundles/ibexaprototypepage/images/layouts/right_sidebar.png'
+            template: '@ibexadesign/layouts/right_sidebar.html.twig'
+            zones:
+                first:
+                    name: 'Hero zone'
+                second:
+                    name: 'Left zone'
+                third:
+                    name: 'Right zone'
+
+        'split':
+            identifier: 'split'
+            name: 'Split'
+            description: 'Split'
+            thumbnail: '/bundles/ibexaprototypepage/images/layouts/split.png'
+            template: '@ibexadesign/layouts/split.html.twig'
+            zones:
+                first:
+                    name: 'Hero zone'
+                second:
+                    name: 'Left zone'
+                third:
+                    name: 'Right zone'
+
+        'three_way':
+            identifier: 'three_way'
+            name: 'Three Way'
+            description: 'Three Way'
+            thumbnail: '/bundles/ibexaprototypepage/images/layouts/three_way.png'
+            template: '@ibexadesign/layouts/three_way.html.twig'
+            zones:
+                first:
+                    name: 'Hero zone'
+                second:
+                    name: 'Left zone'
+                third:
+                    name: 'Middle zone'
+                fourth:
+                    name: 'Right zone'
+
+        'default_contained':
+            identifier: 'default_contained'
+            name: 'Default Contained'
+            description: 'Default Contained'
+            thumbnail: '/bundles/ibexaprototypepage/images/layouts/default.png'
+            template: '@ibexadesign/layouts/default_contained.html.twig'
+            zones:
+                first:
+                    name: 'Main zone'
+                second:
+                    name: 'Main zone'
+                third:
+                    name: 'Main zone'
+
+        'left_sidebar_contained':
+            identifier: 'left_sidebar_contained'
+            name: 'left_sidebar_contained'
+            description: 'Left Sidebar Contained'
+            thumbnail: '/bundles/ibexaprototypepage/images/layouts/left_sidebar.png'
+            template: '@ibexadesign/layouts/left_sidebar_contained.html.twig'
+            zones:
+                first:
+                    name: 'Hero zone'
+                second:
+                    name: 'Left zone'
+                third:
+                    name: 'Right zone'
+
+        'right_sidebar_contained':
+            identifier: 'right_sidebar_contained'
+            name: 'Right Sidebar Container'
+            description: 'Right Sidebar Contained'
+            thumbnail: '/bundles/ibexaprototypepage/images/layouts/right_sidebar.png'
+            template: '@ibexadesign/layouts/right_sidebar_contained.html.twig'
+            zones:
+                first:
+                    name: 'Hero zone'
+                second:
+                    name: 'Left zone'
+                third:
+                    name: 'Right zone'
+
+        'split_contained':
+            identifier: 'split_contained'
+            name: 'Split Contained'
+            description: 'Split Contained'
+            thumbnail: '/bundles/ibexaprototypepage/images/layouts/split.png'
+            template: '@ibexadesign/layouts/split_contained.html.twig'
+            zones:
+                first:
+                    name: 'Hero zone'
+                second:
+                    name: 'Left zone'
+                third:
+                    name: 'Right zone'
+
+        'three_way_contained':
+            identifier: 'three_way_contained'
+            name: 'Three Way Contained'
+            description: 'Three Way Contained'
+            thumbnail: '/bundles/ibexaprototypepage/images/layouts/three_way.png'
+            template: '@ibexadesign/layouts/three_way_contained.html.twig'
+            zones:
+                first:
+                    name: 'Hero zone'
+                second:
+                    name: 'Left zone'
+                third:
+                    name: 'Middle zone'
+                fourth:
+                    name: 'Right zone'
+        'homepage':
+            identifier: 'homepage'
+            name: 'Homepage'
+            description: 'Homepage'
+            thumbnail: '/bundles/ibexaprototypepage/images/layouts/default.png'
+            template: '@ibexadesign/layouts/homepage.html.twig'
+            zones:
+                first:
+                    name: 'Hero zone'
+                second:
+                    name: 'Main zone'
+                third:
+                    name: 'Secondary zone'

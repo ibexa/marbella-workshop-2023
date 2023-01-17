@@ -1,0 +1,6 @@
+ibexa:
+    system:
+        site_group:
+            product_catalog:
+                currencies:
+                    - EUR

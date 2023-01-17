@@ -1,0 +1,20 @@
+-
+    type: user_group
+    mode: delete
+    match:
+        field: remoteId
+        value: 3c160cca19fb135f83bd02d911f04db2
+-
+    type: user_group
+    mode: create
+    metadata:
+        contentTypeIdentifier: user_group
+        mainLanguage: eng-GB
+        parentGroupId: 4
+        remoteId: 3c160cca19fb135f83bd02d911f04db2
+    fields:
+        -
+            fieldDefIdentifier: name
+            fieldTypeIdentifier: ezstring
+            languageCode: eng-GB
+            value: 'Editors'

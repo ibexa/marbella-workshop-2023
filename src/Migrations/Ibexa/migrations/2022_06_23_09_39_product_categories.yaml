@@ -1,0 +1,130 @@
+- type: content_type
+  mode: create
+  metadata:
+    identifier: product_category_tag
+    contentTypeGroups: [ Content ]
+    mainTranslation: eng-GB
+    nameSchema: '<name|identifier>'
+    container: false
+    translations: { eng-GB: { name: Product Category } }
+  fields:
+    - identifier: name
+      type: ezstring
+      position: 10
+      translations: { eng-GB: { name: 'Name' } }
+      required: true
+    - identifier: identifier
+      type: ezstring
+      position: 20
+      translations: { eng-GB: { name: 'Identifier' } }
+      required: true
+    - identifier: parent
+      type: ibexa_taxonomy_entry
+      position: 30
+      translations: { eng-GB: { name: 'Parent Category' } }
+      required: false
+      fieldSettings: { taxonomy: product_categories }
+    - identifier: description
+      type: ezrichtext
+      position: 40
+      translations: { eng-GB: { name: 'Description' } }
+      required: false
+      searchable: true
+      infoCollector: false
+      translatable: true
+      defaultValue:
+          xml: |-
+              <?xml version="1.0" encoding="UTF-8"?>
+              <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+      fieldSettings: {  }
+      validatorConfiguration: {  }
+    - identifier: image
+      type: ezimageasset
+      position: 50
+      translations: { eng-GB: { name: 'Image' } }
+      required: false
+      fieldSettings: { }
+- type: section
+  mode: create
+  metadata: { identifier: product_taxonomy, name: Products Taxonomy }
+
+### FOLDERS
+- type: content
+  mode: create
+  metadata:
+    contentType: folder
+    mainTranslation: eng-GB
+    alwaysAvailable: true
+    section: { identifier: product_taxonomy }
+  location:
+    locationRemoteId: product_category_taxonomy_folder
+    parentLocationId: 1
+  fields:
+    - { fieldDefIdentifier: name, languageCode: eng-GB, value: Products Taxonomy }
+
+- type: content
+  mode: create
+  metadata:
+    contentType: folder
+    mainTranslation: eng-GB
+    alwaysAvailable: true
+    section: { identifier: product_taxonomy }
+  location:
+    locationRemoteId: product_category_taxonomy_folder_root
+    parentLocationRemoteId: product_category_taxonomy_folder
+  fields:
+    - { fieldDefIdentifier: name, languageCode: eng-GB, value: Products Taxonomy }
+
+### ROOT TAG
+- type: content
+  mode: create
+  metadata:
+    contentType: product_category_tag
+    mainTranslation: eng-GB
+    alwaysAvailable: true
+    section: { identifier: product_taxonomy }
+  location:
+    locationRemoteId: product_category_taxonomy_tag_root
+    parentLocationRemoteId: product_category_taxonomy_folder_root
+  fields:
+    - { fieldDefIdentifier: identifier, languageCode: eng-GB, value: product_root }
+    - { fieldDefIdentifier: parent, languageCode: eng-GB, value: { taxonomy_entry: ~, taxonomy: product_categories } }
+    - { fieldDefIdentifier: name, languageCode: eng-GB, value: Product Root Tag }
+
+### PERMISSIONS
+- type: role
+  mode: update
+  match: { field: identifier, value: Anonymous }
+  policies:
+    mode: append
+    list:
+      - module: content
+        function: read
+        limitations:
+          - { identifier: Section, values: ['product_taxonomy'] }
+      - module: taxonomy
+        function: read
+        limitations:
+          - { identifier: Taxonomy, values: [ 'product_categories' ] }
+
+- type: role
+  mode: update
+  match: { field: identifier, value: Member }
+  policies:
+    mode: append
+    list:
+      - module: content
+        function: read
+        limitations:
+          - { identifier: Section, values: [ 'product_taxonomy' ] }
+      - module: taxonomy
+        function: read
+        limitations:
+          - { identifier: Taxonomy, values: [ 'product_categories' ] }
+- type: role
+  mode: update
+  match: { field: identifier, value: Editor }
+  policies:
+    mode: append
+    list:
+      - { module: taxonomy, function: all_functions }

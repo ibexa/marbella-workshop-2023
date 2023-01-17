@@ -1,0 +1,32 @@
+-
+    type: user
+    mode: create
+    metadata:
+        login: hugo
+        email: hugo.mueller@example.com
+        password: publish
+        enabled: true
+        mainLanguage: eng-GB
+        contentType: user
+    groups:
+        - 3c160cca19fb135f83bd02d911f04db2
+    fields:
+        -
+            fieldDefIdentifier: first_name
+            languageCode: eng-GB
+            value: Hugo
+        -
+            fieldDefIdentifier: last_name
+            languageCode: eng-GB
+            value: Mueller
+        -
+            fieldDefIdentifier: signature
+            languageCode: eng-GB
+            value: "Hello I am Hugo,\r\ni am responsible for the content. You can contact me every time you have questions or optimization proposals."
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                path: public/bundles/ibexaprototypecontentstructure/assets/images/photo.jpg
+                fileName: photo.jpg
+                alternativeText: 'Photo'

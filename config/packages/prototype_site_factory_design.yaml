@@ -1,0 +1,5 @@
+ibexa_design_engine:
+    design_list:
+        site_factory_design_light: [light, base, standard]
+        site_factory_design_dark: [dark, base, standard]
+        site_factory_design_color: [color, base, standard]

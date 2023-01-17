@@ -1,0 +1,46 @@
+-
+    type: reference
+    mode: load
+    filename: references/references.yml
+-
+    type: role
+    mode: update
+    match:
+        field: identifier
+        value: 'Ecommerce anonymous'
+    metadata:
+        name: null
+    policies:
+        -
+            module: content
+            function: read
+            limitations:
+                -
+                    identifier: Class
+                    values: [article, file, folder, image, landing_page, ses_category, ses_product, ses_productcatalog, st_textmodule]
+                -
+                    identifier: Section
+                    values: [components, media, standard]
+        -
+            module: user
+            function: login
+            limitations:
+                -
+                    identifier: SiteAccess
+                    values: [site]
+        -
+            module: siso_policy
+            function: read_basket
+            limitations: {  }
+        -
+            module: siso_policy
+            function: write_basket
+            limitations: {  }
+        -
+            module: siso_policy
+            function: see_product_price
+            limitations: {  }
+        -
+            module: siso_policy
+            function: quickorder
+            limitations: {  }

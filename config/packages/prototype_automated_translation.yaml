@@ -1,0 +1,14 @@
+parameters:
+    env(GOOGLE_TRANSLATE_API_KEY): 'change-me'
+    google_translate_api_key: "%env(GOOGLE_TRANSLATE_API_KEY)%"
+    env(DEEPL_PRO_KEY): 'change-me'
+    deepl_pro_key: "%env(DEEPL_PRO_KEY)%"
+
+ibexa_automated_translation:
+    system:
+        default:
+            configurations:
+                google:
+                    apiKey: "%google_translate_api_key%"
+#                deepl:
+#                    authKey: "%deepl_pro_key%"

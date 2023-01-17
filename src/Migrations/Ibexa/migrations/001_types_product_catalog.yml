@@ -1,0 +1,990 @@
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: configuration
+        contentTypeGroups:
+            - Content
+        mainTranslation: eng-GB
+        nameSchema: '<configuration_name>'
+        urlAliasSchema: ''
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: Configuration
+                description: ''
+    fields:
+        -
+            identifier: configuration_name
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'Configuration Name'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: configuration_file
+            type: eztext
+            position: 2
+            translations:
+                eng-GB:
+                    name: 'Configuration File'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: false
+            category: ''
+            defaultValue: null
+            fieldSettings:
+                textRows: 10
+            validatorConfiguration: {  }
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: ses_category
+        contentTypeGroups:
+            - Content
+        mainTranslation: eng-GB
+        nameSchema: '<ses_name>'
+        urlAliasSchema: ''
+        container: true
+        remoteId: null
+        translations:
+            eng-GB:
+                name: 'Product category'
+                description: 'Category for products'
+    fields:
+        -
+            identifier: ses_name
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'Category name'
+                    description: 'Name of the category'
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_subtitle
+            type: ezstring
+            position: 2
+            translations:
+                eng-GB:
+                    name: Subtitle
+                    description: Subtitle
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_short_description
+            type: ezrichtext
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Category description short'
+                    description: 'Short description for the category'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: ses_long_description
+            type: ezrichtext
+            position: 4
+            translations:
+                eng-GB:
+                    name: 'Category description long'
+                    description: 'Long description for the category'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: ses_image_main
+            type: ezimage
+            position: 5
+            translations:
+                eng-GB:
+                    name: 'Category main image'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                FileSizeValidator:
+                    maxFileSize: null
+        -
+            identifier: ses_code
+            type: ezstring
+            position: 6
+            translations:
+                eng-GB:
+                    name: 'Category code'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_meta_keywords
+            type: ezstring
+            position: 7
+            translations:
+                eng-GB:
+                    name: 'Meta keywords'
+                    description: 'Meta keywords for SEO'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_meta_description
+            type: ezstring
+            position: 8
+            translations:
+                eng-GB:
+                    name: 'Meta description'
+                    description: 'Meta tag description for SEO'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: ses_product
+        contentTypeGroups:
+            - Content
+        mainTranslation: eng-GB
+        nameSchema: '<ses_name>'
+        urlAliasSchema: ''
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: Product
+                description: ''
+    fields:
+        -
+            identifier: ses_name
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: Productname
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: metadata
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_subtitle
+            type: ezstring
+            position: 2
+            translations:
+                eng-GB:
+                    name: Subtitle
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_type
+            type: ezselection
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Product type'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: metadata
+            defaultValue: null
+            fieldSettings:
+                isMultiple: false
+                options: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: ses_short_description
+            type: ezrichtext
+            position: 4
+            translations:
+                eng-GB:
+                    name: 'Short description'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: ses_long_description
+            type: ezrichtext
+            position: 5
+            translations:
+                eng-GB:
+                    name: 'Long description'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: ses_sku
+            type: ezstring
+            position: 6
+            translations:
+                eng-GB:
+                    name: SKU
+                    description: 'SKU of the product'
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: metadata
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_specifications
+            type: sesspecificationstype
+            position: 7
+            translations:
+                eng-GB:
+                    name: Specifications
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: '[]'
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: ses_ean
+            type: ezstring
+            position: 8
+            translations:
+                eng-GB:
+                    name: EAN
+                    description: 'EAN of the product'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_variants
+            type: uivarvarianttype
+            position: 9
+            translations:
+                eng-GB:
+                    name: Variants
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: 'null'
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: ses_manufacturer_sku
+            type: ezstring
+            position: 10
+            translations:
+                eng-GB:
+                    name: 'Manufacturer SKU'
+                    description: 'SKU of the product from manufacturer'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: false
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_unit_price
+            type: ezstring
+            position: 11
+            translations:
+                eng-GB:
+                    name: 'Unit price'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_image_main
+            type: ezimage
+            position: 12
+            translations:
+                eng-GB:
+                    name: 'Product image'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                FileSizeValidator:
+                    maxFileSize: null
+        -
+            identifier: ses_manufacturer
+            type: ezstring
+            position: 13
+            translations:
+                eng-GB:
+                    name: Manufacturer
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_color
+            type: ezstring
+            position: 14
+            translations:
+                eng-GB:
+                    name: Color
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_specification
+            type: eztext
+            position: 15
+            translations:
+                eng-GB:
+                    name: 'Technical specification'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings:
+                textRows: 10
+            validatorConfiguration: {  }
+        -
+            identifier: ses_video
+            type: ezstring
+            position: 16
+            translations:
+                eng-GB:
+                    name: Video
+                    description: 'contains the URL for the video'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_image_1
+            type: ezimage
+            position: 17
+            translations:
+                eng-GB:
+                    name: 'Add. Product image 1'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                FileSizeValidator:
+                    maxFileSize: null
+        -
+            identifier: ses_image_2
+            type: ezimage
+            position: 18
+            translations:
+                eng-GB:
+                    name: 'Add. Product image 2'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                FileSizeValidator:
+                    maxFileSize: null
+        -
+            identifier: ses_image_3
+            type: ezimage
+            position: 19
+            translations:
+                eng-GB:
+                    name: 'Add. Product image 3'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                FileSizeValidator:
+                    maxFileSize: null
+        -
+            identifier: ses_image_4
+            type: ezimage
+            position: 20
+            translations:
+                eng-GB:
+                    name: 'Add Product image 4'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                FileSizeValidator:
+                    maxFileSize: null
+        -
+            identifier: ses_currency
+            type: ezstring
+            position: 21
+            translations:
+                eng-GB:
+                    name: Currency
+                    description: 'The default currency of the product'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_vat_code
+            type: sesselection
+            position: 22
+            translations:
+                eng-GB:
+                    name: 'VAT Code'
+                    description: 'The vat code of the product'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: ses_product_type
+            type: ezstring
+            position: 23
+            translations:
+                eng-GB:
+                    name: 'Product Type'
+                    description: 'a type of the product'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_packaging_unit
+            type: ezstring
+            position: 24
+            translations:
+                eng-GB:
+                    name: 'Packaging unit'
+                    description: 'Packaging unit'
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_min_order_quantity
+            type: ezstring
+            position: 25
+            translations:
+                eng-GB:
+                    name: 'Min order quantity'
+                    description: 'minimal order quantity of the product'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_max_order_quantity
+            type: ezstring
+            position: 26
+            translations:
+                eng-GB:
+                    name: 'Max order quantity'
+                    description: 'maximal order quantity of the product'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_unit
+            type: ezstring
+            position: 27
+            translations:
+                eng-GB:
+                    name: Unit
+                    description: 'Product unit'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_stock_numeric
+            type: ezstring
+            position: 29
+            translations:
+                eng-GB:
+                    name: 'Stock numeric'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_discontinued
+            type: ezboolean
+            position: 30
+            translations:
+                eng-GB:
+                    name: Discontinued
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: null
+        -
+            identifier: tags
+            type: ezkeyword
+            position: 31
+            translations:
+                eng-GB:
+                    name: Tags
+                    description: 'Please add tags separated by a comma'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: ses_productcatalog
+        contentTypeGroups:
+            - Content
+        mainTranslation: eng-GB
+        nameSchema: '<name>'
+        urlAliasSchema: ''
+        container: true
+        remoteId: null
+        translations:
+            eng-GB:
+                name: 'Product catalog'
+                description: 'Entry point to a product catalog provided by a storage engine'
+    fields:
+        -
+            identifier: name
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: Name
+                    description: 'Name of the product catalog'
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: root_node
+            type: ezinteger
+            position: 2
+            translations:
+                eng-GB:
+                    name: 'Root node'
+                    description: 'Root node of the storage engine'
+            required: true
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                IntegerValueValidator:
+                    minIntegerValue: 0
+                    maxIntegerValue: null
+        -
+            identifier: path_prefix
+            type: ezstring
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Path prefix'
+                    description: 'Optional path prefix for the storage engine'
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: depth
+            type: ezstring
+            position: 4
+            translations:
+                eng-GB:
+                    name: Depth
+                    description: 'The depth of the catalog'
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: ses_product_type
+        contentTypeGroups:
+            - Content
+        mainTranslation: eng-GB
+        nameSchema: '<ses_name>'
+        urlAliasSchema: ''
+        container: true
+        remoteId: null
+        translations:
+            eng-GB:
+                name: 'Product type'
+                description: ''
+    fields:
+        -
+            identifier: ses_name
+            type: ezstring
+            position: 1
+            translations:
+                eng-GB:
+                    name: 'Product type name'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_code
+            type: ezstring
+            position: 2
+            translations:
+                eng-GB:
+                    name: 'Product type code'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: ses_short_description
+            type: ezrichtext
+            position: 3
+            translations:
+                eng-GB:
+                    name: 'Short description'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: ses_long_description
+            type: ezrichtext
+            position: 4
+            translations:
+                eng-GB:
+                    name: 'Long description'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: ses_image_main
+            type: ezimage
+            position: 5
+            translations:
+                eng-GB:
+                    name: 'Product type image'
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                FileSizeValidator:
+                    maxFileSize: null
+        -
+            identifier: ses_subtitle
+            type: ezstring
+            position: 6
+            translations:
+                eng-GB:
+                    name: Subtitle
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null

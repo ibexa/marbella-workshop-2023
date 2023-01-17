@@ -1,0 +1,123 @@
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: faq
+        contentTypeGroups:
+            - Prototype
+        mainTranslation: eng-GB
+        nameSchema: '<short_name|name>'
+        urlAliasSchema: '<short_name|name>'
+        container: true
+        remoteId: null
+        translations:
+            eng-GB:
+                name: FAQ
+                description: ''
+    fields:
+        -
+            identifier: name
+            type: ezstring
+            position: 10
+            translations:
+                eng-GB:
+                    name: Name
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: short_name
+            type: ezstring
+            position: 20
+            translations:
+                eng-GB:
+                    name: 'Short Name'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: short_description
+            type: ezrichtext
+            position: 30
+            translations:
+                eng-GB:
+                    name: 'Short description'
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: description
+            type: ezrichtext
+            position: 40
+            translations:
+                eng-GB:
+                    name: Description
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration: {  }
+        -
+            identifier: image
+            type: ezimageasset
+            position: 50
+            translations:
+                eng-GB:
+                    name: Image
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: null
+            validatorConfiguration: null
+            thumbnail: true
+        -
+            identifier: icon
+            type: ezstring
+            position: 60
+            translations:
+                eng-GB:
+                    name: Icon
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null

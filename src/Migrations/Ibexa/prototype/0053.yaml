@@ -1,0 +1,1815 @@
+-
+    type: reference
+    mode: load
+    filename: 'references_images.yaml'
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T20:14:39+00:00'
+        publicationDate: '2022-01-30T15:30:48+00:00'
+        remoteId: 0952a889750aeae540025ac964617b6a
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 2
+        parentLocationRemoteId: null
+        locationRemoteId: 890fd3c60dc167f630b4e14546c103eb
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'About Helse'
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>The foundation of vibrant life, thriving community, and progress is good health. At Helse, we are in pursuit of innovative solutions that change people's lives. We aim to keep people healthy at every age and every stage of life. Our mission is to transform patients' lives for the better with continuous innovations. Our drive is to cure and improve the lives of everyone everywhere.</para><para>We are one of the world’s largest pharmaceutical &amp; healthcare companies. We innovate every day to make the world a healthier place. Our mission is to make health and wellness easy to access and affordable. This will create healthier communities, and put a healthy mind, body, and environment within reach of everyone, everywhere.</para><para>With our global presence, we can and are able to make a difference to the communities around the world.</para></section>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__helse headquarters.jpg'
+                alternativeText: 'Helse Headquarters'
+                source: null
+    references:
+        -
+            name: 'ref__content__folder__about helse'
+            type: content_id
+        -
+            name: 'ref_location__folder__about helse'
+            type: location_id
+        -
+            name: 'ref_path__folder__about helse'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: article
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-03T13:52:57+00:00'
+        publicationDate: '2022-01-30T15:31:35+00:00'
+        remoteId: 89597a9dc68554fc3ffe27694cb664e9
+        alwaysAvailable: false
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__about helse'
+        locationRemoteId: d306b2d0ce6b52e8da7d62ebca104d1b
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: title
+            languageCode: eng-GB
+            value: 'Our Mission'
+        -
+            fieldDefIdentifier: short_title
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: author
+            languageCode: eng-GB
+            value:
+                -
+                    id: '1'
+                    name: 'Administrator User'
+                    email: admin@link.invalid
+        -
+            fieldDefIdentifier: intro
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Actively doing now what patients need now and in the future</para></section>
+        -
+            fieldDefIdentifier: body
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>At Helse, we believe in acting ethically and responsibly. Our Code of Business ensures that we hold ourselves and how we do business to the highest standard, allowing us to fulfill our obligations to the many stakeholders we serve.</para><para> </para><para>The foundation of vibrant life, thriving community, and progress is good health. At Helse, we are in pursuit of innovative solutions that change people's lives. We aim to keep people healthy at every age and every stage of life. Our mission is to transform patients' lives for the better with continuous innovations. Our drive is to cure and improve the lives of everyone everywhere.</para></section>
+        -
+            fieldDefIdentifier: enable_comments
+            languageCode: eng-GB
+            value: false
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__hush-naidoo-jade-photography-p_a0uoltkwao-unsplash.jpg'
+                alternativeText: hush-naidoo-jade-photography-pA0uoltkwao-unsplash.jpg
+                source: null
+    references:
+        -
+            name: 'ref__content__article__our mission'
+            type: content_id
+        -
+            name: 'ref_location__article__our mission'
+            type: location_id
+        -
+            name: 'ref_path__article__our mission'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-01T20:31:02+00:00'
+        publicationDate: '2022-01-30T17:04:21+00:00'
+        remoteId: f539dce7bc9778f2332a776cfabb831c
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__about helse'
+        locationRemoteId: 1a256a68e5bcc5f1d70c1e116092d65c
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Folder
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: 'Our Leadership Team'
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Helse has been lucky to play a vital role in helping and curing millions of people around the world for more than half a century. As we have learned more and more about the science of the human body, we've been able to grow along with it with our innovations and research. We credit our strength and endurance to a consistent approach to managing our business, and to the character of our people.</para><para>Meet the executive leadership team, our senior-most leadership and decision-making management body who focus on major financial, strategic, and operational decisions for the entire company.</para></section>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__leadership.jpg'
+                alternativeText: Leadership.jpg
+                source: null
+    references:
+        -
+            name: 'ref__content__folder__our leadership team'
+            type: content_id
+        -
+            name: 'ref_location__folder__our leadership team'
+            type: location_id
+        -
+            name: 'ref_path__folder__our leadership team'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: person
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-31T05:42:30+00:00'
+        publicationDate: '2022-01-30T17:09:05+00:00'
+        remoteId: cbfc8c259707f1bba0b1f0d89f99321b
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__our leadership team'
+        locationRemoteId: 1cae1cf643be02aacabf3dc04c13b8db
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: first_name
+            languageCode: eng-GB
+            value: Theodore
+        -
+            fieldDefIdentifier: last_name
+            languageCode: eng-GB
+            value: Olson
+        -
+            fieldDefIdentifier: email
+            languageCode: eng-GB
+            value: theodore.olson@helse.co
+        -
+            fieldDefIdentifier: position
+            languageCode: eng-GB
+            value: 'Chief Executive Officer'
+        -
+            fieldDefIdentifier: bio
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Theodore Olson is the Chief Executive Officer of Helse and serves on its Board of Directors. As CEO, Theodore drives a global workforce in scientific and commercial innovation in Pharmaceuticals, MedTech, and Consumer Health.</para><para>From the start of his education and career, Theodore found inspiration in healthcare and how dramatically it improves patients’ lives. Over the course of his career with the company, he developed a deep knowledge and acumen of what’s possible at Helse and how to achieve the company's vision. Before being named CEO, Theodore served as the Vice-Chairman, where he provided strategic direction for the Consumer Health sector and oversaw both Information Technology and the Global Supply Chain.</para><para>Theodore's strengths include driving the digital transformation of the company’s pharmaceutical business. He was the driver behind the new strategy that ensured Helse made the right investments around core therapeutic areas and areas of greatest unmet need. More recently, he oversaw the company’s rapid response to the COVID-19 pandemic and drove coordination of global initiatives to safeguard the health of employees and ensure business and supply chain continuity, so the company’s life-saving medicines and products reached patients and communities in need around the whole world.</para><para>His ideas have led Helse to accelerate progress in healthcare using the power of technology. Under his leadership, Helse was able to use data science and machine learning for insight generation so that teams work as a united front across the world. </para><para>Theodore is committed to building an inclusive workforce across the world with great initiative in African American and Latino communities.</para><para>Theodore earned an MBA from the Massachusetts Institute of Technology in Boston, Massachusetts, and a Master of Biotechnology from John Hopkins in Baltimore, Maryland. He lives in New York with his wife </para></section>
+        -
+            fieldDefIdentifier: telephone
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__threodore_olson.jpg'
+                alternativeText: Threodore_Olson.jpg
+                source: null
+    references:
+        -
+            name: ref__content__person__theodore-olson
+            type: content_id
+        -
+            name: ref_location__person__theodore-olson
+            type: location_id
+        -
+            name: ref_path__person__theodore-olson
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: person
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-31T05:43:30+00:00'
+        publicationDate: '2022-01-30T17:10:30+00:00'
+        remoteId: 10f75e0362a501f2be2d2c4c888c6e33
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__our leadership team'
+        locationRemoteId: a851b60d52703bbfbb1a48de56eae522
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: first_name
+            languageCode: eng-GB
+            value: Brianna
+        -
+            fieldDefIdentifier: last_name
+            languageCode: eng-GB
+            value: Campbell
+        -
+            fieldDefIdentifier: email
+            languageCode: eng-GB
+            value: brianna.campbell@helse.co
+        -
+            fieldDefIdentifier: position
+            languageCode: eng-GB
+            value: 'Executive Vice President, Global Corporate Affairs'
+        -
+            fieldDefIdentifier: bio
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Brianna Campbell is the Executive Vice President, Global Corporate Affairs of Helse, and serves on its Board of Directors. As Executive Vice President, Brianna drives a global workforce in scientific and commercial innovation in Pharmaceuticals, MedTech, and Consumer Health.</para><para>From the start of her education and career, Brianna found inspiration in healthcare and how dramatically it improves patients’ lives. Over the course of her career with the company, she developed a deep knowledge and acumen of what’s possible at Helse and how to achieve the company's vision. Before being named Vice President, Brianna served as the Vice-Chairman, where she provided strategic direction for the Consumer Health sector and oversaw both Information Technology and the Global Supply Chain.</para><para>Brianna's strengths include driving the digital transformation of the company’s pharmaceutical business. She was the driver behind the new strategy that ensured Helse made the right investments around core therapeutic areas and areas of greatest unmet need. More recently, she oversaw the company’s rapid response to the COVID-19 pandemic and drove coordination of global initiatives to safeguard the health of employees and ensure business and supply chain continuity, so the company’s life-saving medicines and products reached patients and communities in need around the whole world.</para><para>Her ideas have led Helse to accelerate progress in healthcare using the power of technology. Under her leadership, Helse was able to use data science and machine learning for insight generation so that teams work as a united front across the world. </para><para>Brianna is committed to building an inclusive workforce across the world with great initiative in African American and Latino communities.</para><para>Brianna earned an MBA from the Massachusetts Institute of Technology in Boston, Massachusetts, and a Master of Biotechnology from John Hopkins in Baltimore, Maryland. She lives in Oslo, Norway.</para></section>
+        -
+            fieldDefIdentifier: telephone
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__brianna campbell.jpg'
+                alternativeText: 'Brianna Campbell.jpg'
+                source: null
+    references:
+        -
+            name: ref__content__person__brianna-campbell
+            type: content_id
+        -
+            name: ref_location__person__brianna-campbell
+            type: location_id
+        -
+            name: ref_path__person__brianna-campbell
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: person
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-31T05:44:26+00:00'
+        publicationDate: '2022-01-30T17:11:23+00:00'
+        remoteId: 9ae36f8a89e5ab6c073ca0e203ac754f
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__our leadership team'
+        locationRemoteId: 94dbd7a8cbc2f8aaa902c28929f43cc9
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: first_name
+            languageCode: eng-GB
+            value: Lauren
+        -
+            fieldDefIdentifier: last_name
+            languageCode: eng-GB
+            value: Rivera
+        -
+            fieldDefIdentifier: email
+            languageCode: eng-GB
+            value: lauren.rivera@helse.co
+        -
+            fieldDefIdentifier: position
+            languageCode: eng-GB
+            value: 'Executive Vice President, Chief Human Resources Officer'
+        -
+            fieldDefIdentifier: bio
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Lauren Rivera is the Executive Vice President, Human Resources of Helse, and serves on its Board of Directors. As Executive Vice President, Lauren drives a global workforce in scientific and commercial innovation in Pharmaceuticals, MedTech, and Consumer Health.</para><para>From the start of her education and career, Lauren found inspiration in healthcare and how dramatically it improves patients’ lives. Over the course of her career with the company, she developed a deep knowledge and acumen of what’s possible at Helse and how to achieve the company's vision. Before being named Vice President, Lauren served as the Vice-Chairman, where she provided strategic direction for the Consumer Health sector and oversaw both Information Technology and the Global Supply Chain.</para><para>Lauren's strengths include driving the digital transformation of the company’s pharmaceutical business. She was the driver behind the new strategy that ensured Helse made the right investments around core therapeutic areas and areas of greatest unmet need. More recently, she oversaw the company’s rapid response to the COVID-19 pandemic and drove coordination of global initiatives to safeguard the health of employees and ensure business and supply chain continuity, so the company’s life-saving medicines and products reached patients and communities in need around the whole world.</para><para>Her ideas have led Helse to accelerate progress in healthcare using the power of technology. Under her leadership, Helse was able to use data science and machine learning for insight generation so that teams work as a united front across the world. </para><para>Lauren is committed to building an inclusive workforce across the world with great initiative in African American and Latino communities.</para><para>Lauren earned an MBA from the Massachusetts Institute of Technology in Boston, Massachusetts, and a Master of Biotechnology from John Hopkins in Baltimore, Maryland. She lives in Oslo, Norway.</para></section>
+        -
+            fieldDefIdentifier: telephone
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__lauren rivera.jpg'
+                alternativeText: 'Lauren Rivera.jpg'
+                source: null
+    references:
+        -
+            name: ref__content__person__lauren-rivera
+            type: content_id
+        -
+            name: ref_location__person__lauren-rivera
+            type: location_id
+        -
+            name: ref_path__person__lauren-rivera
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: article
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T09:49:06+00:00'
+        publicationDate: '2022-01-30T17:11:54+00:00'
+        remoteId: 391af4d53aa71e8756fcde183ae06963
+        alwaysAvailable: false
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__about helse'
+        locationRemoteId: d7bce9ad583bb3a33ffc78a0a14ceb10
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: title
+            languageCode: eng-GB
+            value: Innovation
+        -
+            fieldDefIdentifier: short_title
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: author
+            languageCode: eng-GB
+            value:
+                -
+                    id: '1'
+                    name: 'Administrator User'
+                    email: admin@link.invalid
+        -
+            fieldDefIdentifier: intro
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This is how we change the world. This is how we make everyone healthy.</para></section>
+        -
+            fieldDefIdentifier: body
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Helse's Innovation strives to impact human health through innovation. We do this by helping local entrepreneurs work on their dreams and aspirations of creating healthcare solutions that improve peoples’ lives around the world. We work and guide these innovators throughout their journey, providing a robust exchange of ideas and resources to support their success.</para><para>We also have a dedicated strategy for Research &amp; Development. R&amp;D has always resulted in products that have improved and advanced the knowledge of disease and transformed the practice of medicine. This has always been the aspiration and drive of our company.</para><para>Having Diagnostics and Pharmaceuticals in one company is a powerful advantage. Interactions between the two are central to personalized healthcare strategy. These two divisions share expertise, research facilities, and technologies when working together on projects.</para></section>
+        -
+            fieldDefIdentifier: enable_comments
+            languageCode: eng-GB
+            value: false
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__innovation 1.jpg'
+                alternativeText: 'Innovation 1.jpg'
+                source: null
+    references:
+        -
+            name: ref__content__article__innovation
+            type: content_id
+        -
+            name: ref_location__article__innovation
+            type: location_id
+        -
+            name: ref_path__article__innovation
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: article
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T10:48:40+00:00'
+        publicationDate: '2022-01-30T17:12:39+00:00'
+        remoteId: fff0e33b8332222c0bdcabf028d28e83
+        alwaysAvailable: false
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__about helse'
+        locationRemoteId: 9c70ffe5f27cf9de60348edb6c01db7c
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: title
+            languageCode: eng-GB
+            value: 'Message from CEO'
+        -
+            fieldDefIdentifier: short_title
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: author
+            languageCode: eng-GB
+            value:
+                -
+                    id: '1'
+                    name: 'Administrator User'
+                    email: admin@link.invalid
+        -
+            fieldDefIdentifier: intro
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Theodore Olson has been a member of Helse for over 3 decades. His Biotech experience has forged a career as CEO of the biggest pharmaceutical company. He is an unconventional thinker who is not afraid to ask questions that (as he himself says) could turn out to be stupid: “I want to break old patterns of thinking that prevent people from exploring new avenues.”</para></section>
+        -
+            fieldDefIdentifier: body
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><title ezxhtml:level="2"><emphasis><emphasis role="strong">Questions and Answers</emphasis></emphasis></title><para>We asked Theodore what he thinks about the following topics and issues</para><title ezxhtml:level="3"><emphasis role="strong">Priorities in life</emphasis></title><para>The COVID-19 pandemic has given us an opportunity to rethink and reaccess our priorities in life. Reiterating that if our family members, friends, and colleagues are healthy and doing well it is the best outcome. My deepest sympathy goes out to families who have lost a loved one to COVID.</para><title ezxhtml:level="3"><emphasis role="strong">Importance of partnerships</emphasis></title><para>We are facing the issues of the world together. Helse is one of the few companies at the forefront of combating the pandemic crisis. We have entered into collaboration with other pharmaceutical companies across the world to fight the COVID-19 pandemic. And share our research with other companies to achieve a global solution to the pandemic. We work closely with governments, healthcare authorities, and communities to ensure easy and affordable access to our medicines and diagnostics.”</para><title ezxhtml:level="3"><emphasis role="strong">Company Owner</emphasis></title><para>The loyal founding family owns a majority of the stake in Helse. We still rely on their experience, expertise, and guidance when we pass this company onto the next generation. This commitment allows the long-term mindset that is key for an innovative business such as ours and has become a cornerstone of our culture.</para><title ezxhtml:level="3"><emphasis role="strong">Role models</emphasis></title><para>We live that the best leadership tool is to have a role model. We at Helse, have a Mentor-Mentee program that helps our employees achieve what they aspire. Employees pay close attention to their managers’ behavior and can work in close collaboration with their role models.</para><title ezxhtml:level="3"><emphasis role="strong">Access to healthcare</emphasis></title><para>Even the most ground-breaking innovation is useless if it never reaches the patients. Especially during the pandemic, vaccinations had to reach billions across the world to keep everyone safe.  Our aim at Helse is for every person who needs our diagnostics and medicines to be able to access them, no matter where they live</para></section>
+        -
+            fieldDefIdentifier: enable_comments
+            languageCode: eng-GB
+            value: false
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__scott-graham-oqmzw_nd3_th_u-unsplash.jpg'
+                alternativeText: scott-graham-OQMZwNd3ThU-unsplash.jpg
+                source: null
+    references:
+        -
+            name: 'ref__content__article__message from ceo'
+            type: content_id
+        -
+            name: 'ref_location__article__message from ceo'
+            type: location_id
+        -
+            name: 'ref_path__article__message from ceo'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T15:37:41+00:00'
+        publicationDate: '2022-01-30T17:14:48+00:00'
+        remoteId: dfd69952cf85b3ff69b32e179785ea00
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 2
+        parentLocationRemoteId: null
+        locationRemoteId: prototype_products
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Products
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Our objective is to develop innovative and improved drugs, diagnostic tests, and health products that have significant benefits over existing &amp; available options in the market.</para><para>Every product that we manufacture is a result of 1000+ scientists working ethically, aggressively who oversees more than a million lab tests and hundreds of clinical trials, all before the product is used.</para></section>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__cdc-bsoz_bcqn6o_y-unsplash.jpg'
+                alternativeText: cdc-qs8wUhpN1gs-unsplash.jpg
+                source: null
+    references:
+        -
+            name: ref__content__folder__products
+            type: content_id
+        -
+            name: ref_location__folder__products
+            type: location_id
+        -
+            name: ref_path__folder__products
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: product_folder
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T15:38:38+00:00'
+        publicationDate: '2022-01-30T17:31:01+00:00'
+        remoteId: 49e4aae6263138dbf3092ad083bb810b
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__products'
+        locationRemoteId: ada2d51667d89dcb95537bc626a87818
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Consumer Health'
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>At Helse we are committed to improving personal health by delivering high-quality,  sustainable, and eco-friendly products that are rooted in science and endorsed by experts and professionals. </para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Personal healthcare has always been a booming market with high volatility. So we need meaningful solutions to keep up with the pace of the consumers. Our iconic skin health, self-care, and essential health brands help people live healthier lives.</para><title ezxhtml:level="2"><emphasis role="strong">Self Care</emphasis></title><para>Not everyone has access to doctors on a need basis. Helse helps meet the urgent requirement of personal and family health needs by offering highly advanced products over-the-counter. This empowers the user to take their health decisions. These include a range of medicated and non-medicated products for pain relief, allergy, antacids, nasal decongestants, and cough and colds.</para><para> </para><title ezxhtml:level="2"><emphasis role="strong">Beauty</emphasis></title><para>Along with our high-tech research we have collaborated and partnered with skin experts and dermatologists to come up with the most advanced and high-performing skin products in the market. Our broad Skin Health portfolio provides the best care for the skin. Innovations help us improve skin health assessments; treatments for acne and eczema and aging signs; creams that strengthen the skin; and sunscreens that protect and help defend against signs of skin aging and the risk of skin cancer.</para><para> </para><title ezxhtml:level="2"><emphasis role="strong">Essential Health</emphasis></title><para>Our products are used in everyday life. These products connect us with millions of lives every day. Throughout their lives, consumers reach for our iconic wound care, oral care, baby care, and women’s health brands to take care of themselves and others. These products over the years have become the core of their lives.</para></section>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__kalos-skincare-kzj_h8_ccwad0-unsplash.jpg'
+                alternativeText: kalos-skincare-kzjH8CCWAD0-unsplash.jpg
+                source: null
+        -
+            fieldDefIdentifier: product_type_identifier
+            languageCode: eng-GB
+            value: 'skin_care_product'
+        -
+            fieldDefIdentifier: products
+            languageCode: eng-GB
+            value: ''
+    references:
+        -
+            name: 'ref__content__product_folder__consumer health'
+            type: content_id
+        -
+            name: 'ref_location__product_folder__consumer health'
+            type: location_id
+        -
+            name: 'ref_path__product_folder__consumer health'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: product_folder
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T14:31:05+00:00'
+        publicationDate: '2022-01-30T17:31:22+00:00'
+        remoteId: f3ebbe34990e6021f7d74e023496025c
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__products'
+        locationRemoteId: ef268254ad7eb00fbe77f511a08710de
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Medical Devices'
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>At Helse, we are using our knowledge, scale, and experience to rethink and redo the way healthcare is delivered so people can live happier, healthier, and longer life.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para> </para><para>In an always changing and volatile environment, we are making connections across science and technology to combine our own expertise in vision solutions to design and deliver physician and patient-centric products and solutions.</para><para>As leaders in medical devices, we keep our focus on elevating the standard of care by always trying to expand patient access, improve outcomes, reduce health system costs. </para></section>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__national-cancer-institute-by_gtyt_egj_bo-unsplash.jpg'
+                alternativeText: national-cancer-institute-LxPrHCm8-TI-unsplash.jpg
+                source: null
+        -
+            fieldDefIdentifier: product_type_identifier
+            languageCode: eng-GB
+            value: 'blood_gas_system'
+        -
+            fieldDefIdentifier: products
+            languageCode: eng-GB
+            value: ''
+
+    references:
+        -
+            name: 'ref__content__product_folder__medical devices'
+            type: content_id
+        -
+            name: 'ref_location__product_folder__medical devices'
+            type: location_id
+        -
+            name: 'ref_path__product_folder__medical devices'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: product_folder
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T15:28:19+00:00'
+        publicationDate: '2022-01-30T17:31:43+00:00'
+        remoteId: 0b9ade4e413183e3a8e56343cdf0946e
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__products'
+        locationRemoteId: fe81760bbe7edf28d93d62fde2510b4a
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Pharmaceutical
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>At Helse, we tackle some of the most devastating and complex diseases faced in our time. With advanced biologic and other treatments. </para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Helse is investing in a transformative future, changing the way diseases are prevented, intercepted, treated, cured, and inventing tomorrow's therapy. Hopefully, this will help patients all around the world. </para><para>Our research and clinical studies include work on small and large molecule drugs, biotherapeutics such as antibodies, cell &amp; gene-based therapies, and vaccines. When working on any of these, we just have one mission in mind - to bring high-quality and advanced treatments to patients at an affordable price irrespective of where they are in the world. </para><para>Half of our Pharmaceutical product portfolio developed by us is listed as an essential medicine by the WHO (World Health Organization). We take great pride in these products that advance the standard of care for diseases. This motivates us to do better every day knowing that we address the unmet needs of patients by innovating solutions every day.</para></section>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__roberto-sorin-rs0-h_py_byk-unsplash.jpg'
+                alternativeText: roberto-sorin-RS0-h_pyByk-unsplash.jpg
+                source: null
+        -
+            fieldDefIdentifier: product_type_identifier
+            languageCode: eng-GB
+            value: 'self_care_medicine'
+        -
+            fieldDefIdentifier: products
+            languageCode: eng-GB
+            value: ''
+    references:
+        -
+            name: ref__content__product_folder__pharmaceutical
+            type: content_id
+        -
+            name: ref_location__product_folder__pharmaceutical
+            type: location_id
+        -
+            name: ref_path__product_folder__pharmaceutical
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blog
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T10:21:16+00:00'
+        publicationDate: '2022-01-30T17:37:29+00:00'
+        remoteId: 0043b3b0065ca4e4fc96665e2514a054
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 2
+        parentLocationRemoteId: null
+        locationRemoteId: 424d63bd97be94d40b2f59780a293415
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Stories
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: Stories
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: null
+                alternativeText: null
+                source: null
+        -
+            fieldDefIdentifier: latest_posts
+            languageCode: eng-GB
+            value: ''
+    references:
+        -
+            name: ref__content__blog__stories
+            type: content_id
+        -
+            name: ref_location__blog__stories
+            type: location_id
+        -
+            name: ref_path__blog__stories
+            type: path
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blog_post
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-07T22:29:59+01:00'
+        publicationDate: '2022-01-31T07:07:43+01:00'
+        remoteId: dac1e990e77fffd98680877bfc1e7a43
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__blog__stories'
+        locationRemoteId: a9a3a7b0e50f089d27c355545d353345
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: title
+            languageCode: eng-GB
+            value: 'How Helse Is Supporting Leaders in Mental Health'
+        -
+            fieldDefIdentifier: introduction
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>At Helse, we support leaders that are driven to eliminate the mental illness stigma and increase awareness of important treatments available around the world</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>At Helse, we support leaders that are driven to eliminate the mental illness stigma and increase awareness of important treatments available around the world</para><para>There is extreme inequality in getting quality mental healthcare based on purely financial discrimination. The people from low- and middle-income countries are most affected for 2 main reasons.  Firstly, there is less to no understanding of mental disorders in their country or community. Secondly, there is a lack of infrastructure i.e. limited availability of healthcare professionals or even basic treatments.</para><para>“In Senegal, for instance, a country of 20 million, there are just 12 psychiatrists and two neurologists,” says the Mental Health Global Program Leader at Helse. “Several countries have <emphasis>zero </emphasis>mental health professionals on the ground.”</para><para>Helse has committed to changing the Mental Health landscape by heavily investing resources. They plan to take advantage of their global status as the world's largest pharmaceutical company. They plan to destigmatize mental health in the same way as HIV and tuberculosis. We want as many patients as possible to receive quality mental healthcare.</para><para>Helse has started an initiative that started school programs at local universities. This program helps prepare Masters in Public Health students to initiate, develop and oversee mental health programs and policies around the world, as well as to conduct and critically evaluate research on global mental health</para><para>This primarily helps students from disadvantaged backgrounds. Scholarships are offered to students from low- and middle-income countries so they can take what they learn with them as they drive impact in their communities and around the world.</para><para>Now the program boasts of 100+ leaders in multiple countries that focus on different aspects of mental health, each from a country lacking adequate resources to treat psychological and psychiatric disorders.</para></section>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__marcel-strauss-fzqxo_fjyti_e-unsplash.jpg'
+                alternativeText: marcel-strauss-fzqxoFJytiE-unsplash.jpg
+                source: null
+        -
+            fieldDefIdentifier: keywords
+            languageCode: eng-GB
+            value:
+                - health
+                - helse
+                - support
+                - leaders
+                - mental
+        -
+            fieldDefIdentifier: publish_date
+            languageCode: eng-GB
+            value:
+                timestamp: 1641211200
+                rfc850: 'Monday, 03-Jan-22 12:00:00 GMT+0000'
+        -
+            fieldDefIdentifier: author
+            languageCode: eng-GB
+            value:
+                -
+                    id: '1'
+                    name: 'Dennis Wade'
+                    email: dennis.wade@helse.co
+        -
+            fieldDefIdentifier: author_title
+            languageCode: eng-GB
+            value: 'Content Editor'
+    references:
+        -
+            name: 'ref__content__blog_post__how helse is supporting leaders in mental health'
+            type: content_id
+        -
+            name: 'ref_location__blog_post__how_helse_is'
+            type: location_id
+        -
+            name: 'ref_path__blog_post__how helse is supporting leaders in mental health'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blog_post
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T16:45:02+01:00'
+        publicationDate: '2022-01-31T07:08:45+01:00'
+        remoteId: 5abcb101e08baa9d919888a78daf1a1d
+        alwaysAvailable: true
+        section:
+            id: 1
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__blog__stories'
+        locationRemoteId: a2e07f4fef1062f8aa8980392ede4017
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: title
+            languageCode: eng-GB
+            value: 'How Wearable Technology is Helping Scientists'
+        -
+            fieldDefIdentifier: introduction
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Like many people, our scientists wear a watch that tracks their steps and monitors their activity levels. That watch also represents something else for them.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Like many people, our scientists wear a watch that tracks their steps and monitors their activity levels. That watch also represents something else for them. It is an opportunity for them to learn. Wearable technology could hold the power to better understand patients and diseases to improve healthcare.</para><para>The early edition of  Fitbit® and Apple Watch®, which contains sensors. Depending on the type of device, sensors would detect many kinds of things, such as activity, temperature, heart rate, and heart rhythm.</para><para>When the data the devices collect is shared with healthcare professionals, including doctors and researchers, the measurements can potentially contribute to a deeper, fuller understanding of a person’s activities, movement patterns, and health far, far away from a doctor’s office—all at the patient’s convenience and with patient privacy as the cornerstone.</para><para>These devices are easy to wear, and the technology just keeps advancing so you can track all sorts of things. Plus, he adds, the use of the device doesn't depend upon a patient to recall their activities, which might be colored by personal opinions or feelings and result in bias in the data that’s being collected.</para><para>Helse has launched a new research center to study wearable technologies. The scientists test wearable sensors for a variety of applications—such as measuring a person’s gait or manner of walking—to gain a deeper understanding of how those measurements compare to traditional methods or measurements. Once these data points are validated then they can use these for their clinical trials.</para><para>In the future, we expect these devices and tools to increase the interaction and updates between the patient and healthcare provider. This should be able to help with the patient journey and management of complex diseases.</para></section>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__luke-chesser-r_cowmc8qf8_a-unsplash.jpg'
+                alternativeText: null
+                source: null
+        -
+            fieldDefIdentifier: keywords
+            languageCode: eng-GB
+            value:
+                - technology
+                - helse
+                - wearable
+                - help
+        -
+            fieldDefIdentifier: publish_date
+            languageCode: eng-GB
+            value:
+                timestamp: 1642593600
+                rfc850: 'Wednesday, 19-Jan-22 12:00:00 GMT+0000'
+        -
+            fieldDefIdentifier: author
+            languageCode: eng-GB
+            value:
+                -
+                    id: '1'
+                    name: 'Dennis Wade'
+                    email: dennis.wade@helse.co
+        -
+            fieldDefIdentifier: author_title
+            languageCode: eng-GB
+            value: 'Content Editor'
+    references:
+        -
+            name: 'ref__content__blog_post__how wearable technology is helping scientists'
+            type: content_id
+        -
+            name: 'ref_location__blog_post__how_wearable'
+            type: location_id
+        -
+            name: 'ref_path__blog_post__how wearable technology is helping scientists'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blog_post
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T16:44:12+01:00'
+        publicationDate: '2022-01-31T07:09:49+01:00'
+        remoteId: 573db67d68b00e6ae46d1e17d7aade18
+        alwaysAvailable: true
+        section:
+            id: 1
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__blog__stories'
+        locationRemoteId: c137f10f67349400cbb1f9e0d46ed20b
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: title
+            languageCode: eng-GB
+            value: 'Skipped Childhood Immunizations Could Lead to increase in Vaccine-Preventable Diseases'
+        -
+            fieldDefIdentifier: introduction
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Childhood vaccination rates dropped drastically during the COVID-19 pandemic, and it could potentially mean a resurgence of diseases we've long had under control.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Childhood vaccination rates dropped drastically during the COVID-19 pandemic, and it could potentially mean a resurgence of diseases we've long had under control.</para><para>Approximately 66% of children aged 5 months in the United States were up to date for all CDC-recommended childhood vaccines in 2016-2019. By May 2020, that number declined to 49.7%.</para><para>A major driver of the downturn in vaccinations was canceled or skipped well-child visits. Shortly after the United States declared a national state of emergency in March 2020 to control the pandemic spread of SARS-CoV-2, public health officials stressed the importance of social distancing and issued shelter-in-place and stay-at-home orders. These policies slowed the spread of the coronavirus, but also caused parents and healthcare providers to postpone doctors’ appointments and well-child visits to avoid any potential exposure to life-threatening contagious disease. So many caregivers delayed all non-emergency medical care, including vaccines for children.</para><para>Unfortunately, these missed well-child visits resulted in “significant declines incomplete vaccination coverage in children at all milestone ages.</para></section>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__cdc-vo_vycm6xo_qo-unsplash.jpg'
+                alternativeText: null
+                source: null
+        -
+            fieldDefIdentifier: keywords
+            languageCode: eng-GB
+            value:
+                - health
+                - helse
+                - vaccine
+                - child
+                - kids
+        -
+            fieldDefIdentifier: publish_date
+            languageCode: eng-GB
+            value:
+                timestamp: 1643112000
+                rfc850: 'Tuesday, 25-Jan-22 12:00:00 GMT+0000'
+        -
+            fieldDefIdentifier: author
+            languageCode: eng-GB
+            value:
+                -
+                    id: '1'
+                    name: 'Dennis Wade'
+                    email: dennis.wade@helse.co
+        -
+            fieldDefIdentifier: author_title
+            languageCode: eng-GB
+            value: 'Content Editor'
+    references:
+        -
+            name: 'ref__content__blog_post__skipped childhood immunizations could lead to increase in vaccine-preventable diseases'
+            type: content_id
+        -
+            name: 'ref_location__blog_post__skipped childhood immunizations could lead to increase in vaccine-preventable diseases'
+            type: location_id
+        -
+            name: 'ref_path__blog_post__skipped childhood immunizations could lead to increase in vaccine-preventable diseases'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blog_post
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-07T23:57:54+01:00'
+        publicationDate: '2022-01-31T07:10:49+01:00'
+        remoteId: a2399d96607387c05f1a823034f05041
+        alwaysAvailable: true
+        section:
+            id: 1
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__blog__stories'
+        locationRemoteId: feb1451650df88b5e5800effa8384d28
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: title
+            languageCode: eng-GB
+            value: 'Helping kids cope with COVID-19 anxiety'
+        -
+            fieldDefIdentifier: introduction
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>As the pandemic spread, many of us experienced anger, stress—even depression.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>As the pandemic spread, many of us experienced anger, stress—even depression. It was hardest for the young ones to process the situation and understand the change the world was about to go through. But <emphasis role="strong">Help a Child</emphasis> initiative is teaching them how to manage their difficult emotions.</para><para>Like so many children across the country, my kid went to school one day and was told he wouldn’t be coming back for a while. Because of the COVID-19 pandemic, his teacher told him and the rest of the class that they would finish out the semester at home, where they would attend classes virtually.</para><ezembed xlink:href="ezcontent://410" view="embed" ezxhtml:class="ibexa-embed-type-image"><ezconfig><ezvalue key="size">reference</ezvalue></ezconfig></ezembed><title ezxhtml:level="1"><emphasis role="strong">Virtual Journey of Hope</emphasis></title><para>At first, he was thrilled, but as time passed, the novelty wore off and the isolation began to take a toll. He began to experience anxiety, stress, and anger. He was hardly alone.</para><para>Kids experiencing pandemic-related disruptions to their regular in-person school routine may be susceptible to poor mental health outcomes.</para><para> </para><para>Seeing the struggle with the rigorous pace of remote learning and the large number of students participating in virtual classes, we decided to enroll him in a virtual independent study program. But while the learning pace slowed down to match his learning speed he was still missing the social interaction with teachers, classmates, and friends continued to be a challenge.</para></section>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__cdc-bsoz_bcqn6o_y-unsplash.jpg'
+                alternativeText: null
+                source: null
+        -
+            fieldDefIdentifier: keywords
+            languageCode: eng-GB
+            value:
+                - health
+                - helse
+                - kids
+                - child
+                - vaccine
+                - covid
+        -
+            fieldDefIdentifier: publish_date
+            languageCode: eng-GB
+            value:
+                timestamp: 1643630400
+                rfc850: 'Monday, 31-Jan-22 12:00:00 GMT+0000'
+        -
+            fieldDefIdentifier: author
+            languageCode: eng-GB
+            value:
+                -
+                    id: '1'
+                    name: 'Dennis Wade'
+                    email: dennis.wade@helse.co
+        -
+            fieldDefIdentifier: author_title
+            languageCode: eng-GB
+            value: 'Content Editor'
+    references:
+        -
+            name: 'ref__content__blog_post__helping kids cope with covid-19 anxiety'
+            type: content_id
+        -
+            name: 'ref_location__blog_post__helping_kids'
+            type: location_id
+        -
+            name: 'ref_path__blog_post__helping kids cope with covid-19 anxiety'
+            type: path
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-30T17:38:59+00:00'
+        publicationDate: '2022-01-30T17:38:59+00:00'
+        remoteId: d1c27a5d9509c19d252372800c1bb335
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 2
+        parentLocationRemoteId: null
+        locationRemoteId: e87b465683c6dfd6fe23af7c6ba05d9d
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: Careers
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: null
+                alternativeText: null
+                source: null
+    references:
+        -
+            name: ref__content__folder__careers
+            type: content_id
+        -
+            name: ref_location__folder__careers
+            type: location_id
+        -
+            name: ref_path__folder__careers
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: article
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T10:52:34+00:00'
+        publicationDate: '2022-01-30T17:40:02+00:00'
+        remoteId: 6378d2f0ce842954e79b6f486e3e50d3
+        alwaysAvailable: false
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__careers'
+        locationRemoteId: 999c19105853e37d8d33b8d6dbd7211e
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: title
+            languageCode: eng-GB
+            value: 'Working at Helse'
+        -
+            fieldDefIdentifier: short_title
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: author
+            languageCode: eng-GB
+            value:
+                -
+                    id: '1'
+                    name: 'Administrator User'
+                    email: admin@link.invalid
+        -
+            fieldDefIdentifier: intro
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><title ezxhtml:level="3">Great things happen when diverse people work together towards a goal. </title></section>
+        -
+            fieldDefIdentifier: body
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>At <emphasis role="strong">Helse</emphasis>, we believe it is important to deliver medical solutions right now that significantly improve lives. Our mission is to transform patients' lives for the better with continuous innovations. Our drive is to cure and improve the lives of everyone everywhere. We come to work each day and commit to rigor, ethics, and innovations to better the world.</para><para>Our people work across many functions, companies, and the world.</para><para> </para><title ezxhtml:level="4" ezxhtml:textalign="justify">Diversity, Equity &amp; Inclusion</title><para ezxhtml:textalign="justify">Delivering meaningful solutions needs the best and brightest talent but also ensures our colleagues can prosper in our diverse and inclusive environment and culture. We believe that every person deserves to be seen, heard, and cared for, and we work to further this goal by bringing together people with different backgrounds, perspectives, and experiences.</para><para ezxhtml:textalign="justify"> </para><title ezxhtml:level="4" ezxhtml:textalign="justify">Career Growth &amp; Colleague Development</title><para>Our leadership takes an active role in mentoring and helping you fulfill your career goals.</para><itemizedlist><listitem><para><emphasis role="strong">Individualized Development Plan:</emphasis> In collaboration with your Mangers you can create career “roadmaps” that account for your passion and aspiration.</para></listitem><listitem><para><emphasis role="strong">Mentoring:</emphasis> Helse promotes mentoring through the Mentor-Mentee program. You can match yourself with someone who has similar interests.</para></listitem><listitem><para><emphasis role="strong">Learning &amp; Development Opportunities:</emphasis> You can take advantage of an internal learning platform that covers a multitude of topics, like leadership &amp; management skills, industry-specific learning, manufacturing, finance, and technology skills.</para></listitem></itemizedlist><para> </para><title ezxhtml:level="4">Compensation &amp; Benefits</title><para>We believe the best work comes from happy employees. So we offer competitive compensation and benefits based on experience, location, and skillset:</para><itemizedlist><listitem><para><emphasis role="strong">Compensation:</emphasis> The compensation is structured based on a reward system. It recognizes the individual contribution to the business and compensates accordingly.</para></listitem><listitem><para><emphasis role="strong">Health and Wellness:</emphasis> We offer the country's best health and wellness programs to our employees. These programs include health and disability insurance, preventative health programs, medical screening, free or reduced-cost vaccinations, discounts on Helse products, and nutrition and fitness counseling.</para></listitem><listitem><para><emphasis role="strong">Family Wellness:</emphasis> We provide paid gender-neutral parental leave. Guidance in adoption and family planning. We also have a network of backup care to help you in difficult times.</para></listitem><listitem><para><emphasis role="strong">Wealth:</emphasis> 401K matching and pensions. Competitive salaries and performance bonuses. Equity is offered on a case-by-case basis.</para></listitem></itemizedlist><para> </para><para><emphasis role="strong">We are proud of who we are, what we do, and how we do it.</emphasis></para><para>Join us and you’ll partner with colleagues of diverse backgrounds and abilities, people who contribute to all aspects of the company. You will not find a better place to start and continue your career journey!</para></section>
+        -
+            fieldDefIdentifier: enable_comments
+            languageCode: eng-GB
+            value: false
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__national-cancer-institute-nfvd_kihx_yl_u-unsplash.jpg'
+                alternativeText: national-cancer-institute-NFvdKIhxYlU-unsplash.jpg
+                source: null
+    references:
+        -
+            name: 'ref__content__article__working at helse'
+            type: content_id
+        -
+            name: 'ref_location__article__working at helse'
+            type: location_id
+        -
+            name: 'ref_path__article__working at helse'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-30T17:40:34+00:00'
+        publicationDate: '2022-01-30T17:40:34+00:00'
+        remoteId: b0477bd6a88cb31ce404222e57077f08
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__careers'
+        locationRemoteId: 494f619a406633158da44ad10c3e4a1e
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Search Jobs'
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para><emphasis role="strong">Join us</emphasis> and you’ll partner with people of diverse backgrounds and abilities, people who contribute to all aspects of the company. You will not find a better place to start and continue your career journey!</para></section>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: null
+                alternativeText: null
+                source: null
+    references:
+        -
+            name: 'ref__content__folder__search jobs'
+            type: content_id
+        -
+            name: 'ref_location__folder__search jobs'
+            type: location_id
+        -
+            name: 'ref_path__folder__search jobs'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: job_post
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-30T17:48:42+00:00'
+        publicationDate: '2022-01-30T17:48:42+00:00'
+        remoteId: e26a1d7e26738b9b48c19e00e207d068
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__search jobs'
+        locationRemoteId: 25d0f314393118e89afde45f2b08d88d
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: title
+            languageCode: eng-GB
+            value: 'Data Scientist'
+        -
+            fieldDefIdentifier: short_title
+            languageCode: eng-GB
+            value: 'Data Scientist'
+        -
+            fieldDefIdentifier: offer_id
+            languageCode: eng-GB
+            value: 2206005381W
+        -
+            fieldDefIdentifier: posted_on
+            languageCode: eng-GB
+            value:
+                timestamp: 1643371200
+                rfc850: 'Friday, 28-Jan-22 12:00:00 GMT+0000'
+        -
+            fieldDefIdentifier: category
+            languageCode: eng-GB
+            value:
+                - 1
+        -
+            fieldDefIdentifier: type
+            languageCode: eng-GB
+            value:
+                - 2
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>The Data Scientist supports projects from inception to completion by leveraging her/his technical expertise. S/he will write code to compute data from medical devices, implements the pipelines for bringing together data from multiple sources, and develops novel digital dashboards by using advanced machine learning techniques.</para><para>The Data Scientist is a key member of the Digital Research &amp; Development team and partners closely with the other scientists running clinical programs through software development and supporting their research and deploying digital dashboards in clinical trials.</para><para> </para><para><emphasis role="strong">Role responsibilities</emphasis></para><orderedlist><listitem><para>Use structured and unstructured data to develop digital dashboards by implementing machine learning workflow</para></listitem><listitem><para>Engineer and extract features from raw data that capture clinically relevant aspects of disease symptoms</para></listitem><listitem><para>Develop software tools and scripts at scale to support data analysis and interpretation pipelines</para></listitem><listitem><para>Present and discuss findings with project teams, support iterative solutions development and scientific research</para></listitem><listitem><para>Integrate and summarize large-scale data and information across multiple scientific, translational, and clinical domains</para></listitem><listitem><para>Communicate effectively with team members, experts, and regulatory authorities</para></listitem><listitem><para>Function in the matrix of both project-centric and discipline-centric expectations</para></listitem></orderedlist><para> </para><para><emphasis role="strong">Basic Qualifications</emphasis></para><orderedlist><listitem><para>Coding experience in Python, R or MATLAB</para></listitem><listitem><para>Working knowledge of AWS tools and services</para></listitem><listitem><para>Excellent communication (written and verbal) and presentation skills</para></listitem></orderedlist><para> </para><para><emphasis role="strong">Preferred Qualifications</emphasis></para><orderedlist><listitem><para>Strong background in data science, and machine learning</para></listitem><listitem><para>Familiarity in setting up and using agile software development, and source control tools (e.g., git)</para></listitem><listitem><para>Experience with analysis of data from wearable devices with motion  and physiological sensors</para></listitem><listitem><para>Knowledge of human biomechanics and/or physiology'</para></listitem></orderedlist><para> </para><para><emphasis><emphasis role="strong">EEO &amp; Employment Eligibility</emphasis></emphasis></para><para><emphasis>Helse is committed to equal opportunity in the terms and conditions of employment for all employees and job applicants without regard to race, color, religion, sex, sexual orientation, age, gender identity or gender expression, national origin, disability, or veteran status.  Helse also complies with all applicable national, state, and local laws governing nondiscrimination in employment as well as work authorization and employment eligibility verification requirements of the Immigration and Nationality Act and IRCA.  Helse is an E-Verify employer.</emphasis></para></section>
+        -
+            fieldDefIdentifier: location
+            languageCode: eng-GB
+            value:
+                - US
+        -
+            fieldDefIdentifier: related_jobs
+            languageCode: eng-GB
+            value:
+                destinationContentIds: {  }
+    references:
+        -
+            name: 'ref__content__job_post__data scientist'
+            type: content_id
+        -
+            name: 'ref_location__job_post__data scientist'
+            type: location_id
+        -
+            name: 'ref_path__job_post__data scientist'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: job_post
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-30T17:50:32+00:00'
+        publicationDate: '2022-01-30T17:50:32+00:00'
+        remoteId: f22d9a69a2ccf20edd86eb4fa5780b77
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__search jobs'
+        locationRemoteId: 37e4570543b372489184e50180f1d1da
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: title
+            languageCode: eng-GB
+            value: 'Senior Scientist, Analytical Method Validation'
+        -
+            fieldDefIdentifier: short_title
+            languageCode: eng-GB
+            value: 'Senior Scientist'
+        -
+            fieldDefIdentifier: offer_id
+            languageCode: eng-GB
+            value: 2206005066W
+        -
+            fieldDefIdentifier: posted_on
+            languageCode: eng-GB
+            value:
+                timestamp: 1642593600
+                rfc850: 'Wednesday, 19-Jan-22 12:00:00 GMT+0000'
+        -
+            fieldDefIdentifier: category
+            languageCode: eng-GB
+            value:
+                - 1
+        -
+            fieldDefIdentifier: type
+            languageCode: eng-GB
+            value:
+                - 1
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Senior Scientist supports projects from inception to completion by leveraging her/his technical expertise. S/he will write code to compute data from medical devices, implement the pipelines for bringing together data from multiple sources, and develops novel digital dashboards by using advanced machine learning techniques.</para><para>The Data Scientist is a key member of the Digital Research &amp; Development team and partners closely with the other scientists running clinical programs through software development and supporting their research and deploying digital dashboards in clinical trials.</para><para> </para><para><emphasis role="strong">Role responsibilities</emphasis></para><orderedlist><listitem><para>Use structured and unstructured data to develop digital dashboards by implementing machine learning workflow</para></listitem><listitem><para>Engineer and extract features from raw data that capture clinically relevant aspects of disease symptoms</para></listitem><listitem><para>Develop software tools and scripts at scale to support data analysis and interpretation pipelines</para></listitem><listitem><para>Present and discuss findings with project teams, support iterative solutions development and scientific research</para></listitem><listitem><para>Integrate and summarize large-scale data and information across multiple scientific, translational, and clinical domains</para></listitem><listitem><para>Communicate effectively with team members, experts, and regulatory authorities</para></listitem><listitem><para>Function in the matrix of both project-centric and discipline-centric expectations</para></listitem></orderedlist><para> </para><para><emphasis role="strong">Basic Qualifications</emphasis></para><orderedlist><listitem><para>Coding experience in Python, R or MATLAB</para></listitem><listitem><para>Working knowledge of AWS tools and services</para></listitem><listitem><para>Excellent communication (written and verbal) and presentation skills</para></listitem></orderedlist><para> </para><para><emphasis role="strong">Preferred Qualifications</emphasis></para><orderedlist><listitem><para>Strong background in data science, and machine learning</para></listitem><listitem><para>Familiarity in setting up and using agile software development, and source control tools (e.g., git)</para></listitem><listitem><para>Experience with analysis of data from wearable devices with motion  and physiological sensors</para></listitem><listitem><para>Knowledge of human biomechanics and/or physiology'</para></listitem></orderedlist><para> </para><para><emphasis><emphasis role="strong">EEO &amp; Employment Eligibility</emphasis></emphasis></para><para><emphasis>Helse is committed to equal opportunity in the terms and conditions of employment for all employees and job applicants without regard to race, color, religion, sex, sexual orientation, age, gender identity or gender expression, national origin, disability, or veteran status.  Helse also complies with all applicable national, state, and local laws governing nondiscrimination in employment as well as work authorization and employment eligibility verification requirements of the Immigration and Nationality Act and IRCA.  Helse is an E-Verify employer.</emphasis></para></section>
+        -
+            fieldDefIdentifier: location
+            languageCode: eng-GB
+            value:
+                - FR
+        -
+            fieldDefIdentifier: related_jobs
+            languageCode: eng-GB
+            value:
+                destinationContentIds: {  }
+    references:
+        -
+            name: 'ref__content__job_post__senior scientist, analytical method validation'
+            type: content_id
+        -
+            name: 'ref_location__job_post__senior scientist, analytical method validation'
+            type: location_id
+        -
+            name: 'ref_path__job_post__senior scientist, analytical method validation'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: job_post
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-30T17:51:48+00:00'
+        publicationDate: '2022-01-30T17:51:48+00:00'
+        remoteId: 4726669bc2a892dd687258cf5cb10fab
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__search jobs'
+        locationRemoteId: b84939ee620acba9cd0542ff122e1b76
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: title
+            languageCode: eng-GB
+            value: 'Procurement Accountant, Global Lead'
+        -
+            fieldDefIdentifier: short_title
+            languageCode: eng-GB
+            value: 'Procurement Accountant'
+        -
+            fieldDefIdentifier: offer_id
+            languageCode: eng-GB
+            value: 2206009996W
+        -
+            fieldDefIdentifier: posted_on
+            languageCode: eng-GB
+            value:
+                timestamp: 1643630400
+                rfc850: 'Monday, 31-Jan-22 12:00:00 GMT+0000'
+        -
+            fieldDefIdentifier: category
+            languageCode: eng-GB
+            value:
+                - 2
+        -
+            fieldDefIdentifier: type
+            languageCode: eng-GB
+            value:
+                - 1
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This role will be part of the Global Finance team in Procurement Accounting. This team provides best-in-class, cost-effective financial services, and compliance guidance to our Operating Companies around the world. This team makes sure that we run a clean supply chain from start to the end.</para><para>The Procurement Accounting team is responsible for accounting for all the payable process flows, including but not limited to Prepayments, GRIR and AP balance sheet accounts.</para><para> </para><para><emphasis role="strong">Role responsibilities</emphasis></para><orderedlist><listitem><para>Use structured and unstructured data to develop digital dashboards by implementing machine learning workflow</para></listitem><listitem><para>Engineer and extract features from raw data that capture clinically relevant aspects of disease symptoms</para></listitem><listitem><para>Develop software tools and scripts at scale to support data analysis and interpretation pipelines</para></listitem><listitem><para>Present and discuss findings with project teams, support iterative solutions development and scientific research</para></listitem><listitem><para>Integrate and summarize large-scale data and information across multiple scientific, translational, and clinical domains</para></listitem><listitem><para>Communicate effectively with team members, experts, and regulatory authorities</para></listitem><listitem><para>Function in the matrix of both project-centric and discipline-centric expectations</para></listitem></orderedlist><para> </para><para><emphasis role="strong">Basic Qualifications</emphasis></para><orderedlist><listitem><para>A minimum Bachelor’s level degree or equivalent is required, preferably in accounting, finance, or related business discipline.</para></listitem><listitem><para>At least 0-2 years of professional experience is required.</para></listitem><listitem><para>Strong interpersonal skills and the ability to interact with employees at all levels.</para></listitem><listitem><para>Be open to new ideas, rapid change, and embrace new technologies.</para></listitem><listitem><para>Strong Analytical Skills.</para></listitem></orderedlist><para> </para><para><emphasis role="strong">Preferred Qualifications</emphasis></para><orderedlist><listitem><para>Experience in Global Accounting for a large multi-state company.</para></listitem><listitem><para>Solid US GAAP accounting knowledge.</para></listitem></orderedlist><para> </para><para><emphasis><emphasis role="strong">EEO &amp; Employment Eligibility</emphasis></emphasis></para><para><emphasis>Helse is committed to equal opportunity in the terms and conditions of employment for all employees and job applicants without regard to race, color, religion, sex, sexual orientation, age, gender identity or gender expression, national origin, disability, or veteran status.  Helse also complies with all applicable national, state, and local laws governing nondiscrimination in employment as well as work authorization and employment eligibility verification requirements of the Immigration and Nationality Act and IRCA.  Helse is an E-Verify employer.</emphasis></para></section>
+        -
+            fieldDefIdentifier: location
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: related_jobs
+            languageCode: eng-GB
+            value:
+                destinationContentIds: {  }
+    references:
+        -
+            name: 'ref__content__job_post__procurement accountant, global lead'
+            type: content_id
+        -
+            name: 'ref_location__job_post__procurement accountant, global lead'
+            type: location_id
+        -
+            name: 'ref_path__job_post__procurement accountant, global lead'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: folder
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-31T05:55:15+00:00'
+        publicationDate: '2022-01-31T05:55:15+00:00'
+        remoteId: 4695f059062623b7fac1c5cdfeb5ed96
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 2
+        parentLocationRemoteId: null
+        locationRemoteId: 25163e43623ac764af34d9a2e0be3f4a
+        hidden: false
+        sortField: 1
+        sortOrder: 1
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: News
+        -
+            fieldDefIdentifier: short_name
+            languageCode: eng-GB
+            value: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: null
+                alternativeText: null
+                source: null
+    references:
+        -
+            name: ref__content__folder__news
+            type: content_id
+        -
+            name: ref_location__folder__news
+            type: location_id
+        -
+            name: ref_path__folder__news
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: news
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-01-31T05:56:32+00:00'
+        publicationDate: '2022-01-31T05:56:32+00:00'
+        remoteId: 08386530e3eb5816152ede1d85a407e2
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationId: 'reference:ref_location__folder__news'
+        locationRemoteId: d1c661e084f31a50017185ecb8c02dc6
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: title
+            languageCode: eng-GB
+            value: 'What You Need to Know About Helse''s 2021 Third-Quarter Earnings'
+        -
+            fieldDefIdentifier: short_title
+            languageCode: eng-GB
+            value: '2021 Third-Quarter Earnings'
+        -
+            fieldDefIdentifier: date
+            languageCode: eng-GB
+            value:
+                timestamp: 1638921600
+                rfc850: 'Wednesday, 08-Dec-21 00:00:00 UTC'
+        -
+            fieldDefIdentifier: body
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This morning, Helse shared its third-quarter performance.</para><para>Since its founding, the company has grown to become one of the world's largest and most broadly-based healthcare companies, with approximately 250,000 employees across the globe working every day to help change the trajectory of health for humanity. Please see the financial statements for more details</para></section>
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: null
+                alternativeText: null
+                source: null
+        -
+            fieldDefIdentifier: press_contact
+            languageCode: eng-GB
+            value:
+                destinationContentIds: {  }
+        -
+            fieldDefIdentifier: attachments
+            languageCode: eng-GB
+            value:
+                destinationContentIds: {  }
+    references:
+        -
+            name: 'ref__content__news__what you need to know about helse''s 2021 third-quarter earnings'
+            type: content_id
+        -
+            name: 'ref_location__news__what you need to know about helse''s 2021 third-quarter earnings'
+            type: location_id
+        -
+            name: 'ref_path__news__what you need to know about helse''s 2021 third-quarter earnings'
+            type: path
+
+-
+    type: content
+    mode: update
+    match:
+        field: content_remote_id
+        value: 34720ff636e1d4ce512f762dc638e4ac
+    metadata:
+        initialLanguageCode: eng-GB
+        creatorId: 14
+        remoteId: 34720ff636e1d4ce512f762dc638e4ac
+        alwaysAvailable: true
+        mainLanguageCode: eng-GB
+        mainLocationId: 2
+        modificationDate: '2022-02-08T11:32:02+00:00'
+        publishedDate: '2015-09-17T09:22:23+00:00'
+        name: Home
+        ownerId: 14
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Helse Corp.'
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value: 'Homepage of Helse Corp.'
+        -
+            fieldDefIdentifier: page
+            languageCode: eng-GB
+            value:
+                layout: homepage
+                zones:
+                    - {
+                        id: '294',
+                        name: 'Hero zone',
+                        blocks: [
+                            {
+                                visible: true,
+                                id: '441',
+                                type: carousel,
+                                name: Carousel,
+                                view: default,
+                                class: null,
+                                style: null,
+                                compiled: '',
+                                since: null,
+                                till: null,
+                                attributes: [
+                                    { id: '1092', name: location_list, value: '###REF1 reference().get("ref_location__article__innovation").getValue() REF1###,###REF2 reference().get("ref_location__article__our mission").getValue() REF2###' },
+                                    { id: '1093', name: show_controls, value: '1' },
+                                    { id: '1094', name: show_indicators, value: '1' },
+                                    { id: '1095', name: autoplay, value: '1' },
+                                    { id: '1096', name: autoplay_interval, value: '4000' }
+                                ]
+                            },
+                            {
+                                visible: true,
+                                id: '443',
+                                type: collection,
+                                name: Collection,
+                                view: prototype,
+                                class: null,
+                                style: null,
+                                compiled: '',
+                                since: null,
+                                till: null,
+                                attributes: [
+                                    { id: '1099', name: locationlist, value: '###REF3 reference().get("ref_location__blog_post__how_helse_is").getValue() REF3###,###REF4 reference().get("ref_location__blog_post__helping_kids").getValue() REF4###,###REF5 reference().get("ref_location__blog_post__how_wearable").getValue() REF5###' }
+                                ]
+                            }
+                        ]
+                    }
+                    - { id: '295', name: 'Main zone', blocks: { } }
+                    - { id: '296', name: 'Secondary zone', blocks: { } }

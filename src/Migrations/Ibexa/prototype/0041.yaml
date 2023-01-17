@@ -1,0 +1,127 @@
+-
+    type: role
+    mode: delete
+    match:
+        field: identifier
+        value: Editor
+-
+    type: role
+    mode: create
+    metadata:
+        identifier: Editor
+    policies:
+        -
+            module: user
+            function: login
+            limitations:
+                -
+                    identifier: SiteAccess
+                    values: [admin]
+        -
+            module: content
+            function: read
+            limitations:
+                -
+                    identifier: Section
+                    values: [standard, media, form]
+        -
+            module: content
+            function: translations
+        -
+            module: content
+            function: versionread
+            limitations:
+                -
+                    identifier: Owner
+                    values: [1]
+        -
+            module: content
+            function: diff
+            limitations:
+                -
+                    identifier: Owner
+                    values: [1]
+        -
+            module: content
+            function: view_embed
+            limitations:
+                -
+                    identifier: Owner
+                    values: [1]
+        -
+            module: content
+            function: versionremove
+            limitations:
+                -
+                    identifier: Owner
+                    values: [1]
+        -
+            module: content
+            function: restore
+        -
+            module: content
+            function: pendinglist
+        -
+            module: content
+            function: reverserelatedlist
+        -
+            module: url
+            function: '*'
+        -
+            module: content
+            function: manage_locations
+            limitations:
+                -
+                    identifier: Owner
+                    values: [1]
+        -
+            module: content
+            function: create
+            limitations:
+                -
+                    identifier: Class
+                    values: [folder]
+                -
+                    identifier: Section
+                    values: [standard]
+        -
+            module: content
+            function: create
+            limitations:
+                -
+                    identifier: Class
+                    values: [article]
+                -
+                    identifier: ParentClass
+                    values: [folder]
+                -
+                    identifier: ParentOwner
+                    values: [1]
+                -
+                    identifier: Section
+                    values: [standard]
+        -
+            module: content
+            function: edit
+            limitations:
+                -
+                    identifier: Class
+                    values: [article, folder]
+                -
+                    identifier: Owner
+                    values: [1]
+        -
+            module: content
+            function: publish
+            limitations:
+                -
+                    identifier: Class
+                    values: [article, folder]
+                -
+                    identifier: Owner
+                    values: [1]
+    actions:
+        -
+            action: assign_role_to_user_group
+            remote_id: 3c160cca19fb135f83bd02d911f04db2
+

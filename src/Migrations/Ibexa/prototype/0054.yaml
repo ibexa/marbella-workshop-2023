@@ -1,0 +1,2276 @@
+-
+    type: reference
+    mode: load
+    filename: 'references_images.yaml'
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blood_gas_system
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T19:22:49+00:00'
+        publicationDate: '2022-02-01T19:54:45+00:00'
+        remoteId: acfdbaedeffdd3c5c78f7efdd028e969
+        alwaysAvailable: true
+        section:
+            id: 1
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 5827c7ea20b933caded1a947a0d3c6a8
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Blood Gas RapidLab System'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 15
+                code: BGS12000
+                attributes:
+                    # sample_analysis:
+                    11: 100.0 # sample_size (float)
+                    12: pleural_fluid # sample_type (select)
+                    13: 120 # time_to_result (int)
+                    # device_hw_sw
+                    14: microsoft_win_10_iot # operating_system (select)
+                    15: true # barcode_scanner (bool)
+                    16: 104 # power_rating (int)
+                    17: 60 # power_frequency (int)
+                    # quality_control
+                    20: customizable_qc_schedule # qc (select)
+                    # data_security
+                    21: patient_data_encryption # security (select)
+                    22: wireless # communication (select)
+                    # physical_dimensions
+                    23: 120.0 # length (float)
+                    24: 75.0 # width (float)
+                    25: 75.0 # height (float)
+                    28: 55.0 # weight (float)
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__blood gas system rapid_lab.jpg'
+                alternativeText: 'Blood Gas System RapidLab'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>We improve care by recommending the right test in the right place at the right time. Lab-quality testing solutions in every care setting, our product enables increased efficiency and shorter time to diagnosis.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This system is designed to maximize turnaround time and can increase blood gas testing efficiency in clinical laboratories by combining testing speed and reliability with low maintenance. This is a tested and proven solution for high-volume critical care testing sites.</para><para> </para><title ezxhtml:level="2"><emphasis role="strong">Features &amp; Benefits</emphasis></title><itemizedlist><listitem><para>Comprehensive test menu addresses a variety of critical care testing needs</para></listitem><listitem><para>Intuitive operation and minimal maintenance help increase productivity without increasing staff.</para></listitem><listitem><para>Industry-proven accuracy and reliability through long-life Ready Sensor<superscript>®</superscript> electrode technology</para></listitem><listitem><para>Biosafe automatic sampling system with clot detection and clearance</para></listitem><listitem><para>Effortless onboard Automatic Quality Control (AQC) for enhanced quality assurance and regulatory compliance</para></listitem></itemizedlist><para> </para><para>When it comes to such small and vulnerable patients, fast results, delivered instantly, can make a big difference.</para></section>
+    references:
+        -
+            name: 'ref__content__blood_gas_system__blood gas rapid_lab system'
+            type: content_id
+        -
+            name: 'ref_location__blood_gas_system__blood gas rapid_lab system'
+            type: location_id
+        -
+            name: 'ref_path__blood_gas_system__blood gas rapid_lab system'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blood_gas_system
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T19:22:24+00:00'
+        publicationDate: '2022-02-01T20:01:56+00:00'
+        remoteId: 3755477815d6c296ceffb42c905dfeb9
+        alwaysAvailable: true
+        section:
+            id: 1
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: d2c97ea202e23804a98714bfb0776347
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Handheld Blood Gas System Advanced series'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 14
+                code: BGS139799
+                attributes:
+                    11: 35.0
+                    12: whole_blood
+                    13: 106
+                    14: macos
+                    15: true
+                    16: 110
+                    17: 150
+                    20: customizable_qc_schedule
+                    21: patient_data_encryption
+                    22: wireless
+                    23: 100.0
+                    24: 45.0
+                    25: 50.0
+                    28: 75.0
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__blood gas system handheld.jpeg'
+                alternativeText: 'Blood Gas System Handheld.jpeg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>We improve care by recommending the right test in the right place at the right time. Lab-quality testing solutions in the palm of your hand.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para><literallayout class="normal">Improve outcomes and workflow while transforming care delivery across clinical pathways. This handheld device gives you lab-quality results here and now.
+
+                    The system is a handheld, wireless solution to enable comprehensive blood analysis testing at the patient’s side on a single room temperature test card, with results in less than a minute.</literallayout></para><itemizedlist><listitem><para>Streamline patient-testing workflow</para></listitem><listitem><para>Accelerate clinical decision-making</para></listitem><listitem><para>Simplify inventory management</para></listitem><listitem><para>Deliver real-time results and reporting</para></listitem></itemizedlist><para> </para><title ezxhtml:level="2">Features and Benefits</title><itemizedlist><listitem><para>Streamline patient-testing workflow</para></listitem><listitem><para>Accelerate clinical decision-making</para></listitem><listitem><para>Simplify Inventory Management</para></listitem><listitem><para>Deliver real-time quality results and reporting</para></listitem><listitem><para>Less to no maintenance</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__blood_gas_system__handheld blood gas system advanced series'
+            type: content_id
+        -
+            name: 'ref_location__blood_gas_system__handheld blood gas system advanced series'
+            type: location_id
+        -
+            name: 'ref_path__blood_gas_system__handheld blood gas system advanced series'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blood_gas_system
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-25T22:09:01+01:00'
+        publicationDate: '2022-02-25T21:48:24+01:00'
+        remoteId: 5b1579c254c246ca11f3806c575f3129
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 67407bc2227e5de2d81a55e31941f481
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Portable Blood Gas Analyzer'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 17
+                code: BGS10000
+                attributes:
+                    11: 70.0
+                    12: whole_blood
+                    13: 115
+                    14: microsoft_win_10_iot
+                    15: false
+                    16: 110
+                    17: 65
+                    20: automatic_qc
+                    21: encrypted_end_to_end_data_transmission
+                    22: wireless
+                    23: 45.0
+                    24: 30.0
+                    25: 65.0
+                    28: 30.0
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__portable blood gas analyzer.png'
+                alternativeText: 'Portable Blood Gas Analyzer.png'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Easy to use portable analyzer. Ideal for measuring blood gas, electrolytes, and glucose in small clinical areas. It automates and simplifies blood gas sampling and data capture all the way from test order to reported results.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This blood gas analyzer offers automatic quality control that makes sure you're always ready for the next inspection. And because it’s portable and operates fully on battery, it is ideal for sharing among several teams. </para><para> </para><title ezxhtml:level="1">Features &amp; Benefits</title><itemizedlist><listitem><para>This is a cartridge-based analyzer and has automatic quality control which enables the technician to save valuable time while providing high-quality results.</para></listitem><listitem><para>IoT compatibility. This analyzer offers IT connectivity to a  care management system.</para></listitem><listitem><para>Intuitive operation and minimal maintenance help increase productivity without increasing staff.</para></listitem></itemizedlist><para>When it comes to such small and vulnerable patients, fast results, delivered instantly, can make a big difference.</para></section>
+    references:
+        -
+            name: 'ref__content__blood_gas_system__portable blood gas analyzer'
+            type: content_id
+        -
+            name: 'ref_location__blood_gas_system__portable blood gas analyzer'
+            type: location_id
+        -
+            name: 'ref_path__blood_gas_system__portable blood gas analyzer'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blood_gas_system
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-26T06:50:38+01:00'
+        publicationDate: '2022-02-26T06:45:22+01:00'
+        remoteId: d6d9532a5976d76b84e0eccdf05211ac
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 6a4d661b2cf0db7ea0e295db3f454105
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Advanced Portable Blood Gas Analyzer'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 19
+                code: BGS11000
+                attributes:
+                    11: 35.0
+                    12: whole_blood
+                    13: 106
+                    14: macos
+                    15: true
+                    16: 110
+                    17: 150
+                    20: customizable_qc_schedule
+                    21: patient_data_encryption
+                    22: wireless
+                    23: 100.0
+                    24: 45.0
+                    25: 50.0
+                    28: 75.0
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__advanced blood gas analyzer.png'
+                alternativeText: 'Advanced Blood Gas Analyzer.png'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This blood gas analyzer measures a full list of up to 20 STAT parameters on the same blood sample. It analyzes up to three blood gas samples in succession and supports a fast diagnosis of critically ill patients.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>The advanced blood gas analyzer measures a full panel of up to 20 STAT parameters. Proven performance and improved user interface. The design has been upgraded with a touch screen user interface. This machine makes blood gas testing smarter than ever.</para><para> </para><title ezxhtml:level="1">Features &amp; Benefits</title><itemizedlist><listitem><para>Highly responsive tablet-like interaction, intuitive user interface, advanced help function.</para></listitem><listitem><para>Fast and reliable results with analysis of up to three successive blood samples</para></listitem><listitem><para>Fully automated scanning and automated mixing of blood samples.</para></listitem><listitem><para>Reliable results for blood samples down to 35 microliter</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__blood_gas_system__advanced portable blood gas analyzer'
+            type: content_id
+        -
+            name: 'ref_location__blood_gas_system__advanced portable blood gas analyzer'
+            type: location_id
+        -
+            name: 'ref_path__blood_gas_system__advanced portable blood gas analyzer'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blood_gas_system
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T06:23:22+01:00'
+        publicationDate: '2022-03-01T06:16:49+01:00'
+        remoteId: 434efbbc99892f4753d55aa4f247dd10
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 066579cc4b7c0e8eed4ad67842559da4
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'RapidTest Series E Blood Gas System'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 38
+                code: BGS12004
+                attributes:
+                    11: 100.0
+                    12: pleural_fluid
+                    13: 120
+                    14: microsoft_win_10_iot
+                    15: true
+                    16: 104
+                    17: 60
+                    20: customizable_qc_schedule
+                    21: patient_data_encryption
+                    22: wireless
+                    23: 120.0
+                    24: 75.0
+                    25: 75.0
+                    28: 55.0
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__rapid_test series e blood gas system.png'
+                alternativeText: 'RapidTest Series E Blood Gas System.png'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Enhance care by recommending the right test in the right place at the right time. Lab-quality testing solutions in every care setting, our product enables increased efficiency and shorter time to diagnosis.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This system is designed to maximize turnaround time and can increase blood gas testing efficiency in clinical laboratories by combining testing speed and reliability with low maintenance. This is a tested and proven solution for high-volume critical care testing sites.</para><para> </para><title ezxhtml:level="1"><emphasis role="strong">Features &amp; Benefits</emphasis></title><itemizedlist><listitem><para>Comprehensive test menu addresses a variety of critical care testing needs</para></listitem><listitem><para>Intuitive operation and minimal maintenance help increase productivity without increasing staff.</para></listitem><listitem><para>Industry-proven accuracy and reliability through long-life Ready Sensor<superscript>®</superscript> electrode technology</para></listitem><listitem><para>Biosafe automatic sampling system with clot detection and clearance</para></listitem><listitem><para>Effortless onboard Automatic Quality Control (AQC) for enhanced quality assurance and regulatory compliance</para></listitem></itemizedlist><para> </para><para>When it comes to such small and vulnerable patients, fast results, delivered instantly, can make a big difference.</para></section>
+    references:
+        -
+            name: 'ref__content__blood_gas_system__rapid_test series e blood gas system'
+            type: content_id
+        -
+            name: 'ref_location__blood_gas_system__rapid_test series e blood gas system'
+            type: location_id
+        -
+            name: 'ref_path__blood_gas_system__rapid_test series e blood gas system'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blood_gas_system
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T06:57:26+01:00'
+        publicationDate: '2022-03-01T06:57:26+01:00'
+        remoteId: 0ae1c93a67a5b8457ba72048cb236f72
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: bc08d4ffc690d5d3770abfe847215d36
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Advanced RapidTest Series E Blood Gas System'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 39
+                code: BGS120001
+                attributes:
+                    11: 190.0
+                    12: whole_blood
+                    13: 55
+                    14: microsoft_win_10_iot
+                    15: true
+                    16: 110
+                    17: 65
+                    20: automatic_qc
+                    21: no_hard_coded_password
+                    22: dual_port_transmission_ethernet
+                    23: 120.0
+                    24: 90.0
+                    25: 55.0
+                    28: 79.2
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__advanced rapid_test series e blood gas system.png'
+                alternativeText: 'Advanced RapidTest Series E Blood Gas System.png'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Designed to maximize turnaround time, it has the capacity to enhance blood gas testing efficiency in the clinical laboratory by combining testing speed and reliability with low maintenance.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>The advanced blood gas analyzer measures a full panel of up to 20 STAT parameters. Proven performance and improved user interface. The design has been upgraded with a touch screen user interface. This machine makes blood gas testing smarter than ever.</para><para> </para><title ezxhtml:level="1"><emphasis role="strong">Features &amp; Benefits</emphasis></title><itemizedlist><listitem><para>Highly responsive tablet-like interaction, intuitive user interface, advanced help function.</para></listitem><listitem><para>Fast and reliable results with analysis of up to three successive blood samples</para></listitem><listitem><para>Fully automated scanning and automated mixing of blood samples.</para></listitem><listitem><para>Reliable results for blood samples down to 35 microliter</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__blood_gas_system__advanced rapid_test series e blood gas system'
+            type: content_id
+        -
+            name: 'ref_location__blood_gas_system__advanced rapid_test series e blood gas system'
+            type: location_id
+        -
+            name: 'ref_path__blood_gas_system__advanced rapid_test series e blood gas system'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blood_gas_system
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T07:05:01+01:00'
+        publicationDate: '2022-03-01T07:05:01+01:00'
+        remoteId: d09dd5bd7a6ee5bade19817d160b6c0a
+        alwaysAvailable: true
+        section:
+            id: 1
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 9d5d0a2bb707316bdda784cb44116fd5
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'RapidTest Clinic Series Blood Gas System'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 40
+                code: BGS13000
+                attributes:
+                    11: 190.0
+                    12: pleural_fluid
+                    13: 30
+                    14: microsoft_win_10_iot
+                    15: true
+                    16: 240
+                    17: 60
+                    20: customizable_qc_schedule
+                    21: patient_data_encryption
+                    22: wireless
+                    23: 150.0
+                    24: 75.0
+                    25: 45.0
+                    28: 78.8
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__rapid_test clinic series blood gas system.png'
+                alternativeText: 'RapidTest Clinic Series Blood Gas System.png'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Cost-effective solution for smaller laboratories tasked with the challenge of performing fast-turnaround critical care tests. The fully-automated operation supports low-to-medium throughput.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This system is designed to maximize turnaround time and can increase blood gas testing efficiency in clinical laboratories by combining testing speed and reliability with low maintenance. This is a tested and proven solution for high-volume critical care testing sites.</para><para> </para><title ezxhtml:level="1"><emphasis role="strong">Features &amp; Benefits</emphasis></title><itemizedlist><listitem><para>Comprehensive test menu addresses a variety of critical care testing needs</para></listitem><listitem><para>Intuitive operation and minimal maintenance help increase productivity without increasing staff.</para></listitem><listitem><para>Industry-proven accuracy and reliability through long-life Ready Sensor<superscript>®</superscript> electrode technology</para></listitem><listitem><para>Biosafe automatic sampling system with clot detection and clearance</para></listitem><listitem><para>Effortless onboard Automatic Quality Control (AQC) for enhanced quality assurance and regulatory compliance</para></listitem></itemizedlist><para> </para><para>When it comes to such small and vulnerable patients, fast results, delivered instantly, can make a big difference.</para></section>
+    references:
+        -
+            name: 'ref__content__blood_gas_system__rapid_test clinic series blood gas system'
+            type: content_id
+        -
+            name: 'ref_location__blood_gas_system__rapid_test clinic series blood gas system'
+            type: location_id
+        -
+            name: 'ref_path__blood_gas_system__rapid_test clinic series blood gas system'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: blood_gas_system
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T07:15:07+01:00'
+        publicationDate: '2022-03-01T07:13:53+01:00'
+        remoteId: c63ff8f429f5e4aa8b83611fa29fbffc
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: d8ce018e414b43cdfba0b15249f3e35a
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Electrolyte and Lithium Testing Analyzers'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 42
+                code: BGS14500
+                attributes:
+                    11: 250.0
+                    12: pleural_fluid
+                    13: 120
+                    14: android
+                    15: true
+                    16: 240
+                    17: 65
+                    20: customizable_qc_schedule
+                    21: no_hard_coded_password
+                    22: dual_port_transmission_ethernet
+                    23: 75.0
+                    24: 50.0
+                    25: 50.0
+                    28: 24.6
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__ electrolyte and lithium testing analyzer.png'
+                alternativeText: 'Electrolyte and Lithium Testing Analyzer.png'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Rapid electrolyte and lithium testing in busy laboratories and clinics. Designed to accommodate a variety of specimen types</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>The advanced blood gas analyzer measures a full panel of up to 20 STAT parameters. Proven performance and improved user interface. The design has been upgraded with a touch screen user interface. This machine makes blood gas testing smarter than ever.</para><para> </para><title ezxhtml:level="1"><emphasis role="strong">Features &amp; Benefits</emphasis></title><itemizedlist><listitem><para>Highly responsive tablet-like interaction, intuitive user interface, advanced help function.</para></listitem><listitem><para>Fast and reliable results with analysis of up to three successive blood samples</para></listitem><listitem><para>Fully automated scanning and automated mixing of blood samples.</para></listitem><listitem><para>Reliable results for blood samples down to 35 microliter</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__blood_gas_system__electrolyte and lithium testing analyzers'
+            type: content_id
+        -
+            name: 'ref_location__blood_gas_system__electrolyte and lithium testing analyzers'
+            type: location_id
+        -
+            name: 'ref_path__blood_gas_system__electrolyte and lithium testing analyzers'
+            type: path
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: self_care_medicine
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T19:15:53+00:00'
+        publicationDate: '2022-02-01T17:39:24+00:00'
+        remoteId: 0c1fc9f97afc0e827374063e706b1000
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 9602404531fd3f536bb64d483ae3ea63
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ibupirin 4000 mg'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 11
+                code: PAIN234767882
+                attributes:
+                    4: headache_muscle # purpose (select)
+                    5: tablet # form_type (select)
+                    6: 100  # count (int)
+                    7: acetaminophen # active_ingredient (select)
+                    8: 500 # active_ingredient_quantity (int)
+                    9: null # inactive_ingredient (select)
+                    10: no_flavor # flavor (select)
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__ibupirin pain relief.jpg'
+                alternativeText: 'Ibupirin Pain Relief'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Less pain, more play. Doctor Recommended. Relieve and comfort headaches and muscle aches from young to old.</para><para> </para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Ibupirin<superscript>®</superscript> for Adults is an elongated tablet form that helps to temporarily reduce fever and relieve minor aches and pains such as headaches, muscular aches, minor arthritis pain, and more. This is the medication recommended by doctors for pain relief. This contains 400 milligrams of acetaminophen and is a safe and effective pain relief option when used as directed.</para><para>For adults and children 12 years of age and older.</para></section>
+        -
+            fieldDefIdentifier: uses
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Temporarily relieves minor aches and pains due to:</para><itemizedlist><listitem><para>headache</para></listitem><listitem><para>backache</para></listitem><listitem><para>minor pain of arthritis</para></listitem><listitem><para>toothache</para></listitem><listitem><para>muscular aches</para></listitem><listitem><para>premenstrual and menstrual cramps</para></listitem></itemizedlist><para>Temporarily reduces fever</para></section>
+        -
+            fieldDefIdentifier: warnings
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para><emphasis role="strong">Do not use</emphasis></para><itemizedlist><listitem><para>with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.</para></listitem><listitem><para>if you are allergic to acetaminophen or any of the inactive ingredients in this product</para></listitem></itemizedlist><para><emphasis role="strong">If pregnant or breastfeeding,</emphasis> ask a health professional before use.</para></section>
+        -
+            fieldDefIdentifier: directions
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Do not take more than directed. Ask your doctor for directions</para><informaltable><tbody><tr><th>Adults and children 12 years and over</th><td>Take 2 tablets every 6 hours. Do not take more than 6 tablets in 24 hours, unless directed by a doctor</td></tr><tr><th>Children under 12 years</th><td>Ask a doctor</td></tr></tbody></informaltable></section>
+    references:
+        -
+            name: ref__content__self_care_medicine__ibupirin
+            type: content_id
+        -
+            name: ref_location__self_care_medicine__ibupirin
+            type: location_id
+        -
+            name: ref_path__self_care_medicine__ibupirin
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: self_care_medicine
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T19:19:31+00:00'
+        publicationDate: '2022-02-01T19:02:08+00:00'
+        remoteId: bf927e7e566721efa48c718109f01ac0
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: f2e210fb64c3ca71b21d97621fa386cb
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Daily Multi-Vitamins for Men and Women'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 12
+                code: VIT1273698
+                attributes:
+                    4: vitamins
+                    5: tablet
+                    6: 100
+                    7: vitamin_a
+                    8: 80
+                    9: null
+                    10: no_flavor
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__daily multivitamins.jpg'
+                alternativeText: 'Daily Multivitamins'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Simple, clean, and backed by science, technology, and innovation. Our multivitamins are traceable to their source and formulated to help fill gaps in the diet.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>These daily vitamins for formulated with an array of essential vitamins and minerals to make sure that all your daily nutritional values are covered. They enhance natural immunity, energy production, reduce stress levels.</para><para>Highlights:</para><itemizedlist><listitem><para>Promotes natural immunity and energy production</para></listitem><listitem><para>Offers stress support</para></listitem><listitem><para>Suitable for wellness and health</para></listitem><listitem><para>Free of gluten, dairy, soy, and nuts</para></listitem></itemizedlist><para> </para><para>To safeguard your future health, it is very important to keep your body primed and ready for anything with a daily multi-vitamin tablet.</para></section>
+        -
+            fieldDefIdentifier: uses
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: warnings
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Consult your healthcare provider prior to use if you are pregnant, nursing, taking any medication, or have any medical conditions. Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or poison control center immediately. Store in a cool, dry place. Keep out of reach of children. Tamper evident. Do not use if the outer seal is broken or missing.</para></section>
+        -
+            fieldDefIdentifier: directions
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Take 2 tablets daily, preferably with food</para></section>
+    references:
+        -
+            name: 'ref__content__self_care_medicine__daily multi-vitamins for men and women'
+            type: content_id
+        -
+            name: 'ref_location__self_care_medicine__daily multi-vitamins for men and women'
+            type: location_id
+        -
+            name: 'ref_path__self_care_medicine__daily multi-vitamins for men and women'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: self_care_medicine
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T09:04:47+01:00'
+        publicationDate: '2022-02-26T07:22:26+01:00'
+        remoteId: e214c122c1fcdacc2f05baae07bd1174
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 4b304bb854ec7d27e568ccb6ef86f628
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ibupirin Rapid Release'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 44
+                code: PAIN23334
+                attributes:
+                    4: headache_muscle
+                    5: capsule
+                    6: 100
+                    7: acetaminophen
+                    8: 500
+                    9: null
+                    10: no_flavor
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__ibupirin rapid release.jpg'
+                alternativeText: 'Ibupirin Rapid Release.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Get super-fast relief from fevers, headaches, minor aches, and pains with Ibupirin Rapid Release tablets</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Less pain, more play. Doctor Recommended. Relieve and comfort headaches and muscle aches from young to old.</para><para>Ibupirin<superscript>®</superscript> Rapid Release for Adults is an elongated tablet form that helps to temporarily reduce fever and relieve minor aches and pains such as headaches, muscular aches, minor arthritis pain, and more. This is the medication recommended by doctors for pain relief. This contains 500 milligrams of acetaminophen and is a safe and effective pain relief option when used as directed.</para><para>For adults and children 12 years of age and older.</para></section>
+        -
+            fieldDefIdentifier: uses
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Temporarily relieves minor aches and pains due to:</para><itemizedlist><listitem><para>headache</para></listitem><listitem><para>backache</para></listitem><listitem><para>minor pain of arthritis</para></listitem><listitem><para>toothache</para></listitem><listitem><para>muscular aches</para></listitem><listitem><para>premenstrual and menstrual cramps</para></listitem></itemizedlist><para>Temporarily reduces fever</para></section>
+        -
+            fieldDefIdentifier: warnings
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para><emphasis role="strong">Do not use</emphasis></para><itemizedlist><listitem><para>with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.</para></listitem><listitem><para>if you are allergic to acetaminophen or any of the inactive ingredients in this product</para></listitem></itemizedlist><para><emphasis role="strong">If pregnant or breastfeeding,</emphasis> ask a health professional before use.</para></section>
+        -
+            fieldDefIdentifier: directions
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Do not take more than directed. Ask your doctor for directions</para><informaltable><tbody><tr><th>Adults and children 12 years and over</th><td>Take 2 tablets every 6 hours. Do not take more than 6 tablets in 24 hours, unless directed by a doctor</td></tr><tr><th>Children under 12 years</th><td>Ask a doctor</td></tr></tbody></informaltable></section>
+    references:
+        -
+            name: 'ref__content__self_care_medicine__ibupirin rapid release'
+            type: content_id
+        -
+            name: 'ref_location__self_care_medicine__ibupirin rapid release'
+            type: location_id
+        -
+            name: 'ref_path__self_care_medicine__ibupirin rapid release'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: self_care_medicine
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T09:05:05+01:00'
+        publicationDate: '2022-02-26T07:49:15+01:00'
+        remoteId: d97456741eabe6c4407c1d9e5ee4b342
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 7fca45163c16468d1bc0910aea9bc786
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ibupirin 1000 mg'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 45
+                code: PAIN654226
+                attributes:
+                    4: headache_muscle
+                    5: tablet
+                    6: 10
+                    7: acetaminophen
+                    8: 1000
+                    9: null
+                    10: no_flavor
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__ibupirin 1000 mg.jpg'
+                alternativeText: 'Ibupirin 1000 mg.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Less pain, more play. Doctor Recommended. Relieve and comfort headaches and muscle aches from young to old.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Ibupirin<superscript>®</superscript> for Adults is an elongated tablet form that helps to temporarily reduce fever and relieve minor aches and pains such as headaches, muscular aches, minor arthritis pain, and more. This is the medication recommended by doctors for pain relief. This contains 1000 milligrams of acetaminophen and is a safe and effective pain relief option when used as directed.</para><para>For adults and children 12 years of age and older.</para></section>
+        -
+            fieldDefIdentifier: uses
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Temporarily relieves minor aches and pains due to:</para><itemizedlist><listitem><para>headache</para></listitem><listitem><para>backache</para></listitem><listitem><para>minor pain of arthritis</para></listitem><listitem><para>toothache</para></listitem><listitem><para>muscular aches</para></listitem><listitem><para>premenstrual and menstrual cramps</para></listitem></itemizedlist><para>Temporarily reduces fever</para></section>
+        -
+            fieldDefIdentifier: warnings
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para><emphasis role="strong">Do not use</emphasis></para><itemizedlist><listitem><para>with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.</para></listitem><listitem><para>if you are allergic to acetaminophen or any of the inactive ingredients in this product</para></listitem></itemizedlist><para><emphasis role="strong">If pregnant or breastfeeding,</emphasis> ask a health professional before use.</para></section>
+        -
+            fieldDefIdentifier: directions
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Do not take more than directed. Ask your doctor for directions</para><informaltable><tbody><tr><th>Adults and children 12 years and over</th><td>Take 2 tablets every 6 hours. Do not take more than 6 tablets in 24 hours, unless directed by a doctor</td></tr><tr><th>Children under 12 years</th><td>Ask a doctor</td></tr></tbody></informaltable></section>
+    references:
+        -
+            name: 'ref__content__self_care_medicine__ibupirin 1000 mg'
+            type: content_id
+        -
+            name: 'ref_location__self_care_medicine__ibupirin 1000 mg'
+            type: location_id
+        -
+            name: 'ref_path__self_care_medicine__ibupirin 1000 mg'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: self_care_medicine
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T09:05:35+01:00'
+        publicationDate: '2022-02-26T08:16:54+01:00'
+        remoteId: 886b56305bc622b9ac50f36b5e6b366d
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: def43aa50b061f1eef2f639fd2a5b379
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Prenatal Multi-Vitamins'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 46
+                code: VIT1987612
+                attributes:
+                    4: vitamins
+                    5: capsule
+                    6: 200
+                    7: folic_acid
+                    8: 200
+                    9: iron_oxide
+                    10: no_flavor
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__prenatal multi-vitamins.jpg'
+                alternativeText: 'Prenatal Multi-Vitamins.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Prenatal multivitamin supports optimal nutrition for expecting and nursing moms and developing baby.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This Prenatal multi-vitamin provides optimal nutrition before &amp; during pregnancy with key nutrients like folic acid, iron &amp; vitamin B12 paired with real food like organic superfoods. Includes other key ingredients to support fetal health</para><para>It contains DHA which helps with fetal brain and eye development because DHA is directly transferred from the mother to the fetus during these developmental stages. This combines all of the key nutrients from a prenatal multivitamin with 200 mg DHA into one capsule.</para><para>This is a Doctor-formulated &amp; recommended medicine. </para><para>You can switch to our Postnatal Multivitamin for the added nourishment you need while breastfeeding. </para><para> </para><para><emphasis role="strong">Storing this product</emphasis></para><para>Store tightly sealed in a cool, dry place. Once opened, tablet color may naturally change over time. If the tablets darken they continue to be safe to consume and meet label claims for all active ingredients.</para></section>
+        -
+            fieldDefIdentifier: uses
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: warnings
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children.</para></section>
+        -
+            fieldDefIdentifier: directions
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>2 tablets daily with a beverage. May be taken anytime throughout the day, even on an empty stomach.</para></section>
+    references:
+        -
+            name: 'ref__content__self_care_medicine__prenatal multi-vitamins'
+            type: content_id
+        -
+            name: 'ref_location__self_care_medicine__prenatal multi-vitamins'
+            type: location_id
+        -
+            name: 'ref_path__self_care_medicine__prenatal multi-vitamins'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: self_care_medicine
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:34:42+01:00'
+        publicationDate: '2022-02-28T23:30:14+01:00'
+        remoteId: d2ab0b84344e0531819583e03e49949d
+        alwaysAvailable: true
+        section:
+            id: 1
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: d329ca9dda881851ec096299c4ce2df8
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: '40 Plus Multi-Vitamins for Men'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 55
+                code: VIT13649130
+                attributes:
+                    4: vitamins
+                    5: tablet
+                    6: 100
+                    7: vitamin_b
+                    8: 93
+                    9: magnesium_stearate
+                    10: no_flavor
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__40 plus multi-vitamins for men.jpg'
+                alternativeText: '40 Plus Multi-Vitamins for Men.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para> Our multivitamins are traceable to their source and formulated to help fill gaps in the diet. Targeted specifically for 40 Plus men. </para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>These daily vitamins for formulated with an array of essential vitamins and minerals to make sure that all your daily nutritional values are covered. They enhance natural immunity, energy production, reduce stress levels.</para><para>Highlights:</para><itemizedlist><listitem><para>Promotes natural immunity and energy production</para></listitem><listitem><para>Offers stress support</para></listitem><listitem><para>Suitable for wellness and health</para></listitem><listitem><para>Free of gluten, dairy, soy, and nuts</para></listitem></itemizedlist><para> </para><para>To safeguard your future health, it is very important to keep your body primed and ready for anything with a daily multi-vitamin tablet.</para></section>
+        -
+            fieldDefIdentifier: uses
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: warnings
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Consult your healthcare provider prior to use if you are pregnant, nursing, taking any medication, or have any medical conditions. Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or poison control center immediately. Store in a cool, dry place. Keep out of reach of children. Tamper evident. Do not use if the outer seal is broken or missing.</para></section>
+        -
+            fieldDefIdentifier: directions
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Take 2 tablets daily, preferably with food</para></section>
+    references:
+        -
+            name: 'ref__content__self_care_medicine__40 plus multi-vitamins for men'
+            type: content_id
+        -
+            name: 'ref_location__self_care_medicine__40 plus multi-vitamins for men'
+            type: location_id
+        -
+            name: 'ref_path__self_care_medicine__40 plus multi-vitamins for men'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: self_care_medicine
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:34:59+01:00'
+        publicationDate: '2022-03-01T04:27:25+01:00'
+        remoteId: 13b72eea1e6ac6053d26fe93c923ba36
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 34c21ed9aa374466c254ceb30b0dc816
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Calcium for Women'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 56
+                code: VIT9740024
+                attributes:
+                    4: vitamins
+                    5: tablet
+                    6: 200
+                    7: calcium
+                    8: 494
+                    9: iron_oxide
+                    10: no_flavor
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__calcium for women.jpg'
+                alternativeText: 'Calcium for Women.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This powerful little mineral helps to build and support strong bones and teeth. Increases bone density by providing ALL the nutrients your bones crave. </para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>These daily Calcium tablets for formulated with an array of essential vitamins and minerals to make sure that all your daily nutritional values are covered. They enhance natural immunity, energy production, reduce stress levels.</para><para>Highlights:</para><itemizedlist><listitem><para>Promotes natural immunity and energy production</para></listitem><listitem><para>Offers stress support</para></listitem><listitem><para>Suitable for wellness and health</para></listitem><listitem><para>Free of gluten, dairy, soy, and nuts</para></listitem></itemizedlist><para> </para><para>To safeguard your future health, it is very important to keep your body primed and ready for anything with a daily multi-vitamin tablet.</para></section>
+        -
+            fieldDefIdentifier: uses
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: warnings
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Consult your healthcare provider prior to use if you are pregnant, nursing, taking any medication, or have any medical conditions. Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or poison control center immediately. Store in a cool, dry place. Keep out of reach of children. Tamper evident. Do not use if the outer seal is broken or missing.</para></section>
+        -
+            fieldDefIdentifier: directions
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Take 2 tablets daily, preferably with food</para></section>
+    references:
+        -
+            name: 'ref__content__self_care_medicine__calcium for women'
+            type: content_id
+        -
+            name: 'ref_location__self_care_medicine__calcium for women'
+            type: location_id
+        -
+            name: 'ref_path__self_care_medicine__calcium for women'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: self_care_medicine
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:35:26+01:00'
+        publicationDate: '2022-03-01T05:16:15+01:00'
+        remoteId: fb677ad9d7624705ea8259d32fa7e630
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 6c0bbc0f55caba7846b698b9fd78700b
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Postnatal Vitamins'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 57
+                code: VIT9298422
+                attributes:
+                    4: vitamins
+                    5: tablet
+                    6: 60
+                    7: vitamin_a
+                    8: 100
+                    9: iron_oxide
+                    10: strawberry
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__postnatal vitamins.jpg'
+                alternativeText: 'Postnatal Vitamins.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>The postnatal formulated for the new nutrient demands on a mother postpartum and throughout lactation. Because we know that moms of infants can use all the support they can get.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>These postnatal vitamins are formulated with an array of essential vitamins and minerals to make sure that all your daily nutritional values are covered. They enhance natural immunity, energy production, reduce stress levels.</para><para>Highlights:</para><itemizedlist><listitem><para>Promotes natural immunity and energy production</para></listitem><listitem><para>Offers stress support</para></listitem><listitem><para>Suitable for wellness and health</para></listitem><listitem><para>Free of gluten, dairy, soy, and nuts</para></listitem></itemizedlist><para>To safeguard your future health, it is very important to keep your body primed and ready for anything with a daily multi-vitamin tablet.</para></section>
+        -
+            fieldDefIdentifier: uses
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        -
+            fieldDefIdentifier: warnings
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Consult your healthcare provider prior to use if you are pregnant, nursing, taking any medication, or have any medical conditions. Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or poison control center immediately. Store in a cool, dry place. Keep out of reach of children. Tamper evident. Do not use if the outer seal is broken or missing.</para></section>
+        -
+            fieldDefIdentifier: directions
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Take 2 tablets daily, preferably with food</para><para> </para></section>
+    references:
+        -
+            name: 'ref__content__self_care_medicine__postnatal vitamins'
+            type: content_id
+        -
+            name: 'ref_location__self_care_medicine__postnatal vitamins'
+            type: location_id
+        -
+            name: 'ref_path__self_care_medicine__postnatal vitamins'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: self_care_medicine
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:35:41+01:00'
+        publicationDate: '2022-03-01T05:58:39+01:00'
+        remoteId: 7677260fb44d5685cee83d83e34fc261
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 695ec77c6db19f74e3285298fc59d988
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Children''s Ibupirin Cold & Cough'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 58
+                code: PAIN2394729
+                attributes:
+                    4: cold_flu
+                    5: syrup
+                    6: null
+                    7: acetaminophen
+                    8: 200
+                    9: iron_oxide
+                    10: strawberry
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__children''s ibupirin cold & cough.jpg'
+                alternativeText: 'Children''s Ibupirin Cold & Cough.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Flavored syrup to manage your child’s tough multi-symptom cold by temporarily relieving sore throats and headaches, quieting coughs, and reducing fever.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>temporarily reduce fever and relieve minor aches and pains such as headaches, muscular aches, minor arthritis pain, and more. This is the medication recommended by doctors for pain relief. This contains 400 milligrams of acetaminophen and is a safe and effective pain relief option when used as directed.</para><para>For children ages 4 to 12 years.</para></section>
+        -
+            fieldDefIdentifier: uses
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Temporarily relieves minor aches and pains due to:</para><itemizedlist><listitem><para>headache</para></listitem><listitem><para>backache</para></listitem><listitem><para>toothache</para></listitem><listitem><para>muscular aches</para></listitem></itemizedlist><para>Temporarily reduces fever</para></section>
+        -
+            fieldDefIdentifier: warnings
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para><emphasis role="strong">Do not use</emphasis></para><itemizedlist><listitem><para>with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.</para></listitem><listitem><para>if you are allergic to acetaminophen or any of the inactive ingredients in this product</para></listitem></itemizedlist></section>
+        -
+            fieldDefIdentifier: directions
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Do not take more than directed. Ask your doctor for directions</para><informaltable><thead><tr><th>Weight (lb)</th><th>Age (yr)</th><th>Dose (mL)*</th></tr></thead><tbody><tr><td>under 36</td><td>under 4 years</td><td>do not use</td></tr><tr><td>36-47</td><td>4 to 5 years</td><td>5mL</td></tr><tr><td>48-95</td><td>6 to 11 years</td><td>10 mL</td></tr></tbody></informaltable></section>
+    references:
+        -
+            name: 'ref__content__self_care_medicine__children''s ibupirin cold & cough'
+            type: content_id
+        -
+            name: 'ref_location__self_care_medicine__children''s ibupirin cold & cough'
+            type: location_id
+        -
+            name: 'ref_path__self_care_medicine__children''s ibupirin cold & cough'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: self_care_medicine
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:36:02+01:00'
+        publicationDate: '2022-03-01T06:02:34+01:00'
+        remoteId: 538ab30aee012fe7ca8998b68e9f2ad6
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: bcb7fed9c7395ef40aac0033cd6a54b1
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Infant''s Ibupirin Cold & Cough'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 59
+                code: PAIN238746
+                attributes:
+                    4: cold_flu
+                    5: syrup
+                    6: null
+                    7: acetaminophen
+                    8: 165
+                    9: iron_oxide
+                    10: cherry
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__infant''s ibupirin cold & cough.jpg'
+                alternativeText: 'Infant''s Ibupirin Cold & Cough.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Flavored syrup to manage your baby’s tough multi-symptom cold by temporarily relieving sore throats and headaches, quieting coughs, and reducing fever.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Temporarily reduce fever and relieve minor aches and pains such as headaches, muscular aches, minor arthritis pain, and more. This is the medication recommended by doctors for pain relief. This contains 400 milligrams of acetaminophen and is a safe and effective pain relief option when used as directed.</para><para>For children ages 4 and under.</para></section>
+        -
+            fieldDefIdentifier: uses
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Temporarily relieves minor aches and pains due to:</para><itemizedlist><listitem><para>headache</para></listitem><listitem><para>backache</para></listitem><listitem><para>toothache</para></listitem><listitem><para>muscular aches</para></listitem></itemizedlist><para>Temporarily reduces fever</para></section>
+        -
+            fieldDefIdentifier: warnings
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para><emphasis role="strong">Do not use</emphasis></para><itemizedlist><listitem><para>with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.</para></listitem><listitem><para>if you are allergic to acetaminophen or any of the inactive ingredients in this product</para></listitem></itemizedlist></section>
+        -
+            fieldDefIdentifier: directions
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Do not take more than directed. Ask your doctor for directions</para><informaltable><thead><tr><th>Weight (lb)</th><th>Age (yr)</th><th>Dose (mL)*</th></tr></thead><tbody><tr><td>under 36</td><td>under 4 years</td><td>do not use</td></tr><tr><td>36-47</td><td>4 to 5 years</td><td>5mL</td></tr><tr><td>48-95</td><td>6 to 11 years</td><td>10 mL</td></tr></tbody></informaltable></section>
+    references:
+        -
+            name: 'ref__content__self_care_medicine__infant''s ibupirin cold & cough'
+            type: content_id
+        -
+            name: 'ref_location__self_care_medicine__infant''s ibupirin cold & cough'
+            type: location_id
+        -
+            name: 'ref_path__self_care_medicine__infant''s ibupirin cold & cough'
+            type: path
+
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: skin_care_product
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-03T15:09:06+00:00'
+        publicationDate: '2022-02-01T16:22:58+00:00'
+        remoteId: 7386276c6a4e964733832bcdb05ef2b6
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: ab2375e324f700c7c3bdca0dcb2d59c9
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Luminous Face Cream'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 16
+                code: CRM437615348
+                attributes:
+                    1: dry_skin
+                    3: vitamin_e
+                    26: 3.4
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__luminous face cream.jpg'
+                alternativeText: 'Luminous Face Cream'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Give your face the hydration and shine it needs with our Luminous Face Cream formulated with natural ingredients.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Our Luminous face cream is formulated with all-natural ingredients like aloe and turmeric extract.  This product visibly improves skin tone, texture &amp; clarity. Exfoliates &amp; reduces the appearance of dark spots &amp; hyperpigmentation.</para><itemizedlist><listitem><para>Made with Aloe &amp; Turmeric Extract</para></listitem><listitem><para>Face serum visibly evens tone &amp; texture</para></listitem><listitem><para>Helps reduce dark spots &amp; hyperpigmentation</para></listitem></itemizedlist><para><literallayout class="normal">
+                     </literallayout></para></section>
+        -
+            fieldDefIdentifier: usage
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><itemizedlist><listitem><para>Every morning and evening, apply 4-5 drops onto the palm of your hand.</para></listitem><listitem><para>Use fingertips to gently massage onto the face.</para></listitem><listitem><para>Enjoy immediately luminous skin.</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__skin_care_product__luminous face cream'
+            type: content_id
+        -
+            name: 'ref_location__skin_care_product__luminous face cream'
+            type: location_id
+        -
+            name: 'ref_path__skin_care_product__luminous face cream'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: skin_care_product
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-02-02T17:57:38+00:00'
+        publicationDate: '2022-02-01T16:32:43+00:00'
+        remoteId: 614d6551b8d0120b1930f68838d61a56
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 87610d8fe49238f9d6988f3b6b711b35
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Radiance Eye Serum'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 10
+                code: SER23984729
+                attributes:
+                    1: anti_aging
+                    3: retinol
+                    26: 3.4
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__radiance eye serum.jpg'
+                alternativeText: 'Radiance Eye Serum'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Have you tried the best Eye Serum in America? So intensely hydrating and visibly reduces wrinkle line and prevents pigmentation!</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Get visibly younger and smoother-looking eyes with our Radiance eye serum. The main ingredient 'Retinol SA and Hyaluronic Acid makes it a lightweight eye serum. It moisturizes and renews the look of skin around the eye throughout the day. It works to reduce fine lines, wrinkles, dark under-eye circles around the eye. Get visible results in just one week!</para><para> </para><para>The dermatologist recommended this serum penetrates nine layers deep within the skin’s surface. </para><itemizedlist><listitem><para>Daily purified hyaluronic acid serum</para></listitem><listitem><para>Provides long-lasting, weightless hydration for 24 hours</para></listitem><listitem><para>Pair with Hydro Boost Water Gel for 4x the hydrating power</para></listitem></itemizedlist></section>
+        -
+            fieldDefIdentifier: usage
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Every morning and evening, apply 4-5 drops to your clean face and neck before applying your moisturizer.</para></section>
+    references:
+        -
+            name: 'ref__content__skin_care_product__radiance eye serum'
+            type: content_id
+        -
+            name: 'ref_location__skin_care_product__radiance eye serum'
+            type: location_id
+        -
+            name: 'ref_path__skin_care_product__radiance eye serum'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: skin_care_product
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T09:06:09+01:00'
+        publicationDate: '2022-02-26T08:31:24+01:00'
+        remoteId: 7b5d6c4ba65dcd3fbb660870789ea07f
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: feb41f72c7d2c5de27cc5d04563c2f55
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Hydrating Overnight Face Mask'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 47
+                code: MASK288367
+                attributes:
+                    1: dry_skin
+                    3: hyaluronic_acid
+                    26: 3.4
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__hydrating overnight face mask.jpg'
+                alternativeText: 'Hydrating Overnight Face Mask.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This hydrating face mask is made for dry skin. It locks in moisture overnight and strengthens the skin’s moisture barrier to treat dryness and tightness.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This overnight face mask melts into your skin by transforming from cream to oil. It stabilizes the moisture barrier to help boost resilience against external aggressors. You wake up to fresh, hydrated, nourished, and healthy-looking skin.</para><itemizedlist><listitem><para>Feels deeply nourishing and light on the skin, without feeling greasy</para></listitem><listitem><para>For all skin types including dry, tight, flaky, and sensitive skin</para></listitem><listitem><para>Non-comedogenic, non-sticky</para></listitem><listitem><para>Paraben-free, fragrance-free, mineral oil-free, silicone-free, dye-free</para></listitem></itemizedlist></section>
+        -
+            fieldDefIdentifier: usage
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><itemizedlist><listitem><para>After cleansing at night, use fingertips and apply a healthy layer of the mask onto clean skin. Gently massage until cream transforms to oil. Allow to work overnight, and in the morning, follow your normal regimen. </para></listitem><listitem><para>Recommend using this overnight face mask 3x per week.</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__skin_care_product__hydrating overnight face mask'
+            type: content_id
+        -
+            name: 'ref_location__skin_care_product__hydrating overnight face mask'
+            type: location_id
+        -
+            name: 'ref_path__skin_care_product__hydrating overnight face mask'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: skin_care_product
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:32:07+01:00'
+        publicationDate: '2022-02-26T08:40:59+01:00'
+        remoteId: f3ebcdafa38cdb1589b5d5a14958190e
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 6a5218da9cdb62bc2cc7c5509c4cee3e
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Anti-Aging Retinol Face Serum'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 48
+                code: SER927429
+                attributes:
+                    1: anti_aging
+                    3: vitamin_e
+                    26: 3.4
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__anti-aging retinol face serum.jpg'
+                alternativeText: 'Anti-Aging Retinol Face Serum.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This face serum visibly reduces wrinkles, firms skin, evens skin tone &amp; pigmentation, and smoothes skin texture.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Our potent retinol face serum is formulated with Pure Retinol for daily use. Using this serum gives youthful-looking skin. Delivers visible results with minimal visible redness, dryness, or peeling. Wrinkles are visibly reduced, skin is firmer, pores appear minimized, and skin tone and texture are more even. </para><itemizedlist><listitem><para>Easily integrates into a skincare routine and is suitable for use day or night</para></listitem><listitem><para>For all skin types, including first-time Retinol users and sensitive skin types</para></listitem><listitem><para>Paraben-free, fragrance-free, mineral oil-free, phthalate-free.</para></listitem></itemizedlist></section>
+        -
+            fieldDefIdentifier: usage
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><itemizedlist><listitem><para>After cleansing, apply our serum over the entire face, including the under eye and crow’s feet area, </para></listitem><listitem><para>Avoid contact with the eye, eyelid area, and lips</para></listitem><listitem><para>Our anti-aging serum can be used morning or night</para></listitem><listitem><para>If applied during the day, use the serum with SPF</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__skin_care_product__anti-aging retinol face serum'
+            type: content_id
+        -
+            name: 'ref_location__skin_care_product__anti-aging retinol face serum'
+            type: location_id
+        -
+            name: 'ref_path__skin_care_product__anti-aging retinol face serum'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: skin_care_product
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:32:23+01:00'
+        publicationDate: '2022-02-26T09:01:20+01:00'
+        remoteId: 9cae41d5a215bf0a9e89f1b8310e72a9
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 025ac6d06e31281646b96991d55131f6
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Dark Spot Corrector'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 49
+                code: CRM2974299
+                attributes:
+                    1: acne
+                    3: vitamin_c
+                    26: 1.7
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__dark spot corrector.jpg'
+                alternativeText: 'Dark Spot Corrector.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>A dark spot corrector helps reduce dark spots, decreases hyperpigmentation, and eliminates post-acne marks.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>A targeted dark spot corrector helps even the skin tone and boosts luminosity and radiance. Formulated with Vitamin C will help visibly reduce discolorations including dark spots, hyperpigmentation, and post-acne marks. Our dark spot corrector can be used on all ethnicities and is suitable for all skin types, including sensitive skin.</para><itemizedlist><listitem><para>Helps visibly reduce post-acne marks and hyperpigmentation</para></listitem><listitem><para>Helps visibly brighten skin over time for a more even and radiant skin tone</para></listitem><listitem><para>Works well for all skin types, including sensitive skin</para></listitem><listitem><para>Paraben-free, mineral oil-free, and dye-free</para></listitem></itemizedlist></section>
+        -
+            fieldDefIdentifier: usage
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><itemizedlist><listitem><para>Morning and night, apply 2-3 drops and warm them between your hands</para></listitem><listitem><para>Gently apply the corrector to your face</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__skin_care_product__dark spot corrector'
+            type: content_id
+        -
+            name: 'ref_location__skin_care_product__dark spot corrector'
+            type: location_id
+        -
+            name: 'ref_path__skin_care_product__dark spot corrector'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: skin_care_product
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:32:38+01:00'
+        publicationDate: '2022-02-26T09:26:35+01:00'
+        remoteId: afc597277606d395ae3711e07cb8b70d
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 6db6fabb1bb064e43c7f58c421f0be78
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Deep Cleansing Foaming Face Wash'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 50
+                code: SOAP287859
+                attributes:
+                    1: oily_skin
+                    3: exfoliating_crystals
+                    26: 7.8
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__deep cleansing foaming face wash.jpg'
+                alternativeText: 'Deep Cleansing Foaming Face Wash.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>A highly effective, non-drying foaming face cleanser that replenishes and soothes skin.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>A deep cleansing, foaming face cleanser helps balance the oiliness of the skin. It makes oily skin normal after regular wash. It gently removes impurities without stripping skin of essential moisture. The soap creates a dense foam with water which cleanses as it soothes.</para><itemizedlist><listitem><para>Gently removes  impurities, dirt, and oil</para></listitem><listitem><para>Deeply cleanses skin without over-drying or stripping natural/essential oils</para></listitem><listitem><para>Helps calm and soothe skin</para></listitem><listitem><para>Creamy gel formula activates with water to create a dense foam</para></listitem><listitem><para>Paraben-free, silicone-free, sulfate-free, alcohol-free, or dye-free</para></listitem></itemizedlist></section>
+        -
+            fieldDefIdentifier: usage
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><itemizedlist><listitem><para>Dampen face and hands with warm water</para></listitem><listitem><para>Pump our foaming face cleanser into your hands and work into a lather</para></listitem><listitem><para>Massage lather onto skin with a gentle, circular motion</para></listitem><listitem><para>Rinse with lukewarm water</para></listitem><listitem><para>Pat dry with a soft towel</para></listitem><listitem><para>Avoid direct contact with the eyes; if contact occurs, rinse with water</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__skin_care_product__deep cleansing foaming face wash'
+            type: content_id
+        -
+            name: 'ref_location__skin_care_product__deep cleansing foaming face wash'
+            type: location_id
+        -
+            name: 'ref_path__skin_care_product__deep cleansing foaming face wash'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: skin_care_product
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:33:10+01:00'
+        publicationDate: '2022-02-28T22:30:08+01:00'
+        remoteId: 89b65a6e8d45dc470a335f5f0e4d3da1
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: ebfaee059ded3bc3dfdeb5870ea8057f
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ultra Alcohol-Free Toner'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 51
+                code: SOAP81739
+                attributes:
+                    1: oily_skin
+                    3: vitamin_e
+                    26: 4.2
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__ultra alcohol-free toner.jpg'
+                alternativeText: 'Ultra Alcohol-Free Toner.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>A soothing alcohol-free toner to reduce redness, oiliness and improve skin’s texture. It is gentle on the skin and helps in preventing drying and dehydration of the skin.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Deep cleansing toner helps balance the oiliness of the skin. It makes oily skin normal after regular wash. It gently removes impurities without stripping skin of essential moisture. The soap creates a dense foam with water which cleanses as it soothes.</para><itemizedlist><listitem><para>Gently removes  impurities, dirt, and oil</para></listitem><listitem><para>Deeply cleanses skin without over-drying or stripping natural/essential oils</para></listitem><listitem><para>Helps calm and soothe skin</para></listitem><listitem><para>Creamy gel formula activates with water to create a dense foam</para></listitem><listitem><para>Paraben-free, silicone-free, sulfate-free, alcohol-free, or dye-free</para></listitem></itemizedlist></section>
+        -
+            fieldDefIdentifier: usage
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><itemizedlist><listitem><para>Dampen face and hands with warm water</para></listitem><listitem><para>Pump our foaming face cleanser into your hands and work into a lather</para></listitem><listitem><para>Massage lather onto skin with a gentle, circular motion</para></listitem><listitem><para>Rinse with lukewarm water</para></listitem><listitem><para>Pat dry with a soft towel</para></listitem><listitem><para>Avoid direct contact with the eyes; if contact occurs, rinse with water</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__skin_care_product__ultra alcohol-free toner'
+            type: content_id
+        -
+            name: 'ref_location__skin_care_product__ultra alcohol-free toner'
+            type: location_id
+        -
+            name: 'ref_path__skin_care_product__ultra alcohol-free toner'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: skin_care_product
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:33:27+01:00'
+        publicationDate: '2022-02-28T23:04:04+01:00'
+        remoteId: bf44222d3cd3ede7f8c7e1f064057aa7
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 9e18e8bcd13a8c66c5c28b487e6360a6
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ultra Alcohol-Free Cleanser'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 52
+                code: SOAP1938793
+                attributes:
+                    1: oily_skin
+                    3: salicylic_acid
+                    26: 5.0 # (float)
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__ultra alcohol-free cleanser.jpg'
+                alternativeText: 'Ultra Alcohol-Free Cleanser.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>A gentle foaming face wash for oily skin. It cleanses away dirt, oil, and impurities. This lightweight cleanser leaves skin clean without over-drying.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>A deep cleansing, foaming face cleanser helps balance the oiliness of the skin. It makes oily skin normal after regular wash. It gently removes impurities without stripping skin of essential moisture. The soap creates a dense foam with water which cleanses as it soothes.</para><itemizedlist><listitem><para>Gently removes  impurities, dirt, and oil</para></listitem><listitem><para>Deeply cleanses skin without over-drying or stripping natural/essential oils</para></listitem><listitem><para>Helps calm and soothe skin</para></listitem><listitem><para>Creamy gel formula activates with water to create a dense foam</para></listitem><listitem><para>Paraben-free, silicone-free, sulfate-free, alcohol-free, or dye-free</para></listitem></itemizedlist></section>
+        -
+            fieldDefIdentifier: usage
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><itemizedlist><listitem><para>Dampen face and hands with warm water</para></listitem><listitem><para>Pump our foaming face cleanser into your hands and work into a lather</para></listitem><listitem><para>Massage lather onto skin with a gentle, circular motion</para></listitem><listitem><para>Rinse with lukewarm water</para></listitem><listitem><para>Pat dry with a soft towel</para></listitem><listitem><para>Avoid direct contact with the eyes; if contact occurs, rinse with water</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__skin_care_product__ultra alcohol-free cleanser'
+            type: content_id
+        -
+            name: 'ref_location__skin_care_product__ultra alcohol-free cleanser'
+            type: location_id
+        -
+            name: 'ref_path__skin_care_product__ultra alcohol-free cleanser'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: skin_care_product
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:34:11+01:00'
+        publicationDate: '2022-02-28T23:24:21+01:00'
+        remoteId: 3a23283f4c71f062dda41dee2c2326e1
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: 752dbc9e2fc642d5e0ab1aae2af0c8a9
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ultra Serum-Infused Face Cream'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 53
+                code: CRM2837648
+                attributes:
+                    1: aging_skin
+                    3: retinol
+                    26: 100.0
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__ultra serum-infused face cream.jpg'
+                alternativeText: 'Ultra Serum-Infused Face Cream.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Face cream infused with concentrated flower and plant oils. On application, this lightweight face moisturizer provides a burst of soothing hydration for fresh, radiant, and luminous skin.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>Our Ultra Serum-Infused Face Cream is formulated with all-natural ingredients like aloe and turmeric extract.  This product visibly improves skin tone, texture &amp; clarity. Exfoliates &amp; reduces the appearance of dark spots &amp; hyperpigmentation.</para><itemizedlist><listitem><para>Made with Aloe &amp; Turmeric Extract</para></listitem><listitem><para>Face serum visibly evens tone &amp; texture</para></listitem><listitem><para>Helps reduce dark spots &amp; hyperpigmentation</para></listitem></itemizedlist><para><literallayout class="normal">
+                     </literallayout></para></section>
+        -
+            fieldDefIdentifier: usage
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><itemizedlist><listitem><para>Every morning and evening, apply 4-5 drops onto the palm of your hand.</para></listitem><listitem><para>Use fingertips to gently massage onto the face.</para></listitem><listitem><para>Enjoy immediately luminous skin.</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__skin_care_product__ultra serum-infused face cream'
+            type: content_id
+        -
+            name: 'ref_location__skin_care_product__ultra serum-infused face cream'
+            type: location_id
+        -
+            name: 'ref_path__skin_care_product__ultra serum-infused face cream'
+            type: path
+-
+    type: content
+    mode: create
+    metadata:
+        contentType: skin_care_product
+        mainTranslation: eng-GB
+        creatorId: 14
+        modificationDate: '2022-03-01T11:34:27+01:00'
+        publicationDate: '2022-02-28T23:26:38+01:00'
+        remoteId: d106d1f2037f357d964371dd17715204
+        alwaysAvailable: true
+        section:
+            identifier: standard
+    location:
+        parentLocationRemoteId: ibexa_product_catalog_root
+        locationRemoteId: d7f1a4376d0d6e0d475d55eb26f41abf
+        hidden: false
+        sortField: 2
+        sortOrder: 0
+        priority: 0
+    fields:
+        -
+            fieldDefIdentifier: name
+            languageCode: eng-GB
+            value: 'Ginger Turmeric Face Mask'
+        -
+            fieldDefIdentifier: product_specification
+            languageCode: eng-GB
+            value:
+                id: 54
+                code: MASK238462
+                attributes:
+                    1: oily_skin
+                    3: vitamin_e
+                    26: 5.0
+        -
+            fieldDefIdentifier: image
+            languageCode: eng-GB
+            value:
+                destinationContentId: 'reference:ref__content__image__ginger turmeric face mask.jpg'
+                alternativeText: 'Ginger Turmeric Face Mask.jpg'
+                source: null
+        -
+            fieldDefIdentifier: short_description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>A velvety firming face mask that helps smooth skin overnight. Our anti-aging mask helps smooth and firm skin while visibly reducing the appearance of fine lines over time.</para></section>
+        -
+            fieldDefIdentifier: description
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><para>This overnight face mask melts into your skin by transforming from cream to oil. It stabilizes the moisture barrier to help boost resilience against external aggressors. You wake up to fresh, hydrated, nourished, and healthy-looking skin.</para><itemizedlist><listitem><para>Feels deeply nourishing and light on the skin, without feeling greasy</para></listitem><listitem><para>For all skin types including dry, tight, flaky, and sensitive skin</para></listitem><listitem><para>Non-comedogenic, non-sticky</para></listitem><listitem><para>Paraben-free, fragrance-free, mineral oil-free, silicone-free, dye-free</para></listitem></itemizedlist></section>
+        -
+            fieldDefIdentifier: usage
+            languageCode: eng-GB
+            value:
+                xml: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0"><itemizedlist><listitem><para>After cleansing at night, use fingertips and apply a healthy layer of the mask onto clean skin. Gently massage until cream transforms to oil. Allow to work overnight, and in the morning, follow your normal regimen. </para></listitem><listitem><para>Recommend using this overnight face mask 3x per week.</para></listitem></itemizedlist></section>
+    references:
+        -
+            name: 'ref__content__skin_care_product__ginger turmeric face mask'
+            type: content_id
+        -
+            name: 'ref_location__skin_care_product__ginger turmeric face mask'
+            type: location_id
+        -
+            name: 'ref_path__skin_care_product__ginger turmeric face mask'
+            type: path

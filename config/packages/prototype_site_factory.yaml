@@ -1,0 +1,22 @@
+ibexa_site_factory:
+    enabled: true
+    update_roles: [Anonymous]
+    templates:
+        light:
+            siteaccess_group: site_factory_group_light
+            name: Light Design
+            thumbnail: /bundles/ibexaprototypesitefactory/assets/images/sf_light.png
+            parent_location_remote_id: siteFactorySitesHome
+            site_skeleton_remote_id: siteFactorySiteSkeletonLight
+        dark:
+            siteaccess_group: site_factory_group_dark
+            name: Dark Design
+            thumbnail: /bundles/ibexaprototypesitefactory/assets/images/sf_dark.png
+            parent_location_remote_id: siteFactorySitesHome
+            site_skeleton_remote_id: siteFactorySiteSkeletonDark
+        color:
+            siteaccess_group: site_factory_group_color
+            name: Color Design
+            thumbnail: /bundles/ibexaprototypesitefactory/assets/images/sf_color.png
+            parent_location_remote_id: siteFactorySitesHome
+            site_skeleton_remote_id: siteFactorySiteSkeletonColor

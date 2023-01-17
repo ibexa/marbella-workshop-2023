@@ -1,0 +1,35 @@
+-   type: reference
+    mode: load
+    filename: references/corporate_account_references.yml
+
+-   type: role
+    mode: update
+    match:
+        field: identifier
+        value: 'Company Admin'
+    policies:
+        -
+            module: user
+            function: invite
+            limitations:
+                -   identifier: UserPermissions
+                    values:
+                        roles:
+                            - 'reference:ref__role__company_admin__role_id'
+                            - 'reference:ref__role__company_buyer__role_id'
+                        user_groups: {}
+        -
+            module: content
+            function: '*'
+        -
+            module: role
+            function: assign
+            limitations:
+                -   identifier: Role
+                    values:
+                        - 'reference:ref__role__company_admin__role_id'
+                        - 'reference:ref__role__company_buyer__role_id'
+                -   identifier: MemberOf
+                    values:
+                        - -1
+

@@ -1,0 +1,61 @@
+-
+    type: role
+    mode: update
+    match:
+        field: identifier
+        value: Anonymous
+    metadata:
+        identifier: Anonymous
+    policies:
+        mode: append
+        list:
+            -
+                module: content
+                function: read
+                limitations:
+                    -
+                        identifier: Section
+                        values: ['taxonomy']
+            -   module: taxonomy
+                function: read
+                limitations:
+                    -   identifier: Taxonomy
+                        values: ['tags']
+-
+    type: role
+    mode: update
+    match:
+        field: identifier
+        value: Member
+    metadata:
+        identifier: Member
+    policies:
+        mode: append
+        list:
+            -
+                module: content
+                function: read
+                limitations:
+                    -
+                        identifier: Section
+                        values: ['taxonomy']
+            -
+                module: taxonomy
+                function: read
+                limitations:
+                    - identifier: Taxonomy
+                      values: ['tags']
+-
+    type: role
+    mode: update
+    match:
+        field: identifier
+        value: Editor
+    metadata:
+        identifier: Editor
+    policies:
+        mode: append
+        list:
+            -
+                module: taxonomy
+                function: all_functions

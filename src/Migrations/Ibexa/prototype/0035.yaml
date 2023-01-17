@@ -1,0 +1,14 @@
+-
+    type: user_group
+    mode: create
+    metadata:
+        contentTypeIdentifier: user_group
+        mainLanguage: eng-GB
+        parentGroupId: 4
+        remoteId: userGroupEditorsEnglish
+    fields:
+        -
+            fieldDefIdentifier: name
+            fieldTypeIdentifier: ezstring
+            languageCode: eng-GB
+            value: 'Editors (English)'

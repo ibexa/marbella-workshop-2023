@@ -1,0 +1,164 @@
+-
+    type: content_type
+    mode: create
+    metadata:
+        identifier: person
+        contentTypeGroups:
+            - Prototype
+        mainTranslation: eng-GB
+        nameSchema: '<first_name>-<last_name>'
+        urlAliasSchema: ''
+        container: false
+        remoteId: null
+        translations:
+            eng-GB:
+                name: Person
+                description: ''
+    fields:
+        -
+            identifier: first_name
+            type: ezstring
+            position: 10
+            translations:
+                eng-GB:
+                    name: 'First name'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: last_name
+            type: ezstring
+            position: 20
+            translations:
+                eng-GB:
+                    name: 'Last name'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: email
+            type: ezstring
+            position: 30
+            translations:
+                eng-GB:
+                    name: E-Mail
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: position
+            type: ezstring
+            position: 40
+            translations:
+                eng-GB:
+                    name: Position
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: bio
+            type: ezrichtext
+            position: 50
+            translations:
+                eng-GB:
+                    name: 'Bio'
+                    description: ''
+            required: true
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: ''
+            defaultValue: null
+            fieldSettings: { }
+            validatorConfiguration: { }
+        -
+            identifier: telephone
+            type: ezstring
+            position: 60
+            translations:
+                eng-GB:
+                    name: Telephone
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: {  }
+            validatorConfiguration:
+                StringLengthValidator:
+                    maxStringLength: null
+                    minStringLength: null
+        -
+            identifier: image
+            type: ezimageasset
+            position: 70
+            translations:
+                eng-GB:
+                    name: Image
+                    description: ''
+            required: false
+            searchable: false
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue: null
+            fieldSettings: null
+            validatorConfiguration: null
+            thumbnail: true
+        -
+            identifier: tags
+            type: ibexa_taxonomy_entry_assignment
+            position: 80
+            translations:
+                eng-GB:
+                    name: Tags
+                    description: ''
+            required: false
+            searchable: true
+            infoCollector: false
+            translatable: true
+            category: content
+            defaultValue:
+                taxonomy_entries: { }
+                taxonomy: null
+            fieldSettings:
+                taxonomy: tags
+            validatorConfiguration: { }
