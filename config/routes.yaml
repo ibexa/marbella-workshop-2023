@@ -6,3 +6,8 @@ ibexa.corporate_account.customer_portal.products.list:
   path: /customer-portal/products/list
   defaults:
     _controller: 'App\CustomerPortal\Controller\ProductController::listAction'
+
+ibexa.corporate_account.customer_portal.gated_content.list:
+  path: /customer-portal/reseller-program/content/list
+  defaults:
+    _controller: 'App\CustomerPortal\Controller\GatedContentController::listAction'

@@ -1,0 +1,51 @@
+{% import "@ibexadesign/customer_portal/content/data_grid_macros.html.twig" as data_grid_macros %}
+
+{% trans_default_domain 'customer_portal' %}
+
+{% set body_rows = [] %}
+
+{% for location in contents %}
+    {% if location.content.fields.file is defined and not ibexa_field_is_empty(location.content, 'file') %}
+        {% set fileValue = ibexa_field_value(location.content, 'file') %}
+        {% set nameColValue %}
+            <a href="{{ fileValue.uri }}">{{ fileValue.fileName }}</a>
+        {% endset %}
+        {% set sizeColValue %}
+            {{ data_grid_macros.bytesToSize(fileValue.fileSize) }}
+        {% endset %}
+        {% set typeColValue %}
+            <span style="font-size: 2em;" class="fa-solid {{ data_grid_macros.icon(fileValue.mimeType) }}"> </span>
+        {% endset %}
+    {% else %}
+        {% set nameColValue = location.contentInfo.name %}
+        {% set typeColValue = '' %}
+        {% set sizeColValue = '' %}
+    {% endif %}
+
+    {% set body_rows = body_rows|merge([{ cols: [
+        { content: typeColValue },
+        { content: nameColValue },
+        { content: sizeColValue },
+        { content: location.contentInfo.publishedDate | ibexa_full_datetime },
+        { content: location.contentInfo.modificationDate | ibexa_full_datetime },
+    ]}]) %}
+{% endfor %}
+
+{% set empty_table_info_text = 'content.no_search_results.info_text'|trans|desc('Sorry, there are currently contents available') %}
+{% set empty_table_action_text = 'content.no_search_results.action_text'|trans|desc('Try again with new search criteria') %}
+{% set actions = '' %}
+
+{% include '@ibexadesign/ui/component/table/table.html.twig' with {
+    headline: 'content.list.number_of_results'|trans({'%number_of_results%': contents|length })|desc('%number_of_results% Results'),
+    head_cols: [
+        { content: 'content.list.column.type'|trans|desc('Type') },
+        { content: 'content.list.column.name'|trans|desc('Name') },
+        { content: 'content.list.column.size'|trans|desc('Size') },
+        { content: 'content.list.column.created'|trans|desc('Created') },
+        { content: 'content.list.column.updated'|trans|desc('Updated') },
+    ],
+    actions,
+    body_rows: body_rows,
+    empty_table_info_text,
+    empty_table_action_text,
+} %}

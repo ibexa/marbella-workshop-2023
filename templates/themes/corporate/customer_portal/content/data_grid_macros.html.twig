@@ -1,0 +1,85 @@
+{% macro icon(mimeType) %}
+    {% apply spaceless %}
+        {% if mimeType == 'application/pdf' %}
+            fa-file-pdf
+        {% elseif mimeType in [
+            'application/msword',
+            'application/rtf',
+            'application/x-rtf',
+            'text/richtext',
+            'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+        ] %}
+            fa-file-word
+        {% elseif mimeType in [
+            'application/mspowerpoint',
+            'application/vnd.ms-powerpoint',
+            'application/x-mspowerpoint'
+        ] %}
+            fa-file-powerpoint
+        {% elseif mimeType in [
+            'application/excel',
+            'application/x-excel',
+            'application/x-msexcel',
+            'application/vnd.ms-excel',
+            'text/csv',
+            'text/tab-separated-values'
+        ] %}
+            fa-file-excel
+        {% elseif mimeType in [
+            'application/x-cpio',
+            'application/x-shar',
+            'application/x-tar',
+            'application/gnutar',
+            'application/x-bzip',
+            'application/x-bzip2',
+            'application/x-gzip',
+            'multipart/x-gzip',
+            'application/x-lzip',
+            'application/x-lzma',
+            'application/x-lzop',
+            'application/x-xz',
+            'application/x-compress',
+            'application/x-7z-compressed',
+            'application/x-ace-compressed',
+            'application/vnd.android.package-archive',
+            'application/x-compressed',
+            'application/x-zip-compressed',
+            'application/zip',
+            'multipart/x-zip',
+            'application/x-zip'
+        ] %}
+            fa-file-archive
+        {% elseif 'image/' in mimeType %}
+            fa-file-image
+        {% elseif 'audio/' in mimeType %}
+            fa-file-audio
+        {% elseif 'video/' in mimeType %}
+            fa-file-video
+        {% elseif 'text/' in mimeType %}
+            fa-file-text
+        {% else %}
+            fa-file
+        {% endif %}
+    {% endapply %}
+{% endmacro %}
+
+{% macro bytesToSize(bytes) %}
+    {% apply spaceless %}
+        {% set kilobyte = 1024 %}
+        {% set megabyte = kilobyte * 1024 %}
+        {% set gigabyte = megabyte * 1024 %}
+        {% set terabyte = gigabyte * 1024 %}
+
+        {% if bytes < kilobyte %}
+            {{ bytes ~ ' B' }}
+        {% elseif bytes < megabyte %}
+            {{ (bytes / kilobyte)|number_format(2, '.') ~ ' KiB' }}
+        {% elseif bytes < gigabyte %}
+            {{ (bytes / megabyte)|number_format(2, '.') ~ ' MiB' }}
+        {% elseif bytes < terabyte %}
+            {{ (bytes / gigabyte)|number_format(2, '.') ~ ' GiB' }}
+        {% else %}
+            {{ (bytes / terabyte)|number_format(2, '.') ~ ' TiB' }}
+        {% endif %}
+    {% endapply %}
+{% endmacro %}

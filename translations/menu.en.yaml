@@ -1,2 +1,4 @@
 customer_portal.products: 'Product Catalog'
 customer_portal.products.list: 'Products'
+customer_portal.gated_content: 'Reseller Program'
+customer_portal.gated_content.list: 'Document Library'

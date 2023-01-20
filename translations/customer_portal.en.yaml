@@ -1,1 +1,10 @@
 customer_portal.base.table.headline: 'List (%count%)'
+content.list: 'Shared documents'
+content.no_search_results.info_text: 'Sorry, there are currently contents available'
+content.no_search_results.action_text: 'Try again with new search criteria'
+content.list.column.type: Type
+content.list.column.name: File
+content.list.column.size: Size
+content.list.column.created: Created
+content.list.column.updated: Updated
+content.list.number_of_results: '%number_of_results% Results'

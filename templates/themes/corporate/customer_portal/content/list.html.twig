@@ -1,0 +1,17 @@
+{% extends '@ibexadesign/customer_portal/content/base.html.twig' %}
+
+{% trans_default_domain 'customer_portal' %}
+
+{% block breadcrumbs %}
+    {% include '@ibexadesign/ui/breadcrumbs.html.twig' with { items: [
+        { value: 'content.list'|trans|desc('Shared documents') },
+    ]} %}
+{% endblock %}
+
+{% block context_menu %}{% endblock %}
+
+{% block header %}
+    {% include '@ibexadesign/ui/page_title.html.twig' with {
+        title: 'content.list'|trans|desc('Shared documents'),
+    } %}
+{% endblock %}

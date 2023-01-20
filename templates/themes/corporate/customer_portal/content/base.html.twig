@@ -1,0 +1,25 @@
+{% extends '@ibexadesign/customer_portal/layout_with_menu.html.twig' %}
+
+{% trans_default_domain 'customer_portal' %}
+
+{% block content %}
+    <div class="ibexa-container">
+        <div class="ibexa-ca-customer-portal">
+            {% include '@ibexadesign/customer_portal/content/table.html.twig' with {
+                contents,
+                headline: 'customer_portal.base.table.headline'|trans({ '%count%': contents.getNbResults })|desc('List (%count%)'),
+            } only %}
+
+            {% if contents.haveToPaginate %}
+                {% include '@ibexadesign/ui/pagination.html.twig' with {
+                    pager: contents,
+                } %}
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+{% endblock %}

@@ -5,6 +5,8 @@
 # https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
 parameters:
     google_recaptcha_site_key: '%env(GOOGLE_RECAPTCHA_SITE_KEY)%'
+    ibexa.site_access.config.default.customer_portal_gated_content_root_location_id: 455
+    ibexa.site_access.config.default.customer_portal_gated_content_whitelisted_content_types: ['file']
 
 services:
     # default configuration for services in *this* file
