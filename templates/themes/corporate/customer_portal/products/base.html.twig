@@ -1,0 +1,20 @@
+{% extends '@ibexadesign/customer_portal/layout_with_menu.html.twig' %}
+
+{% trans_default_domain 'customer_portal' %}
+
+{% block content %}
+    <div class="ibexa-container">
+        <div class="ibexa-ca-customer-portal">
+            {% include '@ibexadesign/customer_portal/products/table.html.twig' with {
+                products,
+                headline: 'customer_portal.base.table.headline'|trans({ '%count%': products.getNbResults })|desc('List (%count%)'),
+            } only %}
+
+            {% if products.haveToPaginate %}
+                {% include '@ibexadesign/ui/pagination.html.twig' with {
+                    pager: products,
+                } %}
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

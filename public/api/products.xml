@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<CoffeeMakers>
+    <ProductCatalog>
+        <CoffeMachines>
+            <Machine>
+                <identifier>espresso_3456712</identifier>
+                <SKU>345612</SKU>
+                <name>De' Longhi Dedica Style</name>
+                <subTitle>The best in small size</subTitle>
+                <Description>The Dedica is very simple to use, which is crucial for espresso beginners. You can bung in supermarket ground coffee or grind the coffee yourself, and the Dedicas pressurised baskets mean that it is pretty forgiving if the grind is too coarse or too fine, or when you haven't got the amounts quite right.</Description>
+                <Thumbnail>assets/delonghi.png</Thumbnail>
+                <Tags>coffee, espresso, compact</Tags>
+                <Specification>
+                    <WaterTank>1500</WaterTank>
+                    <Cups>2</Cups>
+                    <CoffeeVariants>1</CoffeeVariants>
+                    <SteamFunction>true</SteamFunction>
+                    <WaterFilter>false</WaterFilter>
+                </Specification>
+            </Machine>
+            <Machine>
+                <identifier>compact_96167</identifier>
+                <SKU>96167</SKU>
+                <name>Sage Bambino</name>
+                <subTitle>A compact, capable espresso machine</subTitle>
+                <Description>Sage's latest entry-level manual espresso machine might cost more than most, but it does a good job of justifying the expense. It looks great; the design has had some genuine thought put into it; and its compact footprint fits easily into small kitchens.</Description>
+                <Thumbnail>assets/sage_compact.png</Thumbnail>
+                <Tags>coffee, espresso, compact</Tags>
+                <Specification>
+                    <WaterTank>1200</WaterTank>
+                    <Cups>1</Cups>
+                    <CoffeeVariants>1</CoffeeVariants>
+                    <SteamFunction>true</SteamFunction>
+                    <WaterFilter>false</WaterFilter>
+                </Specification>
+            </Machine>
+            <Machine>
+                <identifier>compact_198464</identifier>
+                <SKU>198464</SKU>
+                <name>Gaggia Classic Pro</name>
+                <subTitle>The best compact machine</subTitle>
+                <Description>If you really want to get the best from top-notch coffee beans, then this is the machine to buy. The metal exterior, clunk-click buttons and simple, basic engineering combine to make an espresso machine to aspire to.</Description>
+                <Thumbnail>assets/gaggia_classic.png</Thumbnail>
+                <Tags>coffee, silver, professional, steam</Tags>
+                <Specification>
+                    <WaterTank>1800</WaterTank>
+                    <Cups>2</Cups>
+                    <CoffeeVariants>3</CoffeeVariants>
+                    <SteamFunction>true</SteamFunction>
+                    <WaterFilter>true</WaterFilter>
+                </Specification>
+            </Machine>
+            <Machine>
+                <identifier>professional_763902</identifier>
+                <SKU>763902</SKU>
+                <name>Sage Barista Pro</name>
+                <subTitle>The best for pfofessionalists</subTitle>
+                <Description>If you're looking for an all-in-one manual espresso machine, then the Barista Pro takes some beating. While cheaper all-in-one machines can make a half-decent espresso, the Barista Pro is capable of eking almost every drop of flavour from the finest coffee beans.</Description>
+                <Thumbnail>assets/sage_pro.png</Thumbnail>
+                <Tags>coffee, barista, silver, professional, steam,, exclusive</Tags>
+                <Specification>
+                    <WaterTank>2500</WaterTank>
+                    <Cups>3</Cups>
+                    <CoffeeVariants>5</CoffeeVariants>
+                    <SteamFunction>true</SteamFunction>
+                    <WaterFilter>true</WaterFilter>
+                </Specification>
+            </Machine>
+            <Machine>
+                <identifier>digital_852001</identifier>
+                <SKU>852001</SKU>
+                <name>Sage Oracle Touch</name>
+                <subTitle>High quality with modern interface</subTitle>
+                <Description>At its heart, this is the Sage Dual Boiler with a friendlier face. It, too, has a dual boiler design which allows you to steam milk and pull espresso simultaneously, and the results are - it has to be said - equally impressive. The difference is in the sheer ease of use. The Oracle Touch automatically grinds the right amount of coffee and tamps it down, and also warms and froths milk to perfection. You can still tweak and perfect every recipe with the on-screen settings, or dabble with manual control, and once you've got your recipe nailed, the Oracle Touch will let you save your efforts as a preset drink, which you can recreate at the touch of a button.</Description>
+                <Thumbnail>assets/sage_touch.png</Thumbnail>
+                <Tags>coffee, touch, silver, barista, steam</Tags>
+                <Specification>
+                    <WaterTank>2500</WaterTank>
+                    <Cups>3</Cups>
+                    <CoffeeVariants>5</CoffeeVariants>
+                    <SteamFunction>true</SteamFunction>
+                    <WaterFilter>true</WaterFilter>
+                </Specification>
+            </Machine>
+        </CoffeMachines>
+    </ProductCatalog>
+</CoffeeMakers>

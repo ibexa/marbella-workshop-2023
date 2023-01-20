@@ -1,0 +1,17 @@
+{% extends '@ibexadesign/customer_portal/products/base.html.twig' %}
+
+{% trans_default_domain 'product_catalog' %}
+
+{% block breadcrumbs %}
+    {% include '@ibexadesign/ui/breadcrumbs.html.twig' with { items: [
+        { value: 'product_catalog'|trans|desc('Product Catalog') },
+    ]} %}
+{% endblock %}
+
+{% block context_menu %}{% endblock %}
+
+{% block header %}
+    {% include '@ibexadesign/ui/page_title.html.twig' with {
+        title: 'product_catalog'|trans|desc('Product Catalog'),
+    } %}
+{% endblock %}

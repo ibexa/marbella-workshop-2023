@@ -1,0 +1,44 @@
+{% import "@ibexadesign/product_catalog/data_grid_macros.html.twig" as data_grid_macros %}
+
+{% trans_default_domain 'product_catalog' %}
+
+{% set body_rows = [] %}
+
+{% for product in products %}
+    {% set view_url = path('ibexa.product_catalog.product.view', {
+        productCode: product.code,
+    }) %}
+    {% set variantsCount = product.variantsList.totalCount %}
+    {% set variantsColText = variantsCount > 0
+        ? 'product.is_variant.yes'|trans|desc('Yes') ~ ' (' ~ variantsCount ~ ')'
+        : 'product.is_variant.no'|trans|desc('No')
+    %}
+    {% set body_rows = body_rows|merge([{ cols: [
+        { content: data_grid_macros.cell_name(product.name, view_url) },
+        { content: data_grid_macros.cell_image(product, ['ibexa-pc-data-grid__image-wrapper--product']) },
+        { content: product.code },
+        { content: product.productType.name },
+        { content: product.createdAt | ibexa_full_datetime },
+        { content: variantsColText },
+    ]}]) %}
+{% endfor %}
+
+{% set empty_table_info_text = 'product.no_search_results.info_text'|trans|desc('Sorry, there are no products for your search') %}
+{% set empty_table_action_text = 'product.no_search_results.action_text'|trans|desc('Try again with new search criteria') %}
+{% set actions = '' %}
+
+{% include '@ibexadesign/ui/component/table/table.html.twig' with {
+    headline: 'product.list.number_of_results'|trans({'%number_of_results%': products|length })|desc('%number_of_results% Results'),
+    head_cols: [
+        { content: 'product.list.column.name'|trans|desc('Name') },
+        { content: 'product.list.column.thumbnail'|trans|desc('Image') },
+        { content: 'product.list.column.code'|trans|desc('Code') },
+        { content: 'product.list.column.type'|trans|desc('Type') },
+        { content: 'product.list.column.created'|trans|desc('Created') },
+        { content: 'product.list.column.variant'|trans|desc('Variant') },
+    ],
+    actions,
+    body_rows: body_rows,
+    empty_table_info_text,
+    empty_table_action_text,
+} %}
