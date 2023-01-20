@@ -7,6 +7,7 @@ parameters:
     google_recaptcha_site_key: '%env(GOOGLE_RECAPTCHA_SITE_KEY)%'
     ibexa.site_access.config.default.customer_portal_gated_content_root_location_id: 455
     ibexa.site_access.config.default.customer_portal_gated_content_whitelisted_content_types: ['file']
+    ibexa.site_access.config.default.customer_portal_support_api_endpoint: 'https://hook.ibexa.integromat.celonis.com/fnsk8h6f6ra7ay819tutsxptm1vfb8g3'
 
 services:
     # default configuration for services in *this* file
