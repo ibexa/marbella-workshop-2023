@@ -1,0 +1,11 @@
+{% extends '@ibexadesign/customer_portal/layout_with_menu.html.twig' %}
+
+{% trans_default_domain 'customer_portal' %}
+
+{% block content %}
+    <div class="ibexa-container">
+        <div class="ibexa-ca-support-tickets">
+            {% include '@ibexadesign/customer_portal/support/create_form.html.twig' with { form } %}
+        </div>
+    </div>
+{% endblock %}

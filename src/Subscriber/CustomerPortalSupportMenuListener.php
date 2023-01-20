@@ -20,6 +20,7 @@ class CustomerPortalSupportMenuListener implements EventSubscriberInterface, Tra
 {
     public const ITEM_SUPPORT = 'customer_portal.support';
     public const ITEM_SUPPORT_TICKETS = 'customer_portal.support.list';
+    public const ITEM_SUPPORT_NEW_TICKET = 'customer_portal.support.create';
 
     /** @var \Ibexa\AdminUi\Menu\MenuItemFactory */
     private $menuItemFactory;
@@ -53,6 +54,11 @@ class CustomerPortalSupportMenuListener implements EventSubscriberInterface, Tra
             'route' => 'ibexa.corporate_account.customer_portal.support.ticket_list',
             'label' => self::ITEM_SUPPORT_TICKETS,
         ]);
+
+        $supportMenu->addChild(self::ITEM_SUPPORT_NEW_TICKET, [
+            'route' => 'ibexa.corporate_account.customer_portal.support.create_ticket',
+            'label' => self::ITEM_SUPPORT_NEW_TICKET,
+        ]);
     }
 
     /**
@@ -63,6 +69,7 @@ class CustomerPortalSupportMenuListener implements EventSubscriberInterface, Tra
         return [
             (new Message(self::ITEM_SUPPORT))->setDesc('Support'),
             (new Message(self::ITEM_SUPPORT_TICKETS))->setDesc('My Support tickets'),
+            (new Message(self::ITEM_SUPPORT_NEW_TICKET))->setDesc('Create a ticket'),
         ];
     }
 }

@@ -77,4 +77,36 @@ class SupportTicketService implements SupportTicketServiceInterface
     {
         return self::DEFAULT_LIMIT;
     }
+
+    public function createSupportTicket(SupportTicket $ticket): void
+    {
+        $jsonContent = $this->serializer->serialize($ticket, JsonEncoder::FORMAT);
+
+        $options = [
+            'headers' => [
+                'Content-Type' => 'application/json',
+                'Accept' => ' application/api.SupportTicketCreate+json',
+            ],
+            'body' => $jsonContent,
+        ];
+
+        $this->handleApiRequest(Request::METHOD_POST, $options);
+    }
+
+    private function handleApiRequest(string $method, array $options): ResponseInterface
+    {
+        $response = $this->client->request(
+            $method,
+            $this->webhookUrl,
+            $options
+        );
+
+        if ($response->getStatusCode() == Response::HTTP_OK && $response->getContent() == 'Accepted') {
+            throw new \Exception('Scenario seems not to be active, please activate in Ibexa Connect');
+        } elseif ($response->getStatusCode() == Response::HTTP_INTERNAL_SERVER_ERROR || $response->getStatusCode() == Response::HTTP_BAD_REQUEST) {
+            throw new \Exception('Error within Ibexa Connect, please check logs');
+        }
+
+        return $response;
+    }
 }

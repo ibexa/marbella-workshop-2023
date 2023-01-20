@@ -1,0 +1,50 @@
+{% extends '@ibexadesign/corporate_account/edit.html.twig' %}
+
+{% trans_default_domain 'customer_portal' %}
+
+{% block main_container_class %}{{ parent() }} ibexa-ca-ticket-create-edit{% endblock %}
+
+{% block header %}
+    {% include '@ibexadesign/ui/edit_header.html.twig' with {
+        action_name: 'company.edit.editing'|trans|desc('Editing'),
+        content_type_name: content_type.name,
+        title: company.name,
+        icon_name: 'file',
+        show_autosave_status: true,
+    } %}
+{% endblock %}
+
+{% set context_actions %}
+    {% set menu_items %}
+        <li class="ibexa-context-menu__item ibexa-adaptive-items__item">
+            <button
+                type="button"
+                data-click="#ezplatform_content_forms_content_edit_publish"
+                class="btn ibexa-btn ibexa-btn--primary ibexa-btn--trigger"
+            >
+                <span class="ibexa-btn__label">
+                    {{ 'company.edit.save_btn.label'|trans|desc('Save') }}
+                </span>
+            </button>
+        </li>
+        <li class="ibexa-context-menu__item ibexa-adaptive-items__item">
+            <a
+                href="{{ close_href }}"
+                class="btn ibexa-btn ibexa-btn--secondary"
+            >
+                <span class="ibexa-btn__label">
+                    {{ 'company.edit.cancel_btn.label'|trans|desc('Cancel') }}
+                </span>
+            </a>
+        </li>
+    {% endset %}
+
+    {{ include('@ibexadesign/ui/component/context_menu/context_menu.html.twig', {
+        menu_items,
+    }) }}
+{% endset %}
+
+{% block form_fields %}
+    {{- form_widget(form.publish, { attr: { hidden: true }}) -}}
+    {{ parent() }}
+{% endblock %}

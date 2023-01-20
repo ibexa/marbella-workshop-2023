@@ -1,0 +1,21 @@
+{% extends '@ibexadesign/customer_portal/support/base.html.twig' %}
+
+{% trans_default_domain 'customer_portal' %}
+
+{% block breadcrumbs %}
+    {% include '@ibexadesign/ui/breadcrumbs.html.twig' with { items: [
+        { value: 'customer_portal.support.create.breadcrumb'|trans|desc('Create New Support Ticket') },
+    ]} %}
+{% endblock %}
+
+{% block content %}
+    {{ form(form) }}
+{% endblock %}
+
+{% block context_menu %}{% endblock %}
+
+{% block header %}
+    {% include '@ibexadesign/ui/page_title.html.twig' with {
+        title: 'customer_portal.support.create.title'|trans|desc('Create New Support Ticket'),
+    } %}
+{% endblock %}
