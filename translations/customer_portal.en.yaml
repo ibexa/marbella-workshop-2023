@@ -8,3 +8,12 @@ content.list.column.size: Size
 content.list.column.created: Created
 content.list.column.updated: Updated
 content.list.number_of_results: '%number_of_results% Results'
+customer_portal.support.table.header.created_date: Created
+customer_portal.support.table.header.due_date: Due
+customer_portal.support.table.header.priority: Priority
+customer_portal.support.table.header.status: Status
+customer_portal.support.table.header.subject: Subject
+customer_portal.support.table.header.ticket_id: 'Ticket ID'
+customer_portal.support.table.header.type: Type
+customer_portal.support.table.header.updated_date: Updated
+tickets.table.empty.info: 'No tickets'

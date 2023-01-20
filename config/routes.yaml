@@ -11,3 +11,8 @@ ibexa.corporate_account.customer_portal.gated_content.list:
   path: /customer-portal/reseller-program/content/list
   defaults:
     _controller: 'App\CustomerPortal\Controller\GatedContentController::listAction'
+
+ibexa.corporate_account.customer_portal.support.ticket_list:
+  path: /customer-portal/support/ticket/list
+  defaults:
+    _controller: 'App\CustomerPortal\Controller\SupportController::listAction'
